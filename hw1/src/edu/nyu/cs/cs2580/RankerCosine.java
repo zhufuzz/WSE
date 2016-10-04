@@ -33,6 +33,7 @@ public class RankerCosine extends Ranker {
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
+    TsvGen.generate(results,"hw1.3-vsm");
     return results;
   }
 
@@ -43,22 +44,40 @@ public class RankerCosine extends Ranker {
       Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
       Vector<String> queryTokens = query._tokens;
 
+      double l2DNorm = 0.0;
+      double l2QNorm = 0.0;
+
+      for(String queryToken: queryTokens){
+          double nk = _indexer.corpusDocFrequencyByTerm(queryToken);
+          double fik = Collections.frequency(docTokens,queryToken);
+          double qk = Collections.frequency(queryTokens,queryToken);
+          double prodD = Math.pow((Math.log(fik)+1)*(Math.log(docNum/nk)),2);
+          double prodQ = Math.pow((Math.log(qk)+1),2);
+          l2DNorm += prodD;
+          l2QNorm += prodQ;
+      }
+
+
+
+
       double nominator = 0.0;
       double dSum = 0.0;
       double qSum = 0.0;
       for(String queryToken:queryTokens){
-          double nk = _indexer.corpusDocFrequencyByTerm(queryToken);
+          double nj = _indexer.corpusDocFrequencyByTerm(queryToken);
           double fij = Collections.frequency(docTokens,queryToken);
-          double dij = fij; //(Math.log(fij)+1)*Math.log(docNum/nk);
-          double qj = Collections.frequency(queryTokens,queryToken);
+          double dij = fij==0? 0: (Math.log(fij)+1)*Math.log(docNum/nj)/Math.sqrt(l2DNorm);
+
+          double queryFreq = Collections.frequency(queryTokens,queryToken);
+          double qj = (Math.log(queryFreq)+1)/l2QNorm;
+
           nominator+=dij*qj;
           dSum+=dij*dij;
           qSum+=qj*qj;
       }
       double denominator = Math.sqrt(dSum*qSum);
-      double score = (denominator==0)? 0 : nominator/denominator;
+      double score = denominator == 0? 0: nominator/denominator;
       return new ScoredDocument(query._query, doc, score);
-
   }
 
 }

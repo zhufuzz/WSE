@@ -8,11 +8,11 @@ import java.util.Vector;
 
 import edu.nyu.cs.cs2580.ScoredDocument;
 
-public class MyCSV {
+public class TsvGen {
     public static void generate(Vector<ScoredDocument> results, String fileName){
         PrintWriter pw = null;
         try {
-            pw = new PrintWriter(new File("results/"+fileName+".csv"));
+            pw = new PrintWriter(new File("results/"+fileName+".tsv"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
