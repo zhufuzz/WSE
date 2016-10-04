@@ -6,6 +6,7 @@ import java.util.Vector;
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.ScoredDocument;
+import edu.nyu.cs.cs2580.MyCSV;
 
 /**
  * @CS2580: Use this template to implement the numviews ranker for HW1.
@@ -29,13 +30,16 @@ public class RankerNumviews extends Ranker {
       all.add(scoreDocument(query, i));
     }
     Collections.sort(all, Collections.reverseOrder());
+    
+    // generate csv file for all document records
+    MyCSV.generate(all, "hw1.1-numviews");
+
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
     return results;
   }
-
 
   private ScoredDocument scoreDocument(Query query, int did) {
     // Process the raw query into tokens.
