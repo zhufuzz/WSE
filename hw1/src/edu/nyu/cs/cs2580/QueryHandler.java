@@ -30,7 +30,7 @@ class QueryHandler implements HttpHandler {
     // The raw user query
     public String _query = "";
     // How many results to return
-    private int _numResults = 10;
+    private int _numResults = 659;
     
     // The type of the ranker we will be using.
     public enum RankerType {
@@ -97,7 +97,7 @@ class QueryHandler implements HttpHandler {
   private void respondWithMsg(HttpExchange exchange, final String message)
       throws IOException {
     Headers responseHeaders = exchange.getResponseHeaders();
-    responseHeaders.set("Content-Type", "text/plain");
+    responseHeaders.set("Content-Type", "text/html");
     exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
     OutputStream responseBody = exchange.getResponseBody();
     responseBody.write(message.getBytes());
@@ -112,6 +112,38 @@ class QueryHandler implements HttpHandler {
     }
     response.append(response.length() > 0 ? "\n" : "No result returned!");
   }
+
+
+
+  private void constructHTMLOutput(final Vector<ScoredDocument> docs, StringBuffer html){
+    html.append( "<!doctype html>\n" );
+    html.append( "<html lang='en'>\n" );
+
+    html.append( "<head>\n" );
+    html.append( "<meta charset='utf-8'>\n" );
+    html.append( "<title>Report of Reports</title>\n" );
+    html.append( "</head>\n\n" );
+
+    html.append( "<body>\n" );
+    html.append( "<h1>Rank Result</h1>\n" );
+
+    html.append( "<table>\n" );
+    html.append( "<tr>\n" );
+    html.append( "<th>" + "query" + "</td>\n" );
+    html.append( "<th>" + "DocId" + "</td>\n" );
+    html.append( "<th>" + "Title" + "</td>\n" );
+    html.append( "<th>" + "Score" + "</td>\n" );
+    html.append( "</tr>\n" );
+
+    for(ScoredDocument doc : docs){
+      html.append(doc.asHtmlResult());
+    }
+
+    html.append( "</table>\n" );
+    html.append( "</body>\n\n" );
+    html.append( "</html>" );
+  }
+
 
   public void handle(HttpExchange exchange) throws IOException {
     String requestMethod = exchange.getRequestMethod();
@@ -166,6 +198,7 @@ class QueryHandler implements HttpHandler {
       break;
     case HTML:
       // @CS2580: Plug in your HTML output
+      constructHTMLOutput(scoredDocs, response);
       break;
     default:
       // nothing
