@@ -1,39 +1,41 @@
-census data	241	geographic information systems	0.9760612968178685
-census data	148	data integration	0.9744166841218658
-census data	142	data cleaning	0.9728528801644079
-census data	137	data	0.9723432184176201
-census data	93	column-oriented dbms	0.9491050739121935
-census data	556	statistical inference	0.9451701352717512
-census data	555	statistical classification	0.9296214641843441
-census data	16	algorithm	0.9278849114836487
-census data	575	test set	0.9240247826412694
-census data	115	computer programming	0.916972083277118
-census data	544	spearman's rank correlation coefficient	0.916972083277118
-census data	259	harmonic mean	0.907644251346102
-census data	288	information retrieval	0.9037814385418317
-census data	389	multivariate statistics	0.8993935967978365
-census data	589	training set	0.8813386412572912
-census data	360	mass surveillance	0.8795795470838593
-census data	480	regression analysis	0.8773321296136444
-census data	370	metadata	0.8637549610620483
-census data	4	aol	0.8614008054333813
-census data	5	aol search	0.8614008054333813
-census data	559	statistics	0.8613867282593708
-census data	144	data collection	0.8432576217633934
-census data	325	keypunch	0.8093713819900106
-census data	464	punched cards	0.8069710197709047
-census data	268	ibm	0.798077981201445
-census data	497	russian federation	0.7832400837050235
-census data	204	europe	0.7790532475040515
-census data	393	national bureau of standards	0.7790532475040515
-census data	395	national institute of standards and technology	0.7790532475040515
-census data	532	social information seeking	0.7790532475040515
-census data	261	herman hollerith	0.7737517181213455
-census data	438	people's republic of china	0.7730278087229541
-census data	379	montreal	0.7671269499450417
-census data	571	tabulating machine	0.7641155274084066
-census data	596	us congress	0.7591468920980373
-census data	0	1890 us census	0.7567134288454217
+census data	0	1890 us census	0.0013765935396870981
+census data	571	tabulating machine	6.944444444444444E-5
+census data	261	herman hollerith	4.385772553835358E-5
+census data	144	data collection	1.162190082644628E-5
+census data	379	montreal	5.871127282306341E-6
+census data	56	blackle.com	4.413530117929525E-6
+census data	325	keypunch	2.6841484134439092E-6
+census data	589	training set	1.7589654468827613E-6
+census data	532	social information seeking	1.3272738856208457E-6
+census data	464	punched cards	1.310612124669357E-6
+census data	575	test set	6.472286639452858E-7
+census data	389	multivariate statistics	5.094759988404327E-7
+census data	438	people's republic of china	4.6073064566303164E-7
+census data	370	metadata	4.5407981633379596E-7
+census data	93	column-oriented dbms	3.9111373939543984E-7
+census data	559	statistics	3.095585062825243E-7
+census data	268	ibm	2.3086149212275337E-7
+census data	137	data	2.1177785604146103E-7
+census data	142	data cleaning	2.034551154617953E-7
+census data	555	statistical classification	1.6837939379713887E-7
+census data	544	spearman's rank correlation coefficient	1.6646133660796076E-7
+census data	480	regression analysis	1.5604294442269165E-7
+census data	393	national bureau of standards	1.2557002512907344E-7
+census data	395	national institute of standards and technology	1.2557002512907344E-7
+census data	497	russian federation	1.2216042982373456E-7
+census data	148	data integration	1.0575715513252694E-7
+census data	288	information retrieval	7.130112067536422E-8
+census data	259	harmonic mean	6.415724581669096E-8
+census data	115	computer programming	6.376900316294255E-8
+census data	360	mass surveillance	6.039828683883278E-8
+census data	596	us congress	4.25739127561969E-8
+census data	556	statistical inference	3.996801918976512E-8
+census data	204	europe	3.315825467842249E-8
+census data	28	archie comics	2.8756613769546628E-8
+census data	4	aol	1.4182464123435999E-8
+census data	5	aol search	1.4182464123435999E-8
+census data	241	geographic information systems	1.2878077165026275E-8
+census data	16	algorithm	5.526195981544804E-9
 census data	1	a9.com	0.0
 census data	2	acm computing classification system	0.0
 census data	3	advise	0.0
@@ -58,7 +60,6 @@ census data	24	analytics	0.0
 census data	25	anchor modeling	0.0
 census data	26	angoss	0.0
 census data	27	anomaly detection	0.0
-census data	28	archie comics	0.0
 census data	29	archie search engine	0.0
 census data	30	argonne national laboratory	0.0
 census data	31	artificial intelligence	0.0
@@ -86,7 +87,6 @@ census data	52	bing	0.0
 census data	53	bioinformatic	0.0
 census data	54	bioinformatics	0.0
 census data	55	biomedical	0.0
-census data	56	blackle.com	0.0
 census data	57	blekko	0.0
 census data	58	boogami	0.0
 census data	59	boolean algebra	0.0

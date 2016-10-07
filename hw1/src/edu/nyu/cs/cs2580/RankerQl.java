@@ -42,15 +42,11 @@ public class RankerQl extends Ranker {
     double docNum = _indexer._numDocs;
     Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
     Vector<String> queryTokens = query._tokens;
-    long C = _indexer._totalTermFrequency;
-
     boolean init = true;
     double score = 0.0;
     for(String queryToken: queryTokens){
-      double cqi = _indexer.corpusTermFrequency(queryToken);
-      double lambda = 0.1;
       double fqi = Collections.frequency(docTokens,queryToken);
-      double pi = (1-lambda)*(fqi/docTokens.size())+lambda*(cqi/C);
+      double pi = fqi/docTokens.size();
       if(init){
         score = pi;
         init = false;
