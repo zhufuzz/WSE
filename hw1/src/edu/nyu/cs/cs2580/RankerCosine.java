@@ -40,39 +40,35 @@ public class RankerCosine extends Ranker {
       Document doc = _indexer.getDoc(did);
       Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
       double docNum = _indexer._numDocs;
+      Hashtable<String, Double> termFreqTable = doc.getTermFrequencyTable();
 
-//      construct un-normalized document vector
-      Hashtable<String, Double> tfidf = new Hashtable<String, Double>();
-
-
-      for(String docToken : docTokens){
-          if(tfidf.get(docToken)==null) {
-              double freq = Collections.frequency(docTokens, docToken);
-              double tf = freq / docTokens.size();
-              double nk = _indexer.corpusDocFrequencyByTerm(docToken);
-              double idf = Math.log(docNum / nk);
-              tfidf.put(docToken, tf * idf);
-          }
-      }
-
-
-
-//      calculate l2 nomalization factor
-      Enumeration<Double> valEnum = tfidf.elements();
-      double l2Norm = 0.0;
-      while(valEnum.hasMoreElements()){
-          l2Norm+=Math.pow(valEnum.nextElement(),2);
-      }
-      l2Norm = Math.sqrt(l2Norm);
-
-//      normalize the vector
-      Enumeration<String> keySet = tfidf.keys();
-      while(keySet.hasMoreElements()){
-          String key = keySet.nextElement();
-          Double val = tfidf.get(key);
-          val = val/l2Norm;
-          tfidf.put(key,val);
-      }
+////      construct un-normalized document vector
+//      Hashtable<String, Double> termFreqTable = new Hashtable<String, Double>();
+//      for(String docToken : docTokens){
+//          if(termFreqTable.get(docToken)==null) {
+//              double freq = Collections.frequency(docTokens, docToken);
+//              double tf = freq / docTokens.size();
+//              double nk = _indexer.corpusDocFrequencyByTerm(docToken);
+//              double idf = Math.log(docNum / nk);
+//              termFreqTable.put(docToken, tf * idf);
+//          }
+//      }
+////      calculate l2 nomalization factor
+//      Enumeration<Double> valEnum = termFreqTable.elements();
+//      double l2Norm = 0.0;
+//      while(valEnum.hasMoreElements()){
+//          l2Norm+=Math.pow(valEnum.nextElement(),2);
+//      }
+//      l2Norm = Math.sqrt(l2Norm);
+//
+////      normalize the vector
+//      Enumeration<String> keySet = termFreqTable.keys();
+//      while(keySet.hasMoreElements()){
+//          String key = keySet.nextElement();
+//          Double val = termFreqTable.get(key);
+//          val = val/l2Norm;
+//          termFreqTable.put(key,val);
+//      }
 
 //      construct query vector
       Vector<String> queryTokens = query._tokens;
@@ -90,14 +86,14 @@ public class RankerCosine extends Ranker {
       double l2NormQ = 0.0;
       for(String queryToken : queryTokens){
           double dij = 0.0;
-          if(tfidf.get(queryToken)!=null){dij = tfidf.get(queryToken);}
+          if(termFreqTable.get(queryToken)!=null){dij = termFreqTable.get(queryToken);}
           double qj = queryVec.get(queryToken);
           nominator += dij*qj;
           l2NormQ += qj*qj;
       }
 
 
-      Enumeration<Double> dijEnum = tfidf.elements();
+      Enumeration<Double> dijEnum = termFreqTable.elements();
       double dijSquares = 0.0;
       while(dijEnum.hasMoreElements()){
           dijSquares+=Math.pow(dijEnum.nextElement(),2);

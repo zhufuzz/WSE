@@ -39,4 +39,5 @@ public class RankerLinear extends Ranker {
     // @CS2580: fill in your code here.
     return all;
   }
+
 }

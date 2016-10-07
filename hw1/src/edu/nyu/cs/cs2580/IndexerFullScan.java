@@ -67,6 +67,7 @@ class IndexerFullScan extends Indexer implements Serializable {
       }
     } finally {
       reader.close();
+      constructTermFrequencyTable();
     }
     System.out.println(
         "Indexed " + Integer.toString(_numDocs) + " docs with " +
@@ -103,6 +104,7 @@ class IndexerFullScan extends Indexer implements Serializable {
     doc.setNumViews(numViews);
     doc.setTitleTokens(titleTokens);
     doc.setBodyTokens(bodyTokens);
+
     _documents.add(doc);
     ++_numDocs;
 
@@ -150,6 +152,45 @@ class IndexerFullScan extends Indexer implements Serializable {
       uniques.add(idx);
       _termCorpusFrequency.put(idx, _termCorpusFrequency.get(idx) + 1);
       ++_totalTermFrequency;
+    }
+  }
+
+
+  /**
+   * construct termFrequencyTable for each document
+   * only use after all document has been processed
+   */
+  private void constructTermFrequencyTable(){
+    for(Document doc: _documents){
+      Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
+
+//      construct un-normalized document vector
+      Hashtable<String, Double> termFreqTable = new Hashtable<String, Double>();
+      for(String docToken : docTokens){
+        if(termFreqTable.get(docToken)==null) {
+          double freq = Collections.frequency(docTokens, docToken);
+          double tf = freq / docTokens.size();
+          double nk = corpusDocFrequencyByTerm(docToken);
+          double idf = Math.log(_numDocs/nk);
+          termFreqTable.put(docToken, tf * idf);
+        }
+      }
+//      calculate l2 nomalization factor
+      Enumeration<Double> valEnum = termFreqTable.elements();
+      double l2Norm = 0.0;
+      while(valEnum.hasMoreElements()){
+        l2Norm+=Math.pow(valEnum.nextElement(),2);
+      }
+      l2Norm = Math.sqrt(l2Norm);
+//      normalize the vector
+      Enumeration<String> keySet = termFreqTable.keys();
+      while(keySet.hasMoreElements()){
+        String key = keySet.nextElement();
+        Double val = termFreqTable.get(key);
+        val = val/l2Norm;
+        termFreqTable.put(key,val);
+      }
+      doc.setTermFrequencyTable(termFreqTable);
     }
   }
 
