@@ -8,12 +8,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.Vector;
+import java.util.*;
 
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
@@ -222,8 +217,11 @@ class IndexerFullScan extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, int docid) {
-    SearchEngine.Check(false, "Not implemented!");
-    return 0;
+//    SearchEngine.Check(false, "Not implemented!");
+//    return 0;
+    Document doc = _documents.get(docid);
+    Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
+    return Collections.frequency(docTokens,term);
   }
 
   ///// Utility

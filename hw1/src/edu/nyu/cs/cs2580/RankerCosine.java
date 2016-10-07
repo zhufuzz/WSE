@@ -1,8 +1,6 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Collections;
-import java.util.StringJoiner;
-import java.util.Vector;
+import java.util.*;
 
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
@@ -33,50 +31,88 @@ public class RankerCosine extends Ranker {
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
-    TsvGen.generate(results,"hw1.3-vsm");
+    TsvGen.generate(results,"hw1.1-vsm");
     return results;
   }
 
 
   private ScoredDocument scoreDocument(Query query, int did){
       Document doc = _indexer.getDoc(did);
-      double docNum = _indexer._numDocs;
       Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
+      double docNum = _indexer._numDocs;
+
+//      construct un-normalized document vector
+//      HashMap<String, Double> tfidf = new HashMap<String, Double>();
+//      for(String docToken : docTokens){
+//          if(tfidf.get(docToken)==null) {
+//              double freq = Collections.frequency(docTokens, docToken);
+//              double tf = freq / docTokens.size();
+//              double nk = _indexer.corpusDocFrequencyByTerm(docToken);
+//              double idf = Math.log(docNum / nk);
+//              tfidf.put(docToken, tf * idf);
+//          }
+//      }
+//
+//      Collection<Double> valCol = tfidf.values();
+//      double l2Norm = 0.0;
+//      for(Double val : valCol){l2Norm+=val*val;}
+//      l2Norm = Math.sqrt(l2Norm);
+//      final double finalL2 = l2Norm;
+//      tfidf.values().stream().map(s->{return s/finalL2;});
+
+      Hashtable<String, Double> tfidf = new Hashtable<String, Double>();
+
+//      calculate l2 nomalization factor
+      Enumeration<Double> valEnum = tfidf.elements();
+      double l2Norm = 0.0;
+      while(valEnum.hasMoreElements()){
+          l2Norm+=Math.pow(valEnum.nextElement(),2);
+      }
+      l2Norm = Math.sqrt(l2Norm);
+
+//      normalize the vector
+      Enumeration<String> keySet = tfidf.keys();
+      while(keySet.hasMoreElements()){
+          String key = keySet.nextElement();
+          Double val = tfidf.get(key);
+          val = val/l2Norm;
+          tfidf.put(key,val);
+      }
+
+//      construct query vector
       Vector<String> queryTokens = query._tokens;
+      Hashtable<String, Double> queryVec = new Hashtable<String, Double>();
+      for(String queryToken : queryTokens){
+          if(queryVec.get(queryToken)==null){
+              double freq = Collections.frequency(queryTokens, queryToken);
+              queryVec.put(queryToken,freq/queryTokens.size());
+          }
 
-      double l2DNorm = 0.0;
-      double l2QNorm = 0.0;
-
-      for(String queryToken: queryTokens){
-          double nk = _indexer.corpusDocFrequencyByTerm(queryToken);
-          double fik = Collections.frequency(docTokens,queryToken);
-          double qk = Collections.frequency(queryTokens,queryToken);
-          double prodD = Math.pow((Math.log(fik)+1)*(Math.log(docNum/nk)),2);
-          double prodQ = Math.pow((Math.log(qk)+1),2);
-          l2DNorm += prodD;
-          l2QNorm += prodQ;
       }
 
-
-
-
+//      calculate the cosine dist
       double nominator = 0.0;
-      double dSum = 0.0;
-      double qSum = 0.0;
-      for(String queryToken:queryTokens){
-          double nj = _indexer.corpusDocFrequencyByTerm(queryToken);
-          double fij = Collections.frequency(docTokens,queryToken);
-          double dij = fij==0? 0: (Math.log(fij)+1)*Math.log(docNum/nj)/Math.sqrt(l2DNorm);
-
-          double queryFreq = Collections.frequency(queryTokens,queryToken);
-          double qj = (Math.log(queryFreq)+1)/l2QNorm;
-
-          nominator+=dij*qj;
-          dSum+=dij*dij;
-          qSum+=qj*qj;
+      double l2NormQ = 0.0;
+      for(String queryToken : queryTokens){
+          double dij = 0.0;
+          if(tfidf.get(queryToken)!=null){dij = tfidf.get(queryToken);}
+          double qj = queryVec.get(queryToken);
+          nominator += dij*qj;
+          l2NormQ += qj*qj;
       }
-      double denominator = Math.sqrt(dSum*qSum);
-      double score = denominator == 0? 0: nominator/denominator;
+      Enumeration<Double> dijEnum = tfidf.elements();
+      double dijSquares = 0.0;
+      while(dijEnum.hasMoreElements()){
+          dijSquares+=Math.pow(dijEnum.nextElement(),2);
+      }
+
+//      Collection<Double> dijCol = tfidf.values();
+//      double dijSquares = 0.0;
+//      for(Double val : valCol){dijSquares+=val*val;}
+
+
+      double denominator = Math.sqrt(dijSquares*l2NormQ);
+      double score = nominator/denominator;
       return new ScoredDocument(query._query, doc, score);
   }
 

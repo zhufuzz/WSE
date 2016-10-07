@@ -32,7 +32,7 @@ public class RankerQl extends Ranker {
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
-    TsvGen.generate(results, "hw1.3-ql");
+    TsvGen.generate(results, "hw1.1-ql");
     return results;
   }
 

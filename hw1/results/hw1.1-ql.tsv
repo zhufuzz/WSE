@@ -1,0 +1,659 @@
+ibm	268	ibm	0.03453670760427336
+ibm	325	keypunch	0.018665826278548698
+ibm	505	spss modeler	0.018433199841191125
+ibm	571	tabulating machine	0.01786272111778687
+ibm	595	uima	0.017233992000841764
+ibm	464	punched cards	0.015161841037649493
+ibm	617	vivisimo	0.01173853280609856
+ibm	258	hans peter luhn	0.007308285633915904
+ibm	261	herman hollerith	0.005348234362819984
+ibm	254	grid computing	0.003569282701364584
+ibm	506	sql	0.0034097268456797793
+ibm	652	xml for analysis	0.0033150336933612367
+ibm	539	software release life cycle	0.0032150562826220364
+ibm	576	text retrieval conference	0.002689517305470156
+ibm	474	ralph kimball	0.0026364280143385955
+ibm	156	data set	0.0025818666874071246
+ibm	110	computer architecture	0.0025554403244674563
+ibm	323	kxen inc.	0.0025227485903143443
+ibm	97	comparison of olap servers	0.002502537194081149
+ibm	70	crisp-dm	0.0024630897504946464
+ibm	128	cross industry standard process for data mining	0.0024630897504946464
+ibm	421	operating system	0.0023515754127011626
+ibm	578	text mining	0.002309005278411523
+ibm	293	information technology	0.0021365728998790187
+ibm	574	teoma	0.0021097176852925923
+ibm	306	interpreter (computing)	0.0020520004772174765
+ibm	449	predictive model markup language	0.0020355152354339305
+ibm	507	statistica	0.002019586544482714
+ibm	548	spreadsheets	0.0019619511154267107
+ibm	145	data dictionary	0.0018466283034156137
+ibm	373	microsoft	0.0018222068668961905
+ibm	499	sas (software)	0.001820480755867123
+ibm	64	business intelligence tools	0.0017387764648788037
+ibm	581	theodor nelson	0.0016660200405875895
+ibm	87	cloud storage	0.0015799661602797891
+ibm	655	yandex	0.0015523073486630882
+ibm	590	transaction processing	0.0014601427888051481
+ibm	18	aliweb	0.001432709597049544
+ibm	330	knowledge visualization	0.0014284753291191837
+ibm	616	visualization (computer graphics)	0.0014284753291191837
+ibm	621	wearable computer	0.001421127439188242
+ibm	451	prentice hall	0.0013895068320725855
+ibm	163	database management system	0.0011211184901220226
+ibm	283	information extraction	0.0011134225353887613
+ibm	546	spell checker	0.0010930948141947506
+ibm	414	online analytical processing	0.0010683206652981835
+ibm	543	spatial index	0.0010349038311347925
+ibm	45	baidu	0.0010197004714673022
+ibm	418	opensearch	9.946072667900193E-4
+ibm	115	computer programming	9.593120268777803E-4
+ibm	641	website mirroring software	9.248566862999907E-4
+ibm	4	aol	9.076702067472143E-4
+ibm	5	aol search	9.076702067472143E-4
+ibm	535	software	9.05463436443824E-4
+ibm	597	ubiquitous computing	8.893819569477104E-4
+ibm	481	relational database	8.866523445526705E-4
+ibm	99	compiler	8.757198566082424E-4
+ibm	566	surrogate key	8.63596626146564E-4
+ibm	459	programming language	8.257966440702641E-4
+ibm	267	hypertext	7.774938450595986E-4
+ibm	116	computer science	7.743923440501477E-4
+ibm	399	natural language search engine	7.667816273410114E-4
+ibm	487	rexer's annual data miner survey	6.981692819337395E-4
+ibm	653	yahoo!	6.9223752487283E-4
+ibm	435	parallel computing	6.835036321530024E-4
+ibm	129	cryptography	6.748596371622327E-4
+ibm	30	argonne national laboratory	6.697713701962333E-4
+ibm	43	automated reasoning	6.620498057542403E-4
+ibm	402	netscape	6.596469032689947E-4
+ibm	592	true knowledge	6.558738768716626E-4
+ibm	500	sas institute	6.515574206821941E-4
+ibm	162	database	6.51022185877659E-4
+ibm	468	quantum computer	6.486253731060202E-4
+ibm	343	list of search engines	6.474341237590013E-4
+ibm	396	national security agency	6.443458839877734E-4
+ibm	63	business intelligence	6.440192264299327E-4
+ibm	328	knowledge discovery	6.416454647558214E-4
+ibm	231	functional programming	6.238348845172728E-4
+ibm	387	multiprocessing	5.881768858681623E-4
+ibm	394	national center for supercomputing applications	5.175108374130395E-4
+ibm	130	cuil	5.098738246305894E-4
+ibm	473	r (programming language)	5.078870216770314E-4
+ibm	112	computer graphics	5.022552714784835E-4
+ibm	160	data visualization	4.918305387878526E-4
+ibm	633	web portal	4.8187579404586404E-4
+ibm	127	cross-platform	4.6679135615761873E-4
+ibm	161	data warehouse	4.6659863340102806E-4
+ibm	647	wolfram alpha	4.651588771229708E-4
+ibm	339	linkrot	4.576452916211854E-4
+ibm	142	data cleaning	4.561751096677914E-4
+ibm	219	facebook	4.2616096741093134E-4
+ibm	470	question answering	3.9465280550214106E-4
+ibm	36	association for computing machinery	3.916475214287529E-4
+ibm	309	j. c. r. licklider	3.869214544872079E-4
+ibm	247	google	3.8581244212967155E-4
+ibm	294	information theory	3.801331412472818E-4
+ibm	152	data mining	3.726476761819035E-4
+ibm	485	representational state transfer	3.4892672681441855E-4
+ibm	450	predictive analytics	3.43046886454514E-4
+ibm	355	machine learning	3.286003321388663E-4
+ibm	458	profiling practices	3.282563355811252E-4
+ibm	607	user interface	3.147713823371358E-4
+ibm	346	logic programming	3.120012224989131E-4
+ibm	224	file transfer protocol	2.965265365060831E-4
+ibm	288	information retrieval	2.905415450231863E-4
+ibm	313	java (programming language)	2.7016246676047826E-4
+ibm	104	computational linguistics	2.6328929960505305E-4
+ibm	398	natural language processing	2.5759438967627214E-4
+ibm	113	computer music	2.5707011801670343E-4
+ibm	211	expert system	2.472870253848568E-4
+ibm	417	ontology (information science)	2.3311077436073831E-4
+ibm	416	ontologies	2.33073616771024E-4
+ibm	74	carnegie mellon university	2.3294368402380152E-4
+ibm	276	index (search engine)	2.3029314659839587E-4
+ibm	517	search engine indexing	2.3029314659839587E-4
+ibm	252	gopher (protocol)	2.2714268255982192E-4
+ibm	538	software engineering	2.2266794668129544E-4
+ibm	433	pagerank	1.8203131110848813E-4
+ibm	625	web crawler	1.8046713804736327E-4
+ibm	626	web crawling	1.8046713804736327E-4
+ibm	82	chess	1.748144589649705E-4
+ibm	250	google search	1.722715653051788E-4
+ibm	648	world wide web	1.526218459698272E-4
+ibm	567	surveillance	1.3421551816017967E-4
+ibm	572	telecommunication	1.3138262919457257E-4
+ibm	608	vannevar bush	1.2833255677315833E-4
+ibm	31	artificial intelligence	1.0458535819762327E-4
+ibm	0	1890 us census	5.022111778687123E-5
+ibm	1	a9.com	5.022111778687123E-5
+ibm	2	acm computing classification system	5.022111778687123E-5
+ibm	3	advise	5.022111778687123E-5
+ibm	6	academic press	5.022111778687123E-5
+ibm	7	academic journal	5.022111778687123E-5
+ibm	8	accuracy and precision	5.022111778687123E-5
+ibm	9	actuate corporation	5.022111778687123E-5
+ibm	10	adversarial information retrieval	5.022111778687123E-5
+ibm	11	adverse drug reaction	5.022111778687123E-5
+ibm	12	advertising	5.022111778687123E-5
+ibm	13	aggregate (data warehouse)	5.022111778687123E-5
+ibm	14	aggregate function	5.022111778687123E-5
+ibm	15	alan emtage	5.022111778687123E-5
+ibm	16	algorithm	5.022111778687123E-5
+ibm	17	algorithm design	5.022111778687123E-5
+ibm	19	alltheweb	5.022111778687123E-5
+ibm	20	alpha consumer	5.022111778687123E-5
+ibm	21	altavista	5.022111778687123E-5
+ibm	22	alvin weinberg	5.022111778687123E-5
+ibm	23	analysis of algorithms	5.022111778687123E-5
+ibm	24	analytics	5.022111778687123E-5
+ibm	25	anchor modeling	5.022111778687123E-5
+ibm	26	angoss	5.022111778687123E-5
+ibm	27	anomaly detection	5.022111778687123E-5
+ibm	28	archie comics	5.022111778687123E-5
+ibm	29	archie search engine	5.022111778687123E-5
+ibm	32	artificial life	5.022111778687123E-5
+ibm	33	artificial neural network	5.022111778687123E-5
+ibm	34	as we may think	5.022111778687123E-5
+ibm	35	ask.com	5.022111778687123E-5
+ibm	37	association rule	5.022111778687123E-5
+ibm	38	association rule learning	5.022111778687123E-5
+ibm	39	association rule mining	5.022111778687123E-5
+ibm	40	association rules	5.022111778687123E-5
+ibm	41	atlantic monthly	5.022111778687123E-5
+ibm	42	automata theory	5.022111778687123E-5
+ibm	44	automatic summarization	5.022111778687123E-5
+ibm	46	bayes' theorem	5.022111778687123E-5
+ibm	47	berlekamp	5.022111778687123E-5
+ibm	48	bibliometrics	5.022111778687123E-5
+ibm	49	bill inmon	5.022111778687123E-5
+ibm	50	binary independence model	5.022111778687123E-5
+ibm	51	binary classification	5.022111778687123E-5
+ibm	52	bing	5.022111778687123E-5
+ibm	53	bioinformatic	5.022111778687123E-5
+ibm	54	bioinformatics	5.022111778687123E-5
+ibm	55	biomedical	5.022111778687123E-5
+ibm	56	blackle.com	5.022111778687123E-5
+ibm	57	blekko	5.022111778687123E-5
+ibm	58	boogami	5.022111778687123E-5
+ibm	59	boolean algebra	5.022111778687123E-5
+ibm	60	boolean operators	5.022111778687123E-5
+ibm	61	bram stoker	5.022111778687123E-5
+ibm	62	british petroleum	5.022111778687123E-5
+ibm	65	buzzword	5.022111778687123E-5
+ibm	66	c. j. van rijsbergen	5.022111778687123E-5
+ibm	67	capps ii	5.022111778687123E-5
+ibm	68	cern	5.022111778687123E-5
+ibm	69	cikm conference	5.022111778687123E-5
+ibm	71	calvin mooers	5.022111778687123E-5
+ibm	72	cambridge university press	5.022111778687123E-5
+ibm	73	cancer	5.022111778687123E-5
+ibm	75	carrot2	5.022111778687123E-5
+ibm	76	case western reserve university	5.022111778687123E-5
+ibm	77	categorization	5.022111778687123E-5
+ibm	78	category theory	5.022111778687123E-5
+ibm	79	censorship	5.022111778687123E-5
+ibm	80	chacha (search engine)	5.022111778687123E-5
+ibm	81	chemicalize.org	5.022111778687123E-5
+ibm	83	chess endgame	5.022111778687123E-5
+ibm	84	churn rate	5.022111778687123E-5
+ibm	85	clarabridge	5.022111778687123E-5
+ibm	86	classification of the sciences (peirce)	5.022111778687123E-5
+ibm	88	cluster analysis	5.022111778687123E-5
+ibm	89	co-occurrence	5.022111778687123E-5
+ibm	90	cognitive science	5.022111778687123E-5
+ibm	91	collaborative information seeking	5.022111778687123E-5
+ibm	92	collaborative search engine	5.022111778687123E-5
+ibm	93	column-oriented dbms	5.022111778687123E-5
+ibm	94	combinatorial game	5.022111778687123E-5
+ibm	95	combinatorics	5.022111778687123E-5
+ibm	96	communications of the acm	5.022111778687123E-5
+ibm	98	comparison of web search engines	5.022111778687123E-5
+ibm	100	computability theory	5.022111778687123E-5
+ibm	101	computational chemistry	5.022111778687123E-5
+ibm	102	computational complexity theory	5.022111778687123E-5
+ibm	103	computational geometry	5.022111778687123E-5
+ibm	105	computational neuroscience	5.022111778687123E-5
+ibm	106	computational physics	5.022111778687123E-5
+ibm	107	computational science	5.022111778687123E-5
+ibm	108	computer accessibility	5.022111778687123E-5
+ibm	109	computer animation	5.022111778687123E-5
+ibm	111	computer data storage	5.022111778687123E-5
+ibm	114	computer networking	5.022111778687123E-5
+ibm	117	computer vision	5.022111778687123E-5
+ibm	118	concurrency (computer science)	5.022111778687123E-5
+ibm	119	concurrency control	5.022111778687123E-5
+ibm	120	condition monitoring	5.022111778687123E-5
+ibm	121	conference on information and knowledge management	5.022111778687123E-5
+ibm	122	conference on knowledge discovery and data mining	5.022111778687123E-5
+ibm	123	contextual advertising	5.022111778687123E-5
+ibm	124	controlled vocabulary	5.022111778687123E-5
+ibm	125	cornelis j. van rijsbergen	5.022111778687123E-5
+ibm	126	cross-language information retrieval	5.022111778687123E-5
+ibm	131	cultural studies	5.022111778687123E-5
+ibm	132	customer analytics	5.022111778687123E-5
+ibm	133	customer relationship management	5.022111778687123E-5
+ibm	134	cyril w. cleverdon	5.022111778687123E-5
+ibm	135	dna	5.022111778687123E-5
+ibm	136	dashboard (business)	5.022111778687123E-5
+ibm	137	data	5.022111778687123E-5
+ibm	138	data mining extensions	5.022111778687123E-5
+ibm	139	data pre-processing	5.022111778687123E-5
+ibm	140	data vault modeling	5.022111778687123E-5
+ibm	141	data analysis	5.022111778687123E-5
+ibm	143	data clustering	5.022111778687123E-5
+ibm	144	data collection	5.022111778687123E-5
+ibm	146	data dredging	5.022111778687123E-5
+ibm	147	data extraction	5.022111778687123E-5
+ibm	148	data integration	5.022111778687123E-5
+ibm	149	data loading	5.022111778687123E-5
+ibm	150	data management	5.022111778687123E-5
+ibm	151	data mart	5.022111778687123E-5
+ibm	153	data mining in agriculture	5.022111778687123E-5
+ibm	154	data mining in meteorology	5.022111778687123E-5
+ibm	155	data modeling	5.022111778687123E-5
+ibm	157	data snooping	5.022111778687123E-5
+ibm	158	data structure	5.022111778687123E-5
+ibm	159	data transformation	5.022111778687123E-5
+ibm	164	database system	5.022111778687123E-5
+ibm	165	daum communications	5.022111778687123E-5
+ibm	166	decision making	5.022111778687123E-5
+ibm	167	decision support system	5.022111778687123E-5
+ibm	168	decision tree learning	5.022111778687123E-5
+ibm	169	decision trees	5.022111778687123E-5
+ibm	170	deepwater horizon oil spill	5.022111778687123E-5
+ibm	171	degenerate dimension	5.022111778687123E-5
+ibm	172	desktop search	5.022111778687123E-5
+ibm	173	digital object identifier	5.022111778687123E-5
+ibm	174	digital obsolescence	5.022111778687123E-5
+ibm	175	dimension (data warehouse)	5.022111778687123E-5
+ibm	176	dimension reduction	5.022111778687123E-5
+ibm	177	dimension table	5.022111778687123E-5
+ibm	178	dimensional modeling	5.022111778687123E-5
+ibm	179	discounted cumulative gain	5.022111778687123E-5
+ibm	180	discovery (observation)	5.022111778687123E-5
+ibm	181	discovery net	5.022111778687123E-5
+ibm	182	dissolved gas analysis	5.022111778687123E-5
+ibm	183	distributed computing	5.022111778687123E-5
+ibm	184	distributed web crawling	5.022111778687123E-5
+ibm	185	divergence-from-randomness model	5.022111778687123E-5
+ibm	186	document retrieval	5.022111778687123E-5
+ibm	187	dogpile	5.022111778687123E-5
+ibm	188	don swanson	5.022111778687123E-5
+ibm	189	donald b. crouch	5.022111778687123E-5
+ibm	190	dot-com bubble	5.022111778687123E-5
+ibm	191	dots-and-boxes	5.022111778687123E-5
+ibm	192	dracula	5.022111778687123E-5
+ibm	193	drug discovery	5.022111778687123E-5
+ibm	194	duckduckgo	5.022111778687123E-5
+ibm	195	early-arriving fact	5.022111778687123E-5
+ibm	196	educational data mining	5.022111778687123E-5
+ibm	197	electrical power	5.022111778687123E-5
+ibm	198	electronic health records	5.022111778687123E-5
+ibm	199	eli pariser	5.022111778687123E-5
+ibm	200	emanuel goldberg	5.022111778687123E-5
+ibm	201	enterprise search	5.022111778687123E-5
+ibm	202	environment for developing kdd-applications supported by index-structures	5.022111778687123E-5
+ibm	203	eugene garfield	5.022111778687123E-5
+ibm	204	europe	5.022111778687123E-5
+ibm	205	european conference on machine learning and principles and practice of knowledge discovery in databases	5.022111778687123E-5
+ibm	206	european summer school in information retrieval	5.022111778687123E-5
+ibm	207	evolutionary computation	5.022111778687123E-5
+ibm	208	exalead	5.022111778687123E-5
+ibm	209	excite	5.022111778687123E-5
+ibm	210	experian hitwise	5.022111778687123E-5
+ibm	212	expertise finding	5.022111778687123E-5
+ibm	213	exploratory data analysis	5.022111778687123E-5
+ibm	214	extended boolean model	5.022111778687123E-5
+ibm	215	extract, transform, load	5.022111778687123E-5
+ibm	216	f-score	5.022111778687123E-5
+ibm	217	f. wilfrid lancaster	5.022111778687123E-5
+ibm	218	fico	5.022111778687123E-5
+ibm	220	fact (data warehouse)	5.022111778687123E-5
+ibm	221	fact table	5.022111778687123E-5
+ibm	222	factor analysis	5.022111778687123E-5
+ibm	223	federated search	5.022111778687123E-5
+ibm	225	filter bubble	5.022111778687123E-5
+ibm	226	first amendment to the united states constitution	5.022111778687123E-5
+ibm	227	focused crawler	5.022111778687123E-5
+ibm	228	forestle	5.022111778687123E-5
+ibm	229	formal methods	5.022111778687123E-5
+ibm	230	forrester research	5.022111778687123E-5
+ibm	232	fuzzy retrieval	5.022111778687123E-5
+ibm	233	gnu project	5.022111778687123E-5
+ibm	234	gartner	5.022111778687123E-5
+ibm	235	general architecture for text engineering	5.022111778687123E-5
+ibm	236	generalized vector space model	5.022111778687123E-5
+ibm	237	genetic algorithms	5.022111778687123E-5
+ibm	238	genetics	5.022111778687123E-5
+ibm	239	genieknows	5.022111778687123E-5
+ibm	240	genres	5.022111778687123E-5
+ibm	241	geographic information systems	5.022111778687123E-5
+ibm	242	gerard salton	5.022111778687123E-5
+ibm	243	gerard salton award	5.022111778687123E-5
+ibm	244	go.com	5.022111778687123E-5
+ibm	245	goby inc.	5.022111778687123E-5
+ibm	246	goodsearch	5.022111778687123E-5
+ibm	248	google bombing	5.022111778687123E-5
+ibm	249	google drive	5.022111778687123E-5
+ibm	251	google effect	5.022111778687123E-5
+ibm	253	graph theory	5.022111778687123E-5
+ibm	255	guruji.com	5.022111778687123E-5
+ibm	256	holap	5.022111778687123E-5
+ibm	257	html	5.022111778687123E-5
+ibm	259	harmonic mean	5.022111778687123E-5
+ibm	260	health insurance portability and accountability act	5.022111778687123E-5
+ibm	262	hitwise	5.022111778687123E-5
+ibm	263	hotbot	5.022111778687123E-5
+ibm	264	human%e2%80%93computer information retrieval	5.022111778687123E-5
+ibm	265	human%e2%80%93computer interaction	5.022111778687123E-5
+ibm	266	human rights	5.022111778687123E-5
+ibm	269	ieee	5.022111778687123E-5
+ibm	270	ill-posed	5.022111778687123E-5
+ibm	271	image processing	5.022111778687123E-5
+ibm	272	image retrieval	5.022111778687123E-5
+ibm	273	imperial college london	5.022111778687123E-5
+ibm	274	independency	5.022111778687123E-5
+ibm	275	index (database)	5.022111778687123E-5
+ibm	277	info.com	5.022111778687123E-5
+ibm	278	informatics (academic field)	5.022111778687123E-5
+ibm	279	informationweek	5.022111778687123E-5
+ibm	280	information retrieval facility	5.022111778687123E-5
+ibm	281	information access	5.022111778687123E-5
+ibm	282	information architecture	5.022111778687123E-5
+ibm	284	information integration	5.022111778687123E-5
+ibm	285	information management	5.022111778687123E-5
+ibm	286	information need	5.022111778687123E-5
+ibm	287	information overload	5.022111778687123E-5
+ibm	289	information retrieval applications	5.022111778687123E-5
+ibm	290	information science	5.022111778687123E-5
+ibm	291	information seeking	5.022111778687123E-5
+ibm	292	information society	5.022111778687123E-5
+ibm	295	infoseek	5.022111778687123E-5
+ibm	296	initial public offering	5.022111778687123E-5
+ibm	297	inktomi (company)	5.022111778687123E-5
+ibm	298	institutional memory	5.022111778687123E-5
+ibm	299	insulator (electrical)	5.022111778687123E-5
+ibm	300	intellectual freedom	5.022111778687123E-5
+ibm	301	intellectual property	5.022111778687123E-5
+ibm	302	interactive visualization	5.022111778687123E-5
+ibm	303	international conference on very large data bases	5.022111778687123E-5
+ibm	304	international standard book number	5.022111778687123E-5
+ibm	305	internet search engines and libraries	5.022111778687123E-5
+ibm	307	inverted index	5.022111778687123E-5
+ibm	308	iterative algorithm	5.022111778687123E-5
+ibm	310	jasis	5.022111778687123E-5
+ibm	311	jhepwork	5.022111778687123E-5
+ibm	312	jacquard loom	5.022111778687123E-5
+ibm	314	java data mining	5.022111778687123E-5
+ibm	315	john nunn	5.022111778687123E-5
+ibm	316	john seward	5.022111778687123E-5
+ibm	317	joseph marie jacquard	5.022111778687123E-5
+ibm	318	jughead (computer)	5.022111778687123E-5
+ibm	319	jughead jones	5.022111778687123E-5
+ibm	320	jumpstation	5.022111778687123E-5
+ibm	321	kdd conference	5.022111778687123E-5
+ibm	322	knime	5.022111778687123E-5
+ibm	324	karen spa�rck jones	5.022111778687123E-5
+ibm	326	keyword (internet search)	5.022111778687123E-5
+ibm	327	kluwer academic publishers	5.022111778687123E-5
+ibm	329	knowledge organization	5.022111778687123E-5
+ibm	331	lionsolver	5.022111778687123E-5
+ibm	332	language model	5.022111778687123E-5
+ibm	333	latent dirichlet allocation	5.022111778687123E-5
+ibm	334	latent semantic analysis	5.022111778687123E-5
+ibm	335	latent semantic indexing	5.022111778687123E-5
+ibm	336	leapfish	5.022111778687123E-5
+ibm	337	learning to rank	5.022111778687123E-5
+ibm	338	library and information science	5.022111778687123E-5
+ibm	340	list of computer science conferences	5.022111778687123E-5
+ibm	341	list of information retrieval libraries	5.022111778687123E-5
+ibm	342	list of reporting software	5.022111778687123E-5
+ibm	344	live search	5.022111778687123E-5
+ibm	345	local search (internet)	5.022111778687123E-5
+ibm	347	looksmart	5.022111778687123E-5
+ibm	348	lycos	5.022111778687123E-5
+ibm	349	matrix	5.022111778687123E-5
+ibm	350	medlars	5.022111778687123E-5
+ibm	351	mit	5.022111778687123E-5
+ibm	352	ml-flex	5.022111778687123E-5
+ibm	353	molap	5.022111778687123E-5
+ibm	354	msn search	5.022111778687123E-5
+ibm	356	magellan (search engine)	5.022111778687123E-5
+ibm	357	main page	5.022111778687123E-5
+ibm	358	mark mccahill	5.022111778687123E-5
+ibm	359	market basket analysis	5.022111778687123E-5
+ibm	360	mass surveillance	5.022111778687123E-5
+ibm	361	massachusetts institute of technology	5.022111778687123E-5
+ibm	362	mathematical logic	5.022111778687123E-5
+ibm	363	mathematics	5.022111778687123E-5
+ibm	364	mcgill university	5.022111778687123E-5
+ibm	365	mean reciprocal rank	5.022111778687123E-5
+ibm	366	measure (data warehouse)	5.022111778687123E-5
+ibm	367	medicine	5.022111778687123E-5
+ibm	368	memory	5.022111778687123E-5
+ibm	369	meta tags	5.022111778687123E-5
+ibm	370	metadata	5.022111778687123E-5
+ibm	371	metasearch engine	5.022111778687123E-5
+ibm	372	microarchitecture	5.022111778687123E-5
+ibm	374	microsoft analysis services	5.022111778687123E-5
+ibm	375	mind maps	5.022111778687123E-5
+ibm	376	mining software repositories	5.022111778687123E-5
+ibm	377	missing data	5.022111778687123E-5
+ibm	378	modeling and simulation	5.022111778687123E-5
+ibm	379	montreal	5.022111778687123E-5
+ibm	380	morgan kaufmann	5.022111778687123E-5
+ibm	381	msnbot	5.022111778687123E-5
+ibm	382	mugurdy	5.022111778687123E-5
+ibm	383	multidimensional expressions	5.022111778687123E-5
+ibm	384	multifactor dimensionality reduction	5.022111778687123E-5
+ibm	385	multilinear subspace learning	5.022111778687123E-5
+ibm	386	multimedia information retrieval	5.022111778687123E-5
+ibm	388	multisearch	5.022111778687123E-5
+ibm	389	multivariate statistics	5.022111778687123E-5
+ibm	390	music information retrieval	5.022111778687123E-5
+ibm	391	nltk	5.022111778687123E-5
+ibm	392	named-entity recognition	5.022111778687123E-5
+ibm	393	national bureau of standards	5.022111778687123E-5
+ibm	395	national institute of standards and technology	5.022111778687123E-5
+ibm	397	natural language toolkit	5.022111778687123E-5
+ibm	400	nature (journal)	5.022111778687123E-5
+ibm	401	naver	5.022111778687123E-5
+ibm	403	network topology	5.022111778687123E-5
+ibm	404	neural networks	5.022111778687123E-5
+ibm	405	nicholas j. belkin	5.022111778687123E-5
+ibm	406	nicholas jardine	5.022111778687123E-5
+ibm	407	northern light group	5.022111778687123E-5
+ibm	408	number theory	5.022111778687123E-5
+ibm	409	numerical analysis	5.022111778687123E-5
+ibm	410	oclc	5.022111778687123E-5
+ibm	411	olap cube	5.022111778687123E-5
+ibm	412	object-oriented programming	5.022111778687123E-5
+ibm	413	online algorithm	5.022111778687123E-5
+ibm	415	online search	5.022111778687123E-5
+ibm	419	open directory project	5.022111778687123E-5
+ibm	420	open drive	5.022111778687123E-5
+ibm	422	operational data store	5.022111778687123E-5
+ibm	423	oracle	5.022111778687123E-5
+ibm	424	oracle data mining	5.022111778687123E-5
+ibm	425	oracle machine	5.022111778687123E-5
+ibm	426	orange (software)	5.022111778687123E-5
+ibm	427	organic search	5.022111778687123E-5
+ibm	428	orthogonality	5.022111778687123E-5
+ibm	429	oscar nierstrasz	5.022111778687123E-5
+ibm	430	outline of information science	5.022111778687123E-5
+ibm	431	overfitting	5.022111778687123E-5
+ibm	432	overture	5.022111778687123E-5
+ibm	434	paid inclusion	5.022111778687123E-5
+ibm	436	parsing	5.022111778687123E-5
+ibm	437	pattern	5.022111778687123E-5
+ibm	438	people's republic of china	5.022111778687123E-5
+ibm	439	perl	5.022111778687123E-5
+ibm	440	personal information management	5.022111778687123E-5
+ibm	441	pharmacy	5.022111778687123E-5
+ibm	442	philosophy of information	5.022111778687123E-5
+ibm	443	picollator	5.022111778687123E-5
+ibm	444	police-enforced anpr in the uk	5.022111778687123E-5
+ibm	445	positive predictive value	5.022111778687123E-5
+ibm	446	power transformer	5.022111778687123E-5
+ibm	447	powerset (company)	5.022111778687123E-5
+ibm	448	precision and recall	5.022111778687123E-5
+ibm	452	preservation (library and archival science)	5.022111778687123E-5
+ibm	453	principle of least astonishment	5.022111778687123E-5
+ibm	454	privacy	5.022111778687123E-5
+ibm	455	probabilistic relevance model	5.022111778687123E-5
+ibm	456	probabilistic relevance model (bm25)	5.022111778687123E-5
+ibm	457	procedural programming	5.022111778687123E-5
+ibm	460	programming paradigm	5.022111778687123E-5
+ibm	461	proximity search (text)	5.022111778687123E-5
+ibm	462	pubmed identifier	5.022111778687123E-5
+ibm	463	public library	5.022111778687123E-5
+ibm	465	python (programming language)	5.022111778687123E-5
+ibm	466	quaero	5.022111778687123E-5
+ibm	467	quantitative structure%e2%80%93activity relationship	5.022111778687123E-5
+ibm	469	query string	5.022111778687123E-5
+ibm	471	quora	5.022111778687123E-5
+ibm	472	rolap	5.022111778687123E-5
+ibm	475	rank order	5.022111778687123E-5
+ibm	476	rapidminer	5.022111778687123E-5
+ibm	477	reactive business intelligence	5.022111778687123E-5
+ibm	478	real-time computing	5.022111778687123E-5
+ibm	479	receiver operating characteristic	5.022111778687123E-5
+ibm	480	regression analysis	5.022111778687123E-5
+ibm	482	relevance	5.022111778687123E-5
+ibm	483	relevance (information retrieval)	5.022111778687123E-5
+ibm	484	relevance feedback	5.022111778687123E-5
+ibm	486	requirements analysis	5.022111778687123E-5
+ibm	488	robert m. hayes	5.022111778687123E-5
+ibm	489	robert r. korfhage	5.022111778687123E-5
+ibm	490	robert tibshirani	5.022111778687123E-5
+ibm	491	robotics	5.022111778687123E-5
+ibm	492	robots.txt	5.022111778687123E-5
+ibm	493	robots exclusion standard	5.022111778687123E-5
+ibm	494	rocchio classification	5.022111778687123E-5
+ibm	495	routing	5.022111778687123E-5
+ibm	496	rule of inference	5.022111778687123E-5
+ibm	497	russian federation	5.022111778687123E-5
+ibm	498	sapo (company)	5.022111778687123E-5
+ibm	501	semma	5.022111778687123E-5
+ibm	502	sigkdd	5.022111778687123E-5
+ibm	503	sigmod	5.022111778687123E-5
+ibm	504	smart information retrieval system	5.022111778687123E-5
+ibm	508	scalability	5.022111778687123E-5
+ibm	509	science, technology and society	5.022111778687123E-5
+ibm	510	scientific american magazine	5.022111778687123E-5
+ibm	511	searchme	5.022111778687123E-5
+ibm	512	search engine watch	5.022111778687123E-5
+ibm	513	search aggregator	5.022111778687123E-5
+ibm	514	search directory	5.022111778687123E-5
+ibm	515	search engine (computing)	5.022111778687123E-5
+ibm	516	search engine (disambiguation)	5.022111778687123E-5
+ibm	518	search engine marketing	5.022111778687123E-5
+ibm	519	search engine optimization	5.022111778687123E-5
+ibm	520	search engine results pages	5.022111778687123E-5
+ibm	521	search oriented architecture	5.022111778687123E-5
+ibm	522	selection-based search	5.022111778687123E-5
+ibm	523	self-organizing map	5.022111778687123E-5
+ibm	524	semantic web	5.022111778687123E-5
+ibm	525	semantic search	5.022111778687123E-5
+ibm	526	sensitivity and specificity	5.022111778687123E-5
+ibm	527	sequence mining	5.022111778687123E-5
+ibm	528	set theory	5.022111778687123E-5
+ibm	529	sixth normal form	5.022111778687123E-5
+ibm	530	slowly changing dimension	5.022111778687123E-5
+ibm	531	social science research network	5.022111778687123E-5
+ibm	532	social information seeking	5.022111778687123E-5
+ibm	533	social search	5.022111778687123E-5
+ibm	534	society for industrial and applied mathematics	5.022111778687123E-5
+ibm	536	software design	5.022111778687123E-5
+ibm	537	software development process	5.022111778687123E-5
+ibm	540	software testing	5.022111778687123E-5
+ibm	541	sogou.com	5.022111778687123E-5
+ibm	542	sorrell v. ims health, inc.	5.022111778687123E-5
+ibm	544	spearman's rank correlation coefficient	5.022111778687123E-5
+ibm	545	special interest group on information retrieval	5.022111778687123E-5
+ibm	547	spider trap	5.022111778687123E-5
+ibm	549	springer verlag	5.022111778687123E-5
+ibm	550	sproose	5.022111778687123E-5
+ibm	551	standard boolean model	5.022111778687123E-5
+ibm	552	star schema	5.022111778687123E-5
+ibm	553	statcounter	5.022111778687123E-5
+ibm	554	statsoft	5.022111778687123E-5
+ibm	555	statistical classification	5.022111778687123E-5
+ibm	556	statistical inference	5.022111778687123E-5
+ibm	557	statistical model	5.022111778687123E-5
+ibm	558	statistical noise	5.022111778687123E-5
+ibm	559	statistics	5.022111778687123E-5
+ibm	560	stellar wind (code name)	5.022111778687123E-5
+ibm	561	structured data analysis (statistics)	5.022111778687123E-5
+ibm	562	subject indexing	5.022111778687123E-5
+ibm	563	subspace clustering	5.022111778687123E-5
+ibm	564	support vector machines	5.022111778687123E-5
+ibm	565	supreme court of the united states	5.022111778687123E-5
+ibm	568	symbolic computation	5.022111778687123E-5
+ibm	569	systems architecture	5.022111778687123E-5
+ibm	570	tablebase	5.022111778687123E-5
+ibm	573	temporal information retrieval	5.022111778687123E-5
+ibm	575	test set	5.022111778687123E-5
+ibm	577	text corpora	5.022111778687123E-5
+ibm	579	tf-idf	5.022111778687123E-5
+ibm	580	the american statistician	5.022111778687123E-5
+ibm	582	theory of forms	5.022111778687123E-5
+ibm	583	theory of computation	5.022111778687123E-5
+ibm	584	tim berners-lee	5.022111778687123E-5
+ibm	585	tony kent strix award	5.022111778687123E-5
+ibm	586	topic-based vector space model	5.022111778687123E-5
+ibm	587	total information awareness	5.022111778687123E-5
+ibm	588	traffic analysis	5.022111778687123E-5
+ibm	589	training set	5.022111778687123E-5
+ibm	591	trevor hastie	5.022111778687123E-5
+ibm	593	type theory	5.022111778687123E-5
+ibm	594	ubm plc	5.022111778687123E-5
+ibm	596	us congress	5.022111778687123E-5
+ibm	598	uncertain inference	5.022111778687123E-5
+ibm	599	united states national research council	5.022111778687123E-5
+ibm	600	university of calabria	5.022111778687123E-5
+ibm	601	university of geneva	5.022111778687123E-5
+ibm	602	university of minnesota	5.022111778687123E-5
+ibm	603	uplift modelling	5.022111778687123E-5
+ibm	604	uppsala monitoring centre	5.022111778687123E-5
+ibm	605	usability	5.022111778687123E-5
+ibm	606	user expectations	5.022111778687123E-5
+ibm	609	vector space model	5.022111778687123E-5
+ibm	610	veronica (computer)	5.022111778687123E-5
+ibm	611	veronica lodge	5.022111778687123E-5
+ibm	612	vertical search	5.022111778687123E-5
+ibm	613	video search engine	5.022111778687123E-5
+ibm	614	viewzi	5.022111778687123E-5
+ibm	615	virtual reality	5.022111778687123E-5
+ibm	618	voice search	5.022111778687123E-5
+ibm	619	volunia	5.022111778687123E-5
+ibm	620	w3catalog	5.022111778687123E-5
+ibm	622	webcrawler	5.022111778687123E-5
+ibm	623	web archiving	5.022111778687123E-5
+ibm	624	web cache	5.022111778687123E-5
+ibm	627	web directories	5.022111778687123E-5
+ibm	628	web directory	5.022111778687123E-5
+ibm	629	web form	5.022111778687123E-5
+ibm	630	web indexing	5.022111778687123E-5
+ibm	631	web mining	5.022111778687123E-5
+ibm	632	web page	5.022111778687123E-5
+ibm	634	web query classification	5.022111778687123E-5
+ibm	635	web robot	5.022111778687123E-5
+ibm	636	web scraping	5.022111778687123E-5
+ibm	637	web search engine	5.022111778687123E-5
+ibm	638	web search query	5.022111778687123E-5
+ibm	639	webserver	5.022111778687123E-5
+ibm	640	website parse template	5.022111778687123E-5
+ibm	642	weka (machine learning)	5.022111778687123E-5
+ibm	643	wide area information server	5.022111778687123E-5
+ibm	644	wikia search	5.022111778687123E-5
+ibm	645	wikiseek	5.022111778687123E-5
+ibm	646	wireless sensor network	5.022111778687123E-5
+ibm	649	world wide web wanderer	5.022111778687123E-5
+ibm	650	xml	5.022111778687123E-5
+ibm	651	xml-retrieval	5.022111778687123E-5
+ibm	654	yahoo! search	5.022111778687123E-5
+ibm	656	yebol	5.022111778687123E-5
+ibm	657	yummly	5.022111778687123E-5
+ibm	658	z39.50	5.022111778687123E-5
