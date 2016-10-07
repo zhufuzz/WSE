@@ -36,13 +36,15 @@ public class RankerCosine extends Ranker {
   }
 
 
-  private ScoredDocument scoreDocument(Query query, int did){
+  protected ScoredDocument scoreDocument(Query query, int did){
       Document doc = _indexer.getDoc(did);
       Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
       double docNum = _indexer._numDocs;
 
 //      construct un-normalized document vector
       Hashtable<String, Double> tfidf = new Hashtable<String, Double>();
+
+
       for(String docToken : docTokens){
           if(tfidf.get(docToken)==null) {
               double freq = Collections.frequency(docTokens, docToken);
@@ -53,12 +55,6 @@ public class RankerCosine extends Ranker {
           }
       }
 
-//      Collection<Double> valCol = tfidf.values();
-//      double l2Norm = 0.0;
-//      for(Double val : valCol){l2Norm+=val*val;}
-//      l2Norm = Math.sqrt(l2Norm);
-//      final double finalL2 = l2Norm;
-//      tfidf.values().stream().map(s->{return s/finalL2;});
 
 
 //      calculate l2 nomalization factor
@@ -99,15 +95,13 @@ public class RankerCosine extends Ranker {
           nominator += dij*qj;
           l2NormQ += qj*qj;
       }
+
+
       Enumeration<Double> dijEnum = tfidf.elements();
       double dijSquares = 0.0;
       while(dijEnum.hasMoreElements()){
           dijSquares+=Math.pow(dijEnum.nextElement(),2);
       }
-
-//      Collection<Double> dijCol = tfidf.values();
-//      double dijSquares = 0.0;
-//      for(Double val : valCol){dijSquares+=val*val;}
 
 
       double denominator = Math.sqrt(dijSquares*l2NormQ);

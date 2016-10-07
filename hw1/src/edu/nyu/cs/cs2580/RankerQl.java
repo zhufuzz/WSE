@@ -37,7 +37,7 @@ public class RankerQl extends Ranker {
   }
 
 
-  private ScoredDocument scoreDocument(Query query, int did){
+  protected ScoredDocument scoreDocument(Query query, int did){
     Document doc = _indexer.getDoc(did);
     double docNum = _indexer._numDocs;
     Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
