@@ -99,6 +99,7 @@ class Evaluator {
             evaluateQueryMetric2(currentQuery, results, judgments);
           case 3:
           case 4:
+            evaluateQueryMetric4(currentQuery, results, judgments);
           case 5:
           case 6:
           default:
@@ -147,6 +148,27 @@ class Evaluator {
      + "\t" + evaluateF(query, docids, judgments, 1).toString()
      + "," + evaluateF(query, docids, judgments, 5).toString()
      + "," + evaluateF(query, docids, judgments, 10).toString());
+  }
+
+  // average precision
+  public static void evaluateQueryMetric4(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments) {
+    double recall = -1.0;
+    double precision = 0.0;
+    double totalR = 0.0;
+    int collectionSize = docids.size();
+
+    for (int i = 1; i <= collectionSize; i++) {
+      double currRecall = evaluateRecall(query, docids, judgments, i);
+      if (currRecall > recall) {
+        precision += evaluatePrecision(query, docids, judgments, i);
+        recall = currRecall;
+        totalR++;
+      }
+    }
+
+    System.out.println(query + "\t" + (precision/totalR).toString());
   }
 
   private evaluateF(
