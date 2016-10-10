@@ -96,6 +96,7 @@ class Evaluator {
           case 0:
           case 1:
           case 2:
+            evaluateQueryMetric2(currentQuery, results, judgments);
           case 3:
           case 4:
           case 5:
@@ -135,5 +136,73 @@ class Evaluator {
       }
     }
     System.out.println(query + "\t" + Double.toString(R / N));
+  }
+
+  // perform F0.5
+  public static void evaluateQueryMetric2(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments) {
+
+    System.out.println(query
+     + "\t" + evaluateF(query, docids, judgments, 1).toString()
+     + "," + evaluateF(query, docids, judgments, 5).toString()
+     + "," + evaluateF(query, docids, judgments, 10).toString());
+  }
+
+  private evaluateF(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments, int retrievedSize) {
+      double  recall, precision;
+
+      recall = evaluateRecall(query, docids, judgments, retrievedSize);
+      precision = evaluatePrecision(query, docids, judgments, retrievedSize);
+      
+      return 2 * recall * precision / (recall + precision);
+  }
+
+  private double evaluateRecall(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments, int retrievedSize) {
+    double R = 0.0;
+    double totalR = 0.0;
+    int collectionSize = docids.size();
+
+    for (int i = 0; i < collectionSize; i++) {
+      int docid = docids.get(i);
+      DocumentRelevances relevances = judgments.get(query);
+      if (relevances == null) {
+        System.out.println("Query [" + query + "] not found!");
+      } else {
+        if (relevances.hasRelevanceForDoc(docid)) {
+          if (i < retrievedSize) {
+            R += relevances.getRelevanceForDoc(docid);
+          }
+          totalR += relevances.getRelevanceForDoc(docid);
+        }
+      }
+    }
+
+    return R/totalR;
+  }
+
+  private double evaluatePrecision(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments, int retrievedSize) {
+    double R = 0.0;
+    int collectionSize = docids.size();
+
+    for (int i = 0; i < retrievedSize && i < collectionSize; i++) {
+      int docid = docids.get(i);
+      DocumentRelevances relevances = judgments.get(query);
+      if (relevances == null) {
+        System.out.println("Query [" + query + "] not found!");
+      } else {
+        if (relevances.hasRelevanceForDoc(docid)) {
+          R += relevances.getRelevanceForDoc(docid);
+        }
+      }
+    }
+
+    return R/retrievedSize;
   }
 }
