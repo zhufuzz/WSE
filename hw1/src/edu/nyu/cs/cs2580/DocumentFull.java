@@ -1,6 +1,9 @@
 package edu.nyu.cs.cs2580;
 
+import java.util.Hashtable;
 import java.util.Vector;
+import java.util.stream.DoubleStream;
+import java.util.stream.Stream;
 
 /**
  * The full representation of the Document, which depends on the
@@ -17,6 +20,8 @@ public class DocumentFull extends Document {
 
   private Vector<Integer> _titleTokens = new Vector<Integer>();
   private Vector<Integer> _bodyTokens = new Vector<Integer>();
+
+
 
   public DocumentFull(int docid, IndexerFullScan indexer) {
     super(docid);
@@ -46,4 +51,7 @@ public class DocumentFull extends Document {
   public Vector<String> getConvertedBodyTokens() {
     return _indexer.getTermVector(_bodyTokens);
   }
+
+
+
 }

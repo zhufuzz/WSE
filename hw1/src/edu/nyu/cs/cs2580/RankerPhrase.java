@@ -1,5 +1,6 @@
 package edu.nyu.cs.cs2580;
 
+import java.util.Collections;
 import java.util.Vector;
 
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
@@ -23,6 +24,39 @@ public class RankerPhrase extends Ranker {
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
     Vector<ScoredDocument> all = new Vector<ScoredDocument>();
     // @CS2580: fill in your code here.
-    return all;
+    for (int i = 0; i < _indexer.numDocs(); ++i) {
+      all.add(scoreDocument(query, i));
+    }
+    Collections.sort(all, Collections.reverseOrder());
+    
+    // generate csv file for all document records
+    TsvGen.generate(all, "hw1.1-phrase");
+
+    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
+    for (int i = 0; i < all.size() && i < numResults; ++i) {
+      results.add(all.get(i));
+    }
+    return results;
+  }
+
+  protected ScoredDocument scoreDocument(Query query, int did) {
+    // Process the raw query into tokens.
+    query.processQuery();
+
+    // Get the document tokens.
+    Document doc = _indexer.getDoc(did);
+    Vector<String> docTokens = ((DocumentFull) doc).getConvertedTitleTokens();
+
+    // Score the document.
+    double score = 0.0;
+    for (String docToken : docTokens) {
+      for (String queryToken : query._tokens) {
+        if (docToken.equals(queryToken)) {
+          score += 1;
+        }
+      }
+    }
+    
+    return new ScoredDocument(query._query, doc, score);
   }
 }

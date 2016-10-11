@@ -44,4 +44,5 @@ class ScoredDocument implements Comparable<ScoredDocument> {
     }
     return (this._score > o._score) ? 1 : -1;
   }
+  
 }

@@ -54,6 +54,9 @@ public class RankerLinear extends Ranker {
       all.add(scoreDocument(query, i));
     }
     Collections.sort(all, Collections.reverseOrder());
+
+    TsvGen.generate(all, "hw1.1-linear");
+
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
@@ -61,16 +64,12 @@ public class RankerLinear extends Ranker {
     return results;
   }
 
-
-
   private ScoredDocument scoreDocument(Query query, int did) {
     Document doc = _indexer.getDoc(did);
-
     double score = rankerCosine.scoreDocument(query, did).getScore() * _betaCosine
         + rankerQl.scoreDocument(query, did).getScore() * _betaQl
         + rankerPhrase.scoreDocument(query, did).getScore() * _betaPhrase
         + rankerNumviews.scoreDocument(query, did).getScore() * _betaNumviews;
-
     return new ScoredDocument(query._query, doc, score);
   }
 }
