@@ -136,4 +136,50 @@ class Evaluator {
     }
     System.out.println(query + "\t" + Double.toString(R / N));
   }
+
+  public static void evaluateQueryPrecision(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments){
+    DocumentRelevances relevances = judgments.get(query);
+    if (relevances == null) {
+      System.out.println("Query [" + query + "] not found!");
+      return;
+    }
+    Integer[] precisions = {1,5,10};
+    for (int K : precisions) {
+      double P = 0.0;
+      for (int i = 0; i < K; i++) {
+        if (relevances.hasRelevanceForDoc(docids.get(i))) {
+          P += 1;
+        }
+      }
+      System.out.println(query + "\t" + Double.toString(P / K));
+    }
+  }
+
+  public static void evaluateQueryRecall(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments){
+    DocumentRelevances relevances = judgments.get(query);
+    if (relevances == null) {
+      System.out.println("Query [" + query + "] not found!");
+      return;
+    }
+    int relevanceCount = 0;
+    for (int docid : docids) {
+      if(relevances.hasRelevanceForDoc(docid)) {
+        relevanceCount += 1;
+      }
+    }
+    Integer[] recalls = {1,5,10};
+    for (int K : recalls) {
+      double R = 0.0;
+      for (int i = 0; i < K; i++) {
+        if (relevances.hasRelevanceForDoc(docids.get(i))) {
+          R += 1;
+        }
+      }
+      System.out.println(query + "\t" + Double.toString(R / relevanceCount));
+    }
+  }
 }
