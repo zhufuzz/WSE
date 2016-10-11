@@ -32,25 +32,21 @@ public class RankerQl extends Ranker {
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
-    TsvGen.generate(results, "hw1.3-ql");
+    TsvGen.generate(results, "hw1.1-ql");
     return results;
   }
 
 
-  private ScoredDocument scoreDocument(Query query, int did){
+  protected ScoredDocument scoreDocument(Query query, int did){
     Document doc = _indexer.getDoc(did);
     double docNum = _indexer._numDocs;
     Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
     Vector<String> queryTokens = query._tokens;
-    long C = _indexer._totalTermFrequency;
-
     boolean init = true;
     double score = 0.0;
     for(String queryToken: queryTokens){
-      double cqi = _indexer.corpusTermFrequency(queryToken);
-      double lambda = 0.1;
       double fqi = Collections.frequency(docTokens,queryToken);
-      double pi = (1-lambda)*(fqi/docTokens.size())+lambda*(cqi/C);
+      double pi = fqi/docTokens.size();
       if(init){
         score = pi;
         init = false;

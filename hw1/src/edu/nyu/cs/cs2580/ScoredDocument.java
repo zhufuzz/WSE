@@ -30,16 +30,7 @@ class ScoredDocument implements Comparable<ScoredDocument> {
    * @CS2580: Student should implement {@code asHtmlResult} for final project.
    */
   public String asHtmlResult() {
-    StringBuilder html = new StringBuilder();
-
-    html.append( "<tr>\n" );
-    html.append( "<td>" + _query + "</td>\n" );
-    html.append( "<td>" + _doc._docid + "</td>\n" );
-    html.append( "<td>" + _doc.getTitle() + "</td>\n" );
-    html.append( "<td>" + _score + "</td>\n" );
-    html.append( "</tr>\n" );
-
-    return html.toString();
+    return "";
   }
 
   @Override
@@ -49,4 +40,5 @@ class ScoredDocument implements Comparable<ScoredDocument> {
     }
     return (this._score > o._score) ? 1 : -1;
   }
+  
 }

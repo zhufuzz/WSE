@@ -48,16 +48,13 @@ class Evaluator {
    * Usage: java -cp src edu.nyu.cs.cs2580.Evaluator [labels] [metric_id]
    */
   public static void main(String[] args) throws IOException {
-    Map<String, DocumentRelevances> judgments =
-        new HashMap<String, DocumentRelevances>();
+    Map<String, DocumentRelevances> judgments = new HashMap<String, DocumentRelevances>();
     SearchEngine.Check(args.length == 2, "Must provide labels and metric_id!");
     readRelevanceJudgments(args[0], judgments);
     evaluateStdin(Integer.parseInt(args[1]), judgments);
   }
 
-  public static void readRelevanceJudgments(
-      String judgeFile, Map<String, DocumentRelevances> judgements)
-      throws IOException {
+  public static void readRelevanceJudgments(String judgeFile, Map<String, DocumentRelevances> judgements) throws IOException {
     String line = null;
     BufferedReader reader = new BufferedReader(new FileReader(judgeFile));
     while ((line = reader.readLine()) != null) {
@@ -76,11 +73,8 @@ class Evaluator {
   }
 
   // @CS2580: implement various metrics inside this function
-  public static void evaluateStdin(
-      int metric, Map<String, DocumentRelevances> judgments)
-          throws IOException {
-    BufferedReader reader =
-        new BufferedReader(new InputStreamReader(System.in));
+  public static void evaluateStdin(int metric, Map<String, DocumentRelevances> judgments) throws IOException {
+    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     List<Integer> results = new ArrayList<Integer>();
     String line = null;
     String currentQuery = "";
@@ -101,7 +95,11 @@ class Evaluator {
           case 4:
             evaluateQueryMetric4(currentQuery, results, judgments);
           case 5:
+            evaluateQueryMetric5(currentQuery, results, judgments);
+            break;
           case 6:
+            evaluateQueryMetric6(currentQuery, results, judgments);
+            break;
           default:
             // @CS2580: add your own metric evaluations above, using function
             // names like evaluateQueryMetric0.
@@ -120,9 +118,7 @@ class Evaluator {
     }
   }
   
-  public static void evaluateQueryInstructor(
-      String query, List<Integer> docids,
-      Map<String, DocumentRelevances> judgments) {
+  public static void evaluateQueryInstructor(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments) {
     double R = 0.0;
     double N = 0.0;
     for (int docid : docids) {
@@ -144,10 +140,12 @@ class Evaluator {
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments) {
 
-    System.out.println(query
-     + "\t" + evaluateF(query, docids, judgments, 1).toString()
-     + "," + evaluateF(query, docids, judgments, 5).toString()
-     + "," + evaluateF(query, docids, judgments, 10).toString());
+    String outputResult = query
+     + "\t" + evaluateF(query, docids, judgments, 1)
+     + "," + evaluateF(query, docids, judgments, 5)
+     + "," + evaluateF(query, docids, judgments, 10);
+
+    System.out.println(outputResult);
   }
 
   // average precision
@@ -168,10 +166,10 @@ class Evaluator {
       }
     }
 
-    System.out.println(query + "\t" + (precision/totalR).toString());
+    System.out.println(query + "\t" + (precision/totalR));
   }
 
-  private evaluateF(
+  private static double evaluateF(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments, int retrievedSize) {
       double  recall, precision;
@@ -182,7 +180,7 @@ class Evaluator {
       return 2 * recall * precision / (recall + precision);
   }
 
-  private double evaluateRecall(
+  private static double evaluateRecall(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments, int retrievedSize) {
     double R = 0.0;
@@ -207,7 +205,7 @@ class Evaluator {
     return R/totalR;
   }
 
-  private double evaluatePrecision(
+  private static double evaluatePrecision(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments, int retrievedSize) {
     double R = 0.0;
@@ -226,5 +224,29 @@ class Evaluator {
     }
 
     return R/retrievedSize;
+  }
+//  Metric5: NDCG at 1, 5, and 10 (using the gain values presented in Lecture 2)
+  public static void evaluateQueryMetric5(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
+
+
+  }
+
+//  Metric6: Reciprocal rank
+  public static void evaluateQueryMetric6(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
+    DocumentRelevances relevances = judgments.get(query);
+    if (relevances == null) {
+      System.out.println("Query [" + query + "] not found!");
+    }
+    else{
+      for(int i = 0; i<docids.size(); i++){
+        Integer docid = docids.get(i);
+        if (relevances.hasRelevanceForDoc(docid) && relevances.getRelevanceForDoc(docid)==1.0) {
+          System.out.println(query + "\t" + Double.toString(1/i));
+          break;
+        }
+      }
+
+    }
+    System.out.println("Reciprocal rank: very bad result!");
   }
 }

@@ -8,12 +8,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.Vector;
+import java.util.*;
 
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
@@ -72,6 +67,7 @@ class IndexerFullScan extends Indexer implements Serializable {
       }
     } finally {
       reader.close();
+      constructTermFrequencyTable();
     }
     System.out.println(
         "Indexed " + Integer.toString(_numDocs) + " docs with " +
@@ -108,6 +104,7 @@ class IndexerFullScan extends Indexer implements Serializable {
     doc.setNumViews(numViews);
     doc.setTitleTokens(titleTokens);
     doc.setBodyTokens(bodyTokens);
+
     _documents.add(doc);
     ++_numDocs;
 
@@ -155,6 +152,50 @@ class IndexerFullScan extends Indexer implements Serializable {
       uniques.add(idx);
       _termCorpusFrequency.put(idx, _termCorpusFrequency.get(idx) + 1);
       ++_totalTermFrequency;
+    }
+  }
+
+
+  /**
+   * construct termFrequencyTable for each document
+   * only use after all document has been processed
+   */
+  private void constructTermFrequencyTable(){
+    for(Document doc: _documents){
+      Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
+
+//      construct un-normalized document vector
+      Hashtable<String, Double> termFreqTable = new Hashtable<String, Double>();
+      for(String docToken : docTokens){
+        if(termFreqTable.get(docToken)==null) {
+          double freq = Collections.frequency(docTokens, docToken);
+          /**
+           *  dik_v2 (book pg.242)
+           *  double tf = Math.log(freq)+1
+           */
+          double tf = freq / docTokens.size();
+          double nk = corpusDocFrequencyByTerm(docToken);
+          double idf = Math.log(_numDocs/nk);
+
+          termFreqTable.put(docToken, tf * idf);
+        }
+      }
+//      calculate l2 nomalization factor
+      Enumeration<Double> valEnum = termFreqTable.elements();
+      double l2Norm = 0.0;
+      while(valEnum.hasMoreElements()){
+        l2Norm+=Math.pow(valEnum.nextElement(),2);
+      }
+      l2Norm = Math.sqrt(l2Norm);
+//      normalize the vector
+      Enumeration<String> keySet = termFreqTable.keys();
+      while(keySet.hasMoreElements()){
+        String key = keySet.nextElement();
+        Double val = termFreqTable.get(key);
+        val = val/l2Norm;
+        termFreqTable.put(key,val);
+      }
+      doc.setTermFrequencyTable(termFreqTable);
     }
   }
 
@@ -222,8 +263,11 @@ class IndexerFullScan extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, int docid) {
-    SearchEngine.Check(false, "Not implemented!");
-    return 0;
+//    SearchEngine.Check(false, "Not implemented!");
+//    return 0;
+    Document doc = _documents.get(docid);
+    Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
+    return Collections.frequency(docTokens,term);
   }
 
   ///// Utility

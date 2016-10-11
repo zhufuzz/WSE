@@ -1,6 +1,8 @@
 package edu.nyu.cs.cs2580;
 
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Hashtable;
 
 /**
  * The basic implementation of a Document.  Only the most basic information are
@@ -24,6 +26,7 @@ class Document implements Serializable {
   // Basic information for ranking
   private float _pageRank = 0.0f;
   private int _numViews = 0;
+  private Hashtable<String,Double> _termFrequencyTable = new Hashtable<String,Double>();
 
   public Document(int docid) {
     _docid = docid;
@@ -59,5 +62,13 @@ class Document implements Serializable {
 
   public void setNumViews(int numViews) {
     this._numViews = numViews;
+  }
+
+  public Hashtable<String, Double> getTermFrequencyTable(){
+    return _termFrequencyTable;
+  }
+
+  public void setTermFrequencyTable(Hashtable<String, Double> table){
+    _termFrequencyTable = table;
   }
 }
