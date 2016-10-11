@@ -45,10 +45,8 @@ public class RankerNumviews extends Ranker {
 
     // Get the document tokens.
     Document doc = _indexer.getDoc(did);
-    Vector<String> docTokens = ((DocumentFull) doc).getConvertedTitleTokens();
 
-    // Score the document. Here we have provided a very simple ranking model,
-    // where a document is scored 1.0 if it gets hit by at least one query term.
+    // Score the document.
     double score = doc.getNumViews();
     
     return new ScoredDocument(query._query, doc, score);
