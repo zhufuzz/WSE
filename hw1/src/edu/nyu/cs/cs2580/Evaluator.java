@@ -290,6 +290,7 @@ class Evaluator {
       System.out.println("Query [" + query + "] not found!");
     }
     else{
+//      because docids are sorted based on relavence
       for(int i = 0; i<docids.size(); i++){
         Integer docid = docids.get(i);
         if (relevances.hasRelevanceForDoc(docid) && relevances.getRelevanceForDoc(docid)==1.0) {
@@ -297,7 +298,6 @@ class Evaluator {
           break;
         }
       }
-
     }
     System.out.println("Reciprocal rank: very bad result!");
   }
