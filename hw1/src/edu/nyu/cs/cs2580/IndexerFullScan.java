@@ -169,9 +169,14 @@ class IndexerFullScan extends Indexer implements Serializable {
       for(String docToken : docTokens){
         if(termFreqTable.get(docToken)==null) {
           double freq = Collections.frequency(docTokens, docToken);
+          /**
+           *  dik_v2 (book pg.242)
+           *  double tf = Math.log(freq)+1
+           */
           double tf = freq / docTokens.size();
           double nk = corpusDocFrequencyByTerm(docToken);
           double idf = Math.log(_numDocs/nk);
+
           termFreqTable.put(docToken, tf * idf);
         }
       }
