@@ -1,19 +1,15 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.*;
+import java.util.*;
 
-import java.util.Vector;
-
-import edu.nyu.cs.cs2580.ScoredDocument;
 
 public class TsvGen {
-    public static void generate(Vector<ScoredDocument> results, String fileName){
+    public static void generate(Vector<ScoredDocument> results, String fileName) {
         PrintWriter pw = null;
         try {
-            pw = new PrintWriter(new File("results/"+fileName+".tsv"));
-        } catch (FileNotFoundException e) {
+            pw = new PrintWriter(new FileWriter("results/"+fileName+".tsv",true));
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
@@ -22,7 +18,7 @@ public class TsvGen {
             sb.append(result.asTextResult()).append("\n");
         }
 
-        pw.write(sb.toString());
+        pw.append(sb.toString());
         pw.close();
     }
 }
