@@ -97,6 +97,8 @@ class Evaluator {
             evaluateQueryMetric2(currentQuery, results, judgments);
             break;
           case 3:
+            evaluateQueryMetric3(currentQuery, results, judgments);
+            break;
           case 4:
             evaluateQueryMetric4(currentQuery, results, judgments);
             break;
@@ -226,6 +228,57 @@ class Evaluator {
       precision = evaluateQueryPrecision(query, docids, judgments, numToJudge);
       
       return 2 * recall * precision / (recall + precision);
+  }
+
+  // Precision at Recall Points
+  public static void evaluateQueryMetric3(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments) {
+    DocumentRelevances relevances = judgments.get(query);
+    double relevanceCount = 0.0;
+    for (int i = 0; i < docids.size(); i++) {
+      if (relevances.hasRelevanceForDoc(docids.get(i))) {
+        relevanceCount += 1.0;
+      }
+    }
+    // use 11 slots to remember the max precision in [0,0.1), [0.1,0.2) ... [0.9,1.0), {1.0}
+    double[] maxPrecisionAtRecallPoints = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+    double recallPoint;
+    double recall = 0.0;
+    double precision;
+    int slot = 0;
+    for (int i = 0; i < docids.size(); i++) {
+      if (relevances.hasRelevanceForDoc(docids.get(i))) {
+        recall += 1.0;
+        recallPoint = recall/relevanceCount;
+        precision = recall/(i+1);
+        if (recallPoint >= (slot+1)*0.1) {
+          // this belongs to next slots
+          slot += 1;
+        }
+        if (precision > maxPrecisionAtRecallPoints[slot]){
+          maxPrecisionAtRecallPoints[slot] = precision;
+        }
+      }
+      if (slot == 10) {
+        break;
+      }
+    }
+    // interpolation
+    double currentMax = maxPrecisionAtRecallPoints[10];
+    for (int i = 9; i >= 0; i--) {
+      if (maxPrecisionAtRecallPoints[i] < currentMax) {
+        maxPrecisionAtRecallPoints[i] = currentMax;
+      } else {
+        currentMax = maxPrecisionAtRecallPoints[i];
+      }
+    }
+
+    String outputResult = "";
+    for (int i = 0; i < 11; i++) {
+      outputResult += "," + maxPrecisionAtRecallPoints[i];
+    }
+    System.out.println("query" + "\t" + outputResult);
   }
 
   // average precision
