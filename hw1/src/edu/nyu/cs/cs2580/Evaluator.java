@@ -165,7 +165,8 @@ class Evaluator {
     }
     double hitCount = 0.0;
     for (int i = 0; i < numToJudge && i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i))) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
         hitCount += 1;
       }
     }
@@ -195,7 +196,8 @@ class Evaluator {
     double relevanceCount = 0.0;
     double hitCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i))) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
         relevanceCount += 1;
         if (i < numToJudge) {
           hitCount += 1;
@@ -237,7 +239,8 @@ class Evaluator {
     DocumentRelevances relevances = judgments.get(query);
     double relevanceCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i))) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
         relevanceCount += 1.0;
       }
     }
@@ -248,14 +251,13 @@ class Evaluator {
     double precision;
     int slot = 0;
     for (int i = 0; i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i))) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+        System.out.println(i+1);
         recall += 1.0;
         recallPoint = recall/relevanceCount;
         precision = recall/(i+1);
-        if (recallPoint >= (slot+1)*0.1) {
-          // this belongs to next slots
-          slot += 1;
-        }
+        slot = (int) Math.floor(recallPoint*10);
         if (precision > maxPrecisionAtRecallPoints[slot]){
           maxPrecisionAtRecallPoints[slot] = precision;
         }
@@ -263,6 +265,9 @@ class Evaluator {
       if (slot == 10) {
         break;
       }
+    }
+    for (int i = 0; i < 11; i++) {
+      System.out.print(maxPrecisionAtRecallPoints[i] + ",");
     }
     // interpolation
     double currentMax = maxPrecisionAtRecallPoints[10];
