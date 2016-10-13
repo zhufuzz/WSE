@@ -22,8 +22,26 @@ class Evaluator {
     
     public DocumentRelevances() { }
     
-    public void addDocument(int docid, String grade) {
-      relevances.put(docid, convertToBinaryRelevance(grade));
+    public void addDocument(int docid, String grade, boolean binary) {
+      if(binary)
+        relevances.put(docid, convertToBinaryRelevance(grade));
+      else {
+        if(grade.equals("Perfect")){
+          relevances.put(docid,10.0);
+        }
+        else if(grade.equals("Excellent")){
+          relevances.put(docid,7.0);
+        }
+        else if(grade.equals("Good")){
+          relevances.put(docid,5.0);
+        }
+        else if(grade.equals("Fair")){
+          relevances.put(docid,1.0);
+        }
+        else if(grade.equals("Bad")){
+          relevances.put(docid,0.0);
+        }
+      }
     }
     
     public boolean hasRelevanceForDoc(int docid) {
@@ -50,11 +68,14 @@ class Evaluator {
   public static void main(String[] args) throws IOException {
     Map<String, DocumentRelevances> judgments = new HashMap<String, DocumentRelevances>();
     SearchEngine.Check(args.length == 2, "Must provide labels and metric_id!");
-    readRelevanceJudgments(args[0], judgments);
+    if(args[1].equals("5"))
+      readRelevanceJudgments(args[0], judgments, false);
+
+    else readRelevanceJudgments(args[0], judgments, true);
     evaluateStdin(Integer.parseInt(args[1]), judgments);
   }
 
-  public static void readRelevanceJudgments(String judgeFile, Map<String, DocumentRelevances> judgements) throws IOException {
+  public static void readRelevanceJudgments(String judgeFile, Map<String, DocumentRelevances> judgements, boolean binary) throws IOException {
     String line = null;
     BufferedReader reader = new BufferedReader(new FileReader(judgeFile));
     while ((line = reader.readLine()) != null) {
@@ -66,7 +87,7 @@ class Evaluator {
         relevances = new DocumentRelevances();
         judgements.put(query, relevances);
       }
-      relevances.addDocument(Integer.parseInt(s.next()), s.next());
+      relevances.addDocument(Integer.parseInt(s.next()), s.next(), binary);
       s.close();
     }
     reader.close();
@@ -227,9 +248,43 @@ class Evaluator {
   }
 //  Metric5: NDCG at 1, 5, and 10 (using the gain values presented in Lecture 2)
   public static void evaluateQueryMetric5(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
-
-
+    DocumentRelevances relevances = judgments.get(query);
+    double[] p1 = new double[1];
+    double[] p5 = new double[5];
+    double[] p10 = new double[10];
+    for(int i=0; i<10; i++){
+      double rel = 0.0;
+      if(relevances.hasRelevanceForDoc(docids.get(i))){
+        rel = relevances.getRelevanceForDoc(docids.get(i));
+      }
+      if (i < 1) {
+        p1[i]= rel;
+        p5[i]= rel;
+        p10[i]= rel;
+      }
+      if (i < 5){
+        p5[i]= rel;
+        p10[i]= rel;
+      }
+      p10[i]= rel;
+    }
   }
+
+  private double discountedCumulativeGain(int[] scores) {
+    double result = 0.0;
+    for (int i = 0; i < scores.length; i++) {
+//      if (i == 0) {
+//        result += scores[i];
+//      } else {
+        result += scores[i]/(Math.log(i+1)/Math.log(2));
+//      }
+    }
+    return result;
+  }
+
+
+
+
 
 //  Metric6: Reciprocal rank
   public static void evaluateQueryMetric6(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
