@@ -83,36 +83,7 @@ class Evaluator {
       final String query = s.next();
       if (!query.equals(currentQuery)) {
         if (results.size() > 0) {
-          switch (metric) {
-          case -1:
-            evaluateQueryInstructor(currentQuery, results, judgments);
-            break;
-          case 0:
-            evaluateQueryMetric0(currentQuery, results, judgments);
-            break;
-          case 1:
-            evaluateQueryMetric1(currentQuery, results, judgments);
-            break;
-          case 2:
-            evaluateQueryMetric2(currentQuery, results, judgments);
-            break;
-          case 3:
-            evaluateQueryMetric3(currentQuery, results, judgments);
-            break;
-          case 4:
-            evaluateQueryMetric4(currentQuery, results, judgments);
-            break;
-          case 5:
-            evaluateQueryMetric5(currentQuery, results, judgments);
-            break;
-          case 6:
-            evaluateQueryMetric6(currentQuery, results, judgments);
-            break;
-          default:
-            // @CS2580: add your own metric evaluations above, using function
-            // names like evaluateQueryMetric0.
-            System.err.println("Requested metric not implemented!");
-          }
+          evaluateQueryMetric(metric, currentQuery, results, judgments);
           results.clear();
         }
         currentQuery = query;
@@ -122,11 +93,51 @@ class Evaluator {
     }
     reader.close();
     if (results.size() > 0) {
-      evaluateQueryInstructor(currentQuery, results, judgments);
+      // for the last set of data of the same query, we still run our metrics function
+      evaluateQueryMetric(metric, currentQuery, results, judgments);
+      // evaluateQueryInstructor(currentQuery, results, judgments);
     }
   }
   
-  public static void evaluateQueryInstructor(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments) {
+  // This function picks a metric and begin evaluation process
+  public static void evaluateQueryMetric(
+      int metric, String currentQuery, List<Integer> results,
+      Map<String, DocumentRelevances> judgments) {
+    switch (metric) {
+      case -1:
+        evaluateQueryInstructor(currentQuery, results, judgments);
+        break;
+      case 0:
+        evaluateQueryMetric0(currentQuery, results, judgments);
+        break;
+      case 1:
+        evaluateQueryMetric1(currentQuery, results, judgments);
+        break;
+      case 2:
+        evaluateQueryMetric2(currentQuery, results, judgments);
+        break;
+      case 3:
+        evaluateQueryMetric3(currentQuery, results, judgments);
+        break;
+      case 4:
+        evaluateQueryMetric4(currentQuery, results, judgments);
+        break;
+      case 5:
+        evaluateQueryMetric5(currentQuery, results, judgments);
+        break;
+      case 6:
+        evaluateQueryMetric6(currentQuery, results, judgments);
+        break;
+      default:
+        // @CS2580: add your own metric evaluations above, using function
+        // names like evaluateQueryMetric0.
+        System.err.println("Requested metric not implemented!");
+    }
+  }
+
+  public static void evaluateQueryInstructor(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments) {
     double R = 0.0;
     double N = 0.0;
     for (int docid : docids) {
@@ -165,8 +176,7 @@ class Evaluator {
     }
     double hitCount = 0.0;
     for (int i = 0; i < numToJudge && i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
-          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+      if (relevances.hasRelevanceForDoc(docids.get(i))) {
         hitCount += 1;
       }
     }
@@ -196,8 +206,7 @@ class Evaluator {
     double relevanceCount = 0.0;
     double hitCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
-          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+      if (relevances.hasRelevanceForDoc(docids.get(i))) {
         relevanceCount += 1;
         if (i < numToJudge) {
           hitCount += 1;
@@ -239,8 +248,7 @@ class Evaluator {
     DocumentRelevances relevances = judgments.get(query);
     double relevanceCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
-          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+      if (relevances.hasRelevanceForDoc(docids.get(i))) {
         relevanceCount += 1.0;
       }
     }
@@ -251,13 +259,14 @@ class Evaluator {
     double precision;
     int slot = 0;
     for (int i = 0; i < docids.size(); i++) {
-      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
-          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
-        System.out.println(i+1);
+      if (relevances.hasRelevanceForDoc(docids.get(i))) {
         recall += 1.0;
         recallPoint = recall/relevanceCount;
         precision = recall/(i+1);
-        slot = (int) Math.floor(recallPoint*10);
+        if (recallPoint >= (slot+1)*0.1) {
+          // this belongs to next slots
+          slot += 1;
+        }
         if (precision > maxPrecisionAtRecallPoints[slot]){
           maxPrecisionAtRecallPoints[slot] = precision;
         }
@@ -265,9 +274,6 @@ class Evaluator {
       if (slot == 10) {
         break;
       }
-    }
-    for (int i = 0; i < 11; i++) {
-      System.out.print(maxPrecisionAtRecallPoints[i] + ",");
     }
     // interpolation
     double currentMax = maxPrecisionAtRecallPoints[10];
