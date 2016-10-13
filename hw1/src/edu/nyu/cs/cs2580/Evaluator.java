@@ -282,10 +282,7 @@ class Evaluator {
     return result;
   }
 
-
-
-
-
+  
 //  Metric6: Reciprocal rank
   public static void evaluateQueryMetric6(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
     DocumentRelevances relevances = judgments.get(query);
