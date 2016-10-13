@@ -104,6 +104,9 @@ class Evaluator {
       int metric, String currentQuery, List<Integer> results,
       Map<String, DocumentRelevances> judgments) {
     switch (metric) {
+      case -2:
+        evaluateQueryAllMetrics(currentQuery, results, judgments);
+        break;
       case -1:
         evaluateQueryInstructor(currentQuery, results, judgments);
         break;
@@ -154,16 +157,32 @@ class Evaluator {
     System.out.println(query + "\t" + Double.toString(R / N));
   }
 
-  //  Metric0: Precision 1, 5, 10
-  public static void evaluateQueryMetric0(
+  public static void evaluateQueryAllMetrics(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments){
-    String result = "";
+
+    String outputResult = "";
+    outputResult += evaluateQueryMetric0(query, docids, judgments) + "\t"
+    + evaluateQueryMetric1(query, docids, judgments) + "\t"
+    + evaluateQueryMetric2(query, docids, judgments) + "\t"
+    + evaluateQueryMetric3(query, docids, judgments) + "\t"
+    + evaluateQueryMetric4(query, docids, judgments);
+    // + evaluateQueryMetric5(query, docids, judgments) + "\t"
+    // + evaluateQueryMetric6(query, docids, judgments);
+
+    System.out.println(query + "\t" + outputResult);
+  }
+  //  Metric0: Precision 1, 5, 10
+  public static String evaluateQueryMetric0(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments){
+    String outputResult = "";
     Integer[] recalls = {1, 5, 10};
     for (int numToJudge : recalls) {
-      result += "," + evaluateQueryPrecision(query, docids, judgments, numToJudge);
+      outputResult += "," + evaluateQueryPrecision(query, docids, judgments, numToJudge);
     }
-    System.out.println(query + "\t" + result);
+
+    return outputResult.substring(1, outputResult.length());
   }
 
   private static double evaluateQueryPrecision(
@@ -184,15 +203,16 @@ class Evaluator {
   }
 
   //  Metric1: Recall 1, 5, 10
-  public static void evaluateQueryMetric1(
+  public static String evaluateQueryMetric1(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments){
-    String result = "";
+    String outputResult = "";
     Integer[] recalls = {1, 5, 10};
     for (int numToJudge : recalls) {
-      result += "," + evaluateQueryRecall(query, docids, judgments, numToJudge);
+      outputResult += "," + evaluateQueryRecall(query, docids, judgments, numToJudge);
     }
-    System.out.println(query + "\t" + result);
+
+    return outputResult.substring(1, outputResult.length());
   }
 
   private static double evaluateQueryRecall(
@@ -217,7 +237,7 @@ class Evaluator {
   }
 
   // perform F0.5
-  public static void evaluateQueryMetric2(
+  public static String evaluateQueryMetric2(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments) {
 
@@ -226,8 +246,8 @@ class Evaluator {
     for (int numToJudge : selections) {
       outputResult += "," + evaluateF(query, docids, judgments, numToJudge);
     }
-
-    System.out.println("query" + "\t" + outputResult);
+  
+    return outputResult.substring(1, outputResult.length());
   }
 
   private static double evaluateF(
@@ -242,7 +262,7 @@ class Evaluator {
   }
 
   // Precision at Recall Points
-  public static void evaluateQueryMetric3(
+  public static String evaluateQueryMetric3(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments) {
     DocumentRelevances relevances = judgments.get(query);
@@ -289,11 +309,12 @@ class Evaluator {
     for (int i = 0; i < 11; i++) {
       outputResult += "," + maxPrecisionAtRecallPoints[i];
     }
-    System.out.println("query" + "\t" + outputResult);
+
+    return outputResult.substring(1, outputResult.length());
   }
 
   // average precision
-  public static void evaluateQueryMetric4(
+  public static String evaluateQueryMetric4(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments) {
     double recall = 0.0;
@@ -311,7 +332,7 @@ class Evaluator {
       }
     }
 
-    System.out.println(query + "\t" + (sumPrecision/hitCount));
+    return Double.toString(sumPrecision/hitCount);
   }
 
 //  Metric5: NDCG at 1, 5, and 10 (using the gain values presented in Lecture 2)
