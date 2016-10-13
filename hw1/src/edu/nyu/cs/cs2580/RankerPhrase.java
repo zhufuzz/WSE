@@ -39,10 +39,7 @@ public class RankerPhrase extends Ranker {
     return results;
   }
 
-  private ScoredDocument scoreDocument(Query query, int did) {
-    // Process the raw query into tokens.
-    query.processQuery();
-
+  protected ScoredDocument scoreDocument(Query query, int did) {
     // Get the document tokens.
     Document doc = _indexer.getDoc(did);
     Vector<String> docTokens = ((DocumentFull) doc).getConvertedTitleTokens();

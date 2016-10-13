@@ -109,12 +109,20 @@ class Evaluator {
             evaluateQueryInstructor(currentQuery, results, judgments);
             break;
           case 0:
+            evaluateQueryMetric0(currentQuery, results, judgments);
+            break;
           case 1:
+            evaluateQueryMetric1(currentQuery, results, judgments);
+            break;
           case 2:
             evaluateQueryMetric2(currentQuery, results, judgments);
+            break;
           case 3:
+            evaluateQueryMetric3(currentQuery, results, judgments);
+            break;
           case 4:
             evaluateQueryMetric4(currentQuery, results, judgments);
+            break;
           case 5:
             evaluateQueryMetric5(currentQuery, results, judgments);
             break;
@@ -156,96 +164,171 @@ class Evaluator {
     System.out.println(query + "\t" + Double.toString(R / N));
   }
 
+  //  Metric0: Precision 1, 5, 10
+  public static void evaluateQueryMetric0(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments){
+    String result = "";
+    Integer[] recalls = {1, 5, 10};
+    for (int numToJudge : recalls) {
+      result += "," + evaluateQueryPrecision(query, docids, judgments, numToJudge);
+    }
+    System.out.println(query + "\t" + result);
+  }
+
+  private static double evaluateQueryPrecision(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments, int numToJudge){
+    DocumentRelevances relevances = judgments.get(query);
+    if (relevances == null) {
+      System.out.println("Query [" + query + "] not found!");
+      return -1;
+    }
+    double hitCount = 0.0;
+    for (int i = 0; i < numToJudge && i < docids.size(); i++) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+        hitCount += 1;
+      }
+    }
+    return hitCount/numToJudge;
+  }
+
+  //  Metric1: Recall 1, 5, 10
+  public static void evaluateQueryMetric1(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments){
+    String result = "";
+    Integer[] recalls = {1, 5, 10};
+    for (int numToJudge : recalls) {
+      result += "," + evaluateQueryRecall(query, docids, judgments, numToJudge);
+    }
+    System.out.println(query + "\t" + result);
+  }
+
+  private static double evaluateQueryRecall(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments, int numToJudge) {
+    DocumentRelevances relevances = judgments.get(query);
+    if (relevances == null) {
+      System.out.println("Query [" + query + "] not found!");
+      return -1;
+    }
+    double relevanceCount = 0.0;
+    double hitCount = 0.0;
+    for (int i = 0; i < docids.size(); i++) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+        relevanceCount += 1;
+        if (i < numToJudge) {
+          hitCount += 1;
+        }
+      }
+    }
+    return hitCount/relevanceCount;
+  }
+
   // perform F0.5
   public static void evaluateQueryMetric2(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments) {
 
-    String outputResult = query
-     + "\t" + evaluateF(query, docids, judgments, 1)
-     + "," + evaluateF(query, docids, judgments, 5)
-     + "," + evaluateF(query, docids, judgments, 10);
+    String outputResult = "";
+    Integer[] selections = {1, 5, 10};
+    for (int numToJudge : selections) {
+      outputResult += "," + evaluateF(query, docids, judgments, numToJudge);
+    }
 
-    System.out.println(outputResult);
+    System.out.println("query" + "\t" + outputResult);
+  }
+
+  private static double evaluateF(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments, int numToJudge) {
+      double  recall, precision;
+
+      recall = evaluateQueryRecall(query, docids, judgments, numToJudge);
+      precision = evaluateQueryPrecision(query, docids, judgments, numToJudge);
+      
+      return 2 * recall * precision / (recall + precision);
+  }
+
+  // Precision at Recall Points
+  public static void evaluateQueryMetric3(
+      String query, List<Integer> docids,
+      Map<String, DocumentRelevances> judgments) {
+    DocumentRelevances relevances = judgments.get(query);
+    double relevanceCount = 0.0;
+    for (int i = 0; i < docids.size(); i++) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+        relevanceCount += 1.0;
+      }
+    }
+    // use 11 slots to remember the max precision in [0,0.1), [0.1,0.2) ... [0.9,1.0), {1.0}
+    double[] maxPrecisionAtRecallPoints = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+    double recallPoint;
+    double recall = 0.0;
+    double precision;
+    int slot = 0;
+    for (int i = 0; i < docids.size(); i++) {
+      if (relevances.hasRelevanceForDoc(docids.get(i)) &&
+          relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+        System.out.println(i+1);
+        recall += 1.0;
+        recallPoint = recall/relevanceCount;
+        precision = recall/(i+1);
+        slot = (int) Math.floor(recallPoint*10);
+        if (precision > maxPrecisionAtRecallPoints[slot]){
+          maxPrecisionAtRecallPoints[slot] = precision;
+        }
+      }
+      if (slot == 10) {
+        break;
+      }
+    }
+    for (int i = 0; i < 11; i++) {
+      System.out.print(maxPrecisionAtRecallPoints[i] + ",");
+    }
+    // interpolation
+    double currentMax = maxPrecisionAtRecallPoints[10];
+    for (int i = 9; i >= 0; i--) {
+      if (maxPrecisionAtRecallPoints[i] < currentMax) {
+        maxPrecisionAtRecallPoints[i] = currentMax;
+      } else {
+        currentMax = maxPrecisionAtRecallPoints[i];
+      }
+    }
+
+    String outputResult = "";
+    for (int i = 0; i < 11; i++) {
+      outputResult += "," + maxPrecisionAtRecallPoints[i];
+    }
+    System.out.println("query" + "\t" + outputResult);
   }
 
   // average precision
   public static void evaluateQueryMetric4(
       String query, List<Integer> docids,
       Map<String, DocumentRelevances> judgments) {
-    double recall = -1.0;
-    double precision = 0.0;
-    double totalR = 0.0;
+    double recall = 0.0;
+    double sumPrecision = 0.0;
+    double hitCount = 0.0;
+
     int collectionSize = docids.size();
 
-    for (int i = 1; i <= collectionSize; i++) {
-      double currRecall = evaluateRecall(query, docids, judgments, i);
+    for (int numToJudge = 1; numToJudge <= collectionSize; numToJudge++) {
+      double currRecall = evaluateQueryRecall(query, docids, judgments, numToJudge);
       if (currRecall > recall) {
-        precision += evaluatePrecision(query, docids, judgments, i);
+        sumPrecision += evaluateQueryPrecision(query, docids, judgments, numToJudge);
         recall = currRecall;
-        totalR++;
+        hitCount++;
       }
     }
 
-    System.out.println(query + "\t" + (precision/totalR));
+    System.out.println(query + "\t" + (sumPrecision/hitCount));
   }
 
-  private static double evaluateF(
-      String query, List<Integer> docids,
-      Map<String, DocumentRelevances> judgments, int retrievedSize) {
-      double  recall, precision;
-
-      recall = evaluateRecall(query, docids, judgments, retrievedSize);
-      precision = evaluatePrecision(query, docids, judgments, retrievedSize);
-      
-      return 2 * recall * precision / (recall + precision);
-  }
-
-  private static double evaluateRecall(
-      String query, List<Integer> docids,
-      Map<String, DocumentRelevances> judgments, int retrievedSize) {
-    double R = 0.0;
-    double totalR = 0.0;
-    int collectionSize = docids.size();
-
-    for (int i = 0; i < collectionSize; i++) {
-      int docid = docids.get(i);
-      DocumentRelevances relevances = judgments.get(query);
-      if (relevances == null) {
-        System.out.println("Query [" + query + "] not found!");
-      } else {
-        if (relevances.hasRelevanceForDoc(docid)) {
-          if (i < retrievedSize) {
-            R += relevances.getRelevanceForDoc(docid);
-          }
-          totalR += relevances.getRelevanceForDoc(docid);
-        }
-      }
-    }
-
-    return R/totalR;
-  }
-
-  private static double evaluatePrecision(
-      String query, List<Integer> docids,
-      Map<String, DocumentRelevances> judgments, int retrievedSize) {
-    double R = 0.0;
-    int collectionSize = docids.size();
-
-    for (int i = 0; i < retrievedSize && i < collectionSize; i++) {
-      int docid = docids.get(i);
-      DocumentRelevances relevances = judgments.get(query);
-      if (relevances == null) {
-        System.out.println("Query [" + query + "] not found!");
-      } else {
-        if (relevances.hasRelevanceForDoc(docid)) {
-          R += relevances.getRelevanceForDoc(docid);
-        }
-      }
-    }
-
-    return R/retrievedSize;
-  }
 //  Metric5: NDCG at 1, 5, and 10 (using the gain values presented in Lecture 2)
   public static void evaluateQueryMetric5(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
     DocumentRelevances relevances = judgments.get(query);
