@@ -1,1321 +1,3 @@
-census	0	1890 us census	0.7024354503646614
-census	571	tabulating machine	0.19705174144697524
-census	261	herman hollerith	0.11361271994697443
-census	144	data collection	0.09464074816282213
-census	379	montreal	0.06445083789694228
-census	325	keypunch	0.037641389635361046
-census	589	training set	0.03447702865575962
-census	56	blackle.com	0.029441880712925597
-census	464	punched cards	0.027636805099766196
-census	559	statistics	0.027371689573999373
-census	532	social information seeking	0.026739098456980994
-census	438	people's republic of china	0.02566949012860859
-census	575	test set	0.023119335261304417
-census	370	metadata	0.019147587156569626
-census	93	column-oriented dbms	0.018588156281644595
-census	268	ibm	0.01765584401502097
-census	389	multivariate statistics	0.017177566875790914
-census	555	statistical classification	0.016125005914940246
-census	137	data	0.016063814216736003
-census	142	data cleaning	0.01488296924535154
-census	115	computer programming	0.01357216077388107
-census	497	russian federation	0.012830675092283406
-census	360	mass surveillance	0.011840786559857248
-census	288	information retrieval	0.011778212338609808
-census	544	spearman's rank correlation coefficient	0.011305620281538739
-census	148	data integration	0.011173976861769437
-census	480	regression analysis	0.011050088982795912
-census	393	national bureau of standards	0.010446253191748725
-census	395	national institute of standards and technology	0.010446253191748725
-census	204	europe	0.008647143363458568
-census	596	us congress	0.008280758838297781
-census	556	statistical inference	0.007150557840863252
-census	259	harmonic mean	0.007014856245628284
-census	16	algorithm	0.004319799107304357
-census	241	geographic information systems	0.0038011632844811394
-census	28	archie comics	0.00258613078866019
-census	4	aol	0.0020901433933520905
-census	5	aol search	0.0020901433933520905
-census	1	a9.com	0.0
-census	2	acm computing classification system	0.0
-census	3	advise	0.0
-census	6	academic press	0.0
-census	7	academic journal	0.0
-census	8	accuracy and precision	0.0
-census	9	actuate corporation	0.0
-census	10	adversarial information retrieval	0.0
-census	11	adverse drug reaction	0.0
-census	12	advertising	0.0
-census	13	aggregate (data warehouse)	0.0
-census	14	aggregate function	0.0
-census	15	alan emtage	0.0
-census	17	algorithm design	0.0
-census	18	aliweb	0.0
-census	19	alltheweb	0.0
-census	20	alpha consumer	0.0
-census	21	altavista	0.0
-census	22	alvin weinberg	0.0
-census	23	analysis of algorithms	0.0
-census	24	analytics	0.0
-census	25	anchor modeling	0.0
-census	26	angoss	0.0
-census	27	anomaly detection	0.0
-census	29	archie search engine	0.0
-census	30	argonne national laboratory	0.0
-census	31	artificial intelligence	0.0
-census	32	artificial life	0.0
-census	33	artificial neural network	0.0
-census	34	as we may think	0.0
-census	35	ask.com	0.0
-census	36	association for computing machinery	0.0
-census	37	association rule	0.0
-census	38	association rule learning	0.0
-census	39	association rule mining	0.0
-census	40	association rules	0.0
-census	41	atlantic monthly	0.0
-census	42	automata theory	0.0
-census	43	automated reasoning	0.0
-census	44	automatic summarization	0.0
-census	45	baidu	0.0
-census	46	bayes' theorem	0.0
-census	47	berlekamp	0.0
-census	48	bibliometrics	0.0
-census	49	bill inmon	0.0
-census	50	binary independence model	0.0
-census	51	binary classification	0.0
-census	52	bing	0.0
-census	53	bioinformatic	0.0
-census	54	bioinformatics	0.0
-census	55	biomedical	0.0
-census	57	blekko	0.0
-census	58	boogami	0.0
-census	59	boolean algebra	0.0
-census	60	boolean operators	0.0
-census	61	bram stoker	0.0
-census	62	british petroleum	0.0
-census	63	business intelligence	0.0
-census	64	business intelligence tools	0.0
-census	65	buzzword	0.0
-census	66	c. j. van rijsbergen	0.0
-census	67	capps ii	0.0
-census	68	cern	0.0
-census	69	cikm conference	0.0
-census	70	crisp-dm	0.0
-census	71	calvin mooers	0.0
-census	72	cambridge university press	0.0
-census	73	cancer	0.0
-census	74	carnegie mellon university	0.0
-census	75	carrot2	0.0
-census	76	case western reserve university	0.0
-census	77	categorization	0.0
-census	78	category theory	0.0
-census	79	censorship	0.0
-census	80	chacha (search engine)	0.0
-census	81	chemicalize.org	0.0
-census	82	chess	0.0
-census	83	chess endgame	0.0
-census	84	churn rate	0.0
-census	85	clarabridge	0.0
-census	86	classification of the sciences (peirce)	0.0
-census	87	cloud storage	0.0
-census	88	cluster analysis	0.0
-census	89	co-occurrence	0.0
-census	90	cognitive science	0.0
-census	91	collaborative information seeking	0.0
-census	92	collaborative search engine	0.0
-census	94	combinatorial game	0.0
-census	95	combinatorics	0.0
-census	96	communications of the acm	0.0
-census	97	comparison of olap servers	0.0
-census	98	comparison of web search engines	0.0
-census	99	compiler	0.0
-census	100	computability theory	0.0
-census	101	computational chemistry	0.0
-census	102	computational complexity theory	0.0
-census	103	computational geometry	0.0
-census	104	computational linguistics	0.0
-census	105	computational neuroscience	0.0
-census	106	computational physics	0.0
-census	107	computational science	0.0
-census	108	computer accessibility	0.0
-census	109	computer animation	0.0
-census	110	computer architecture	0.0
-census	111	computer data storage	0.0
-census	112	computer graphics	0.0
-census	113	computer music	0.0
-census	114	computer networking	0.0
-census	116	computer science	0.0
-census	117	computer vision	0.0
-census	118	concurrency (computer science)	0.0
-census	119	concurrency control	0.0
-census	120	condition monitoring	0.0
-census	121	conference on information and knowledge management	0.0
-census	122	conference on knowledge discovery and data mining	0.0
-census	123	contextual advertising	0.0
-census	124	controlled vocabulary	0.0
-census	125	cornelis j. van rijsbergen	0.0
-census	126	cross-language information retrieval	0.0
-census	127	cross-platform	0.0
-census	128	cross industry standard process for data mining	0.0
-census	129	cryptography	0.0
-census	130	cuil	0.0
-census	131	cultural studies	0.0
-census	132	customer analytics	0.0
-census	133	customer relationship management	0.0
-census	134	cyril w. cleverdon	0.0
-census	135	dna	0.0
-census	136	dashboard (business)	0.0
-census	138	data mining extensions	0.0
-census	139	data pre-processing	0.0
-census	140	data vault modeling	0.0
-census	141	data analysis	0.0
-census	143	data clustering	0.0
-census	145	data dictionary	0.0
-census	146	data dredging	0.0
-census	147	data extraction	0.0
-census	149	data loading	0.0
-census	150	data management	0.0
-census	151	data mart	0.0
-census	152	data mining	0.0
-census	153	data mining in agriculture	0.0
-census	154	data mining in meteorology	0.0
-census	155	data modeling	0.0
-census	156	data set	0.0
-census	157	data snooping	0.0
-census	158	data structure	0.0
-census	159	data transformation	0.0
-census	160	data visualization	0.0
-census	161	data warehouse	0.0
-census	162	database	0.0
-census	163	database management system	0.0
-census	164	database system	0.0
-census	165	daum communications	0.0
-census	166	decision making	0.0
-census	167	decision support system	0.0
-census	168	decision tree learning	0.0
-census	169	decision trees	0.0
-census	170	deepwater horizon oil spill	0.0
-census	171	degenerate dimension	0.0
-census	172	desktop search	0.0
-census	173	digital object identifier	0.0
-census	174	digital obsolescence	0.0
-census	175	dimension (data warehouse)	0.0
-census	176	dimension reduction	0.0
-census	177	dimension table	0.0
-census	178	dimensional modeling	0.0
-census	179	discounted cumulative gain	0.0
-census	180	discovery (observation)	0.0
-census	181	discovery net	0.0
-census	182	dissolved gas analysis	0.0
-census	183	distributed computing	0.0
-census	184	distributed web crawling	0.0
-census	185	divergence-from-randomness model	0.0
-census	186	document retrieval	0.0
-census	187	dogpile	0.0
-census	188	don swanson	0.0
-census	189	donald b. crouch	0.0
-census	190	dot-com bubble	0.0
-census	191	dots-and-boxes	0.0
-census	192	dracula	0.0
-census	193	drug discovery	0.0
-census	194	duckduckgo	0.0
-census	195	early-arriving fact	0.0
-census	196	educational data mining	0.0
-census	197	electrical power	0.0
-census	198	electronic health records	0.0
-census	199	eli pariser	0.0
-census	200	emanuel goldberg	0.0
-census	201	enterprise search	0.0
-census	202	environment for developing kdd-applications supported by index-structures	0.0
-census	203	eugene garfield	0.0
-census	205	european conference on machine learning and principles and practice of knowledge discovery in databases	0.0
-census	206	european summer school in information retrieval	0.0
-census	207	evolutionary computation	0.0
-census	208	exalead	0.0
-census	209	excite	0.0
-census	210	experian hitwise	0.0
-census	211	expert system	0.0
-census	212	expertise finding	0.0
-census	213	exploratory data analysis	0.0
-census	214	extended boolean model	0.0
-census	215	extract, transform, load	0.0
-census	216	f-score	0.0
-census	217	f. wilfrid lancaster	0.0
-census	218	fico	0.0
-census	219	facebook	0.0
-census	220	fact (data warehouse)	0.0
-census	221	fact table	0.0
-census	222	factor analysis	0.0
-census	223	federated search	0.0
-census	224	file transfer protocol	0.0
-census	225	filter bubble	0.0
-census	226	first amendment to the united states constitution	0.0
-census	227	focused crawler	0.0
-census	228	forestle	0.0
-census	229	formal methods	0.0
-census	230	forrester research	0.0
-census	231	functional programming	0.0
-census	232	fuzzy retrieval	0.0
-census	233	gnu project	0.0
-census	234	gartner	0.0
-census	235	general architecture for text engineering	0.0
-census	236	generalized vector space model	0.0
-census	237	genetic algorithms	0.0
-census	238	genetics	0.0
-census	239	genieknows	0.0
-census	240	genres	0.0
-census	242	gerard salton	0.0
-census	243	gerard salton award	0.0
-census	244	go.com	0.0
-census	245	goby inc.	0.0
-census	246	goodsearch	0.0
-census	247	google	0.0
-census	248	google bombing	0.0
-census	249	google drive	0.0
-census	250	google search	0.0
-census	251	google effect	0.0
-census	252	gopher (protocol)	0.0
-census	253	graph theory	0.0
-census	254	grid computing	0.0
-census	255	guruji.com	0.0
-census	256	holap	0.0
-census	257	html	0.0
-census	258	hans peter luhn	0.0
-census	260	health insurance portability and accountability act	0.0
-census	262	hitwise	0.0
-census	263	hotbot	0.0
-census	264	human%e2%80%93computer information retrieval	0.0
-census	265	human%e2%80%93computer interaction	0.0
-census	266	human rights	0.0
-census	267	hypertext	0.0
-census	269	ieee	0.0
-census	270	ill-posed	0.0
-census	271	image processing	0.0
-census	272	image retrieval	0.0
-census	273	imperial college london	0.0
-census	274	independency	0.0
-census	275	index (database)	0.0
-census	276	index (search engine)	0.0
-census	277	info.com	0.0
-census	278	informatics (academic field)	0.0
-census	279	informationweek	0.0
-census	280	information retrieval facility	0.0
-census	281	information access	0.0
-census	282	information architecture	0.0
-census	283	information extraction	0.0
-census	284	information integration	0.0
-census	285	information management	0.0
-census	286	information need	0.0
-census	287	information overload	0.0
-census	289	information retrieval applications	0.0
-census	290	information science	0.0
-census	291	information seeking	0.0
-census	292	information society	0.0
-census	293	information technology	0.0
-census	294	information theory	0.0
-census	295	infoseek	0.0
-census	296	initial public offering	0.0
-census	297	inktomi (company)	0.0
-census	298	institutional memory	0.0
-census	299	insulator (electrical)	0.0
-census	300	intellectual freedom	0.0
-census	301	intellectual property	0.0
-census	302	interactive visualization	0.0
-census	303	international conference on very large data bases	0.0
-census	304	international standard book number	0.0
-census	305	internet search engines and libraries	0.0
-census	306	interpreter (computing)	0.0
-census	307	inverted index	0.0
-census	308	iterative algorithm	0.0
-census	309	j. c. r. licklider	0.0
-census	310	jasis	0.0
-census	311	jhepwork	0.0
-census	312	jacquard loom	0.0
-census	313	java (programming language)	0.0
-census	314	java data mining	0.0
-census	315	john nunn	0.0
-census	316	john seward	0.0
-census	317	joseph marie jacquard	0.0
-census	318	jughead (computer)	0.0
-census	319	jughead jones	0.0
-census	320	jumpstation	0.0
-census	321	kdd conference	0.0
-census	322	knime	0.0
-census	323	kxen inc.	0.0
-census	324	karen spa�rck jones	0.0
-census	326	keyword (internet search)	0.0
-census	327	kluwer academic publishers	0.0
-census	328	knowledge discovery	0.0
-census	329	knowledge organization	0.0
-census	330	knowledge visualization	0.0
-census	331	lionsolver	0.0
-census	332	language model	0.0
-census	333	latent dirichlet allocation	0.0
-census	334	latent semantic analysis	0.0
-census	335	latent semantic indexing	0.0
-census	336	leapfish	0.0
-census	337	learning to rank	0.0
-census	338	library and information science	0.0
-census	339	linkrot	0.0
-census	340	list of computer science conferences	0.0
-census	341	list of information retrieval libraries	0.0
-census	342	list of reporting software	0.0
-census	343	list of search engines	0.0
-census	344	live search	0.0
-census	345	local search (internet)	0.0
-census	346	logic programming	0.0
-census	347	looksmart	0.0
-census	348	lycos	0.0
-census	349	matrix	0.0
-census	350	medlars	0.0
-census	351	mit	0.0
-census	352	ml-flex	0.0
-census	353	molap	0.0
-census	354	msn search	0.0
-census	355	machine learning	0.0
-census	356	magellan (search engine)	0.0
-census	357	main page	0.0
-census	358	mark mccahill	0.0
-census	359	market basket analysis	0.0
-census	361	massachusetts institute of technology	0.0
-census	362	mathematical logic	0.0
-census	363	mathematics	0.0
-census	364	mcgill university	0.0
-census	365	mean reciprocal rank	0.0
-census	366	measure (data warehouse)	0.0
-census	367	medicine	0.0
-census	368	memory	0.0
-census	369	meta tags	0.0
-census	371	metasearch engine	0.0
-census	372	microarchitecture	0.0
-census	373	microsoft	0.0
-census	374	microsoft analysis services	0.0
-census	375	mind maps	0.0
-census	376	mining software repositories	0.0
-census	377	missing data	0.0
-census	378	modeling and simulation	0.0
-census	380	morgan kaufmann	0.0
-census	381	msnbot	0.0
-census	382	mugurdy	0.0
-census	383	multidimensional expressions	0.0
-census	384	multifactor dimensionality reduction	0.0
-census	385	multilinear subspace learning	0.0
-census	386	multimedia information retrieval	0.0
-census	387	multiprocessing	0.0
-census	388	multisearch	0.0
-census	390	music information retrieval	0.0
-census	391	nltk	0.0
-census	392	named-entity recognition	0.0
-census	394	national center for supercomputing applications	0.0
-census	396	national security agency	0.0
-census	397	natural language toolkit	0.0
-census	398	natural language processing	0.0
-census	399	natural language search engine	0.0
-census	400	nature (journal)	0.0
-census	401	naver	0.0
-census	402	netscape	0.0
-census	403	network topology	0.0
-census	404	neural networks	0.0
-census	405	nicholas j. belkin	0.0
-census	406	nicholas jardine	0.0
-census	407	northern light group	0.0
-census	408	number theory	0.0
-census	409	numerical analysis	0.0
-census	410	oclc	0.0
-census	411	olap cube	0.0
-census	412	object-oriented programming	0.0
-census	413	online algorithm	0.0
-census	414	online analytical processing	0.0
-census	415	online search	0.0
-census	416	ontologies	0.0
-census	417	ontology (information science)	0.0
-census	418	opensearch	0.0
-census	419	open directory project	0.0
-census	420	open drive	0.0
-census	421	operating system	0.0
-census	422	operational data store	0.0
-census	423	oracle	0.0
-census	424	oracle data mining	0.0
-census	425	oracle machine	0.0
-census	426	orange (software)	0.0
-census	427	organic search	0.0
-census	428	orthogonality	0.0
-census	429	oscar nierstrasz	0.0
-census	430	outline of information science	0.0
-census	431	overfitting	0.0
-census	432	overture	0.0
-census	433	pagerank	0.0
-census	434	paid inclusion	0.0
-census	435	parallel computing	0.0
-census	436	parsing	0.0
-census	437	pattern	0.0
-census	439	perl	0.0
-census	440	personal information management	0.0
-census	441	pharmacy	0.0
-census	442	philosophy of information	0.0
-census	443	picollator	0.0
-census	444	police-enforced anpr in the uk	0.0
-census	445	positive predictive value	0.0
-census	446	power transformer	0.0
-census	447	powerset (company)	0.0
-census	448	precision and recall	0.0
-census	449	predictive model markup language	0.0
-census	450	predictive analytics	0.0
-census	451	prentice hall	0.0
-census	452	preservation (library and archival science)	0.0
-census	453	principle of least astonishment	0.0
-census	454	privacy	0.0
-census	455	probabilistic relevance model	0.0
-census	456	probabilistic relevance model (bm25)	0.0
-census	457	procedural programming	0.0
-census	458	profiling practices	0.0
-census	459	programming language	0.0
-census	460	programming paradigm	0.0
-census	461	proximity search (text)	0.0
-census	462	pubmed identifier	0.0
-census	463	public library	0.0
-census	465	python (programming language)	0.0
-census	466	quaero	0.0
-census	467	quantitative structure%e2%80%93activity relationship	0.0
-census	468	quantum computer	0.0
-census	469	query string	0.0
-census	470	question answering	0.0
-census	471	quora	0.0
-census	472	rolap	0.0
-census	473	r (programming language)	0.0
-census	474	ralph kimball	0.0
-census	475	rank order	0.0
-census	476	rapidminer	0.0
-census	477	reactive business intelligence	0.0
-census	478	real-time computing	0.0
-census	479	receiver operating characteristic	0.0
-census	481	relational database	0.0
-census	482	relevance	0.0
-census	483	relevance (information retrieval)	0.0
-census	484	relevance feedback	0.0
-census	485	representational state transfer	0.0
-census	486	requirements analysis	0.0
-census	487	rexer's annual data miner survey	0.0
-census	488	robert m. hayes	0.0
-census	489	robert r. korfhage	0.0
-census	490	robert tibshirani	0.0
-census	491	robotics	0.0
-census	492	robots.txt	0.0
-census	493	robots exclusion standard	0.0
-census	494	rocchio classification	0.0
-census	495	routing	0.0
-census	496	rule of inference	0.0
-census	498	sapo (company)	0.0
-census	499	sas (software)	0.0
-census	500	sas institute	0.0
-census	501	semma	0.0
-census	502	sigkdd	0.0
-census	503	sigmod	0.0
-census	504	smart information retrieval system	0.0
-census	505	spss modeler	0.0
-census	506	sql	0.0
-census	507	statistica	0.0
-census	508	scalability	0.0
-census	509	science, technology and society	0.0
-census	510	scientific american magazine	0.0
-census	511	searchme	0.0
-census	512	search engine watch	0.0
-census	513	search aggregator	0.0
-census	514	search directory	0.0
-census	515	search engine (computing)	0.0
-census	516	search engine (disambiguation)	0.0
-census	517	search engine indexing	0.0
-census	518	search engine marketing	0.0
-census	519	search engine optimization	0.0
-census	520	search engine results pages	0.0
-census	521	search oriented architecture	0.0
-census	522	selection-based search	0.0
-census	523	self-organizing map	0.0
-census	524	semantic web	0.0
-census	525	semantic search	0.0
-census	526	sensitivity and specificity	0.0
-census	527	sequence mining	0.0
-census	528	set theory	0.0
-census	529	sixth normal form	0.0
-census	530	slowly changing dimension	0.0
-census	531	social science research network	0.0
-census	533	social search	0.0
-census	534	society for industrial and applied mathematics	0.0
-census	535	software	0.0
-census	536	software design	0.0
-census	537	software development process	0.0
-census	538	software engineering	0.0
-census	539	software release life cycle	0.0
-census	540	software testing	0.0
-census	541	sogou.com	0.0
-census	542	sorrell v. ims health, inc.	0.0
-census	543	spatial index	0.0
-census	545	special interest group on information retrieval	0.0
-census	546	spell checker	0.0
-census	547	spider trap	0.0
-census	548	spreadsheets	0.0
-census	549	springer verlag	0.0
-census	550	sproose	0.0
-census	551	standard boolean model	0.0
-census	552	star schema	0.0
-census	553	statcounter	0.0
-census	554	statsoft	0.0
-census	557	statistical model	0.0
-census	558	statistical noise	0.0
-census	560	stellar wind (code name)	0.0
-census	561	structured data analysis (statistics)	0.0
-census	562	subject indexing	0.0
-census	563	subspace clustering	0.0
-census	564	support vector machines	0.0
-census	565	supreme court of the united states	0.0
-census	566	surrogate key	0.0
-census	567	surveillance	0.0
-census	568	symbolic computation	0.0
-census	569	systems architecture	0.0
-census	570	tablebase	0.0
-census	572	telecommunication	0.0
-census	573	temporal information retrieval	0.0
-census	574	teoma	0.0
-census	576	text retrieval conference	0.0
-census	577	text corpora	0.0
-census	578	text mining	0.0
-census	579	tf-idf	0.0
-census	580	the american statistician	0.0
-census	581	theodor nelson	0.0
-census	582	theory of forms	0.0
-census	583	theory of computation	0.0
-census	584	tim berners-lee	0.0
-census	585	tony kent strix award	0.0
-census	586	topic-based vector space model	0.0
-census	587	total information awareness	0.0
-census	588	traffic analysis	0.0
-census	590	transaction processing	0.0
-census	591	trevor hastie	0.0
-census	592	true knowledge	0.0
-census	593	type theory	0.0
-census	594	ubm plc	0.0
-census	595	uima	0.0
-census	597	ubiquitous computing	0.0
-census	598	uncertain inference	0.0
-census	599	united states national research council	0.0
-census	600	university of calabria	0.0
-census	601	university of geneva	0.0
-census	602	university of minnesota	0.0
-census	603	uplift modelling	0.0
-census	604	uppsala monitoring centre	0.0
-census	605	usability	0.0
-census	606	user expectations	0.0
-census	607	user interface	0.0
-census	608	vannevar bush	0.0
-census	609	vector space model	0.0
-census	610	veronica (computer)	0.0
-census	611	veronica lodge	0.0
-census	612	vertical search	0.0
-census	613	video search engine	0.0
-census	614	viewzi	0.0
-census	615	virtual reality	0.0
-census	616	visualization (computer graphics)	0.0
-census	617	vivisimo	0.0
-census	618	voice search	0.0
-census	619	volunia	0.0
-census	620	w3catalog	0.0
-census	621	wearable computer	0.0
-census	622	webcrawler	0.0
-census	623	web archiving	0.0
-census	624	web cache	0.0
-census	625	web crawler	0.0
-census	626	web crawling	0.0
-census	627	web directories	0.0
-census	628	web directory	0.0
-census	629	web form	0.0
-census	630	web indexing	0.0
-census	631	web mining	0.0
-census	632	web page	0.0
-census	633	web portal	0.0
-census	634	web query classification	0.0
-census	635	web robot	0.0
-census	636	web scraping	0.0
-census	637	web search engine	0.0
-census	638	web search query	0.0
-census	639	webserver	0.0
-census	640	website parse template	0.0
-census	641	website mirroring software	0.0
-census	642	weka (machine learning)	0.0
-census	643	wide area information server	0.0
-census	644	wikia search	0.0
-census	645	wikiseek	0.0
-census	646	wireless sensor network	0.0
-census	647	wolfram alpha	0.0
-census	648	world wide web	0.0
-census	649	world wide web wanderer	0.0
-census	650	xml	0.0
-census	651	xml-retrieval	0.0
-census	652	xml for analysis	0.0
-census	653	yahoo!	0.0
-census	654	yahoo! search	0.0
-census	655	yandex	0.0
-census	656	yebol	0.0
-census	657	yummly	0.0
-census	658	z39.50	0.0
-census data	0	1890 us census	0.5082104995078388
-census data	152	data mining	0.19619179603558448
-census data	155	data modeling	0.1898438484993534
-census data	161	data warehouse	0.1844351403290277
-census data	147	data extraction	0.1626028604658029
-census data	151	data mart	0.15156935344772546
-census data	164	database system	0.15151008931207566
-census data	571	tabulating machine	0.14593095651858998
-census data	158	data structure	0.14492837237713585
-census data	137	data	0.1416056543653013
-census data	145	data dictionary	0.1402995192046987
-census data	141	data analysis	0.13994817370772786
-census data	142	data cleaning	0.13461153308152873
-census data	150	data management	0.13395022222736383
-census data	144	data collection	0.13207394306317463
-census data	561	structured data analysis (statistics)	0.12244451109178223
-census data	160	data visualization	0.11847101628051018
-census data	149	data loading	0.11312176519255078
-census data	215	extract, transform, load	0.11312176519255078
-census data	148	data integration	0.10961205514052375
-census data	139	data pre-processing	0.1008089443823298
-census data	424	oracle data mining	0.10051213341932302
-census data	138	data mining extensions	0.09916793821850704
-census data	422	operational data store	0.09489256962196287
-census data	159	data transformation	0.09459766098651284
-census data	49	bill inmon	0.09056391296444664
-census data	366	measure (data warehouse)	0.08794384675712262
-census data	163	database management system	0.08736632036081829
-census data	261	herman hollerith	0.0870955214257888
-census data	63	business intelligence	0.07876548305848281
-census data	146	data dredging	0.07832747650074517
-census data	157	data snooping	0.07832747650074517
-census data	140	data vault modeling	0.07829943883305122
-census data	162	database	0.07536128427495598
-census data	64	business intelligence tools	0.07409124772504622
-census data	13	aggregate (data warehouse)	0.0726169418166479
-census data	353	molap	0.06921717269601355
-census data	93	column-oriented dbms	0.06717350568489042
-census data	501	semma	0.066551689166914
-census data	487	rexer's annual data miner survey	0.06633939379639726
-census data	411	olap cube	0.06447666855823873
-census data	24	analytics	0.0630194256524311
-census data	631	web mining	0.06181745673845295
-census data	178	dimensional modeling	0.060829528115967195
-census data	196	educational data mining	0.05981996273667945
-census data	370	metadata	0.05821047290764237
-census data	559	statistics	0.05773918535944407
-census data	474	ralph kimball	0.05719508137227019
-census data	195	early-arriving fact	0.05582125441889547
-census data	220	fact (data warehouse)	0.05548919011080127
-census data	156	data set	0.05467835549454231
-census data	213	exploratory data analysis	0.05455755525529117
-census data	431	overfitting	0.05445792763842185
-census data	275	index (database)	0.05290177850507338
-census data	377	missing data	0.05259612108707264
-census data	256	holap	0.051939579100356466
-census data	293	information technology	0.051034095212486426
-census data	177	dimension table	0.05101626448454073
-census data	342	list of reporting software	0.05001515369096293
-census data	476	rapidminer	0.04870353050575985
-census data	379	montreal	0.047702459967268906
-census data	575	test set	0.04641115343640196
-census data	414	online analytical processing	0.04602653103803849
-census data	314	java data mining	0.044454210490150546
-census data	175	dimension (data warehouse)	0.04361842467779874
-census data	529	sixth normal form	0.04083422758150827
-census data	241	geographic information systems	0.040776902831889575
-census data	37	association rule	0.04068252962969129
-census data	38	association rule learning	0.04068252962969129
-census data	39	association rule mining	0.04068252962969129
-census data	40	association rules	0.04068252962969129
-census data	589	training set	0.0402021174939018
-census data	87	cloud storage	0.03984489622870936
-census data	472	rolap	0.03980570404832163
-census data	70	crisp-dm	0.0396834204265103
-census data	128	cross industry standard process for data mining	0.0396834204265103
-census data	154	data mining in meteorology	0.03957221592273516
-census data	325	keypunch	0.03885326256592024
-census data	171	degenerate dimension	0.03866217610334593
-census data	153	data mining in agriculture	0.037856937917374024
-census data	284	information integration	0.03633011474637188
-census data	555	statistical classification	0.036070585951147344
-census data	311	jhepwork	0.03460591236148007
-census data	221	fact table	0.0340224496451354
-census data	355	machine learning	0.03343395189855509
-census data	168	decision tree learning	0.033357214142282134
-census data	3	advise	0.0318033642546859
-census data	176	dimension reduction	0.031580601446460604
-census data	88	cluster analysis	0.03132955095385592
-census data	143	data clustering	0.03132955095385592
-census data	322	knime	0.030402721944028044
-census data	535	software	0.030237651773696243
-census data	450	predictive analytics	0.0301639827853615
-census data	521	search oriented architecture	0.02936891472037321
-census data	282	information architecture	0.028884738338587332
-census data	383	multidimensional expressions	0.02884376941631189
-census data	557	statistical model	0.028807055516426934
-census data	458	profiling practices	0.02867031980038916
-census data	426	orange (software)	0.028620853952117175
-census data	374	microsoft analysis services	0.02836514066951898
-census data	552	star schema	0.028335833170998435
-census data	642	weka (machine learning)	0.028139663112846915
-census data	505	spss modeler	0.027527450244832448
-census data	481	relational database	0.02689717548494207
-census data	524	semantic web	0.026765575564753567
-census data	464	punched cards	0.02658876516268396
-census data	360	mass surveillance	0.026034207673043167
-census data	473	r (programming language)	0.025752788281396252
-census data	136	dashboard (business)	0.02574797590794174
-census data	330	knowledge visualization	0.02543430331957348
-census data	616	visualization (computer graphics)	0.02543430331957348
-census data	499	sas (software)	0.024998532823727534
-census data	26	angoss	0.024810182006973276
-census data	25	anchor modeling	0.024246049905342293
-census data	115	computer programming	0.02413111664992496
-census data	389	multivariate statistics	0.02397179897198133
-census data	503	sigmod	0.023651267225636777
-census data	554	statsoft	0.023624899949558513
-census data	167	decision support system	0.023155333446878805
-census data	556	statistical inference	0.02310576142084952
-census data	578	text mining	0.023081509519173447
-census data	480	regression analysis	0.023027854441393814
-census data	181	discovery net	0.02291799047820678
-census data	328	knowledge discovery	0.022848057248896284
-census data	27	anomaly detection	0.02156774847140808
-census data	523	self-organizing map	0.02118674406038702
-census data	566	surrogate key	0.021122015552511628
-census data	532	social information seeking	0.02095270886548738
-census data	56	blackle.com	0.020818553502995114
-census data	629	web form	0.020614040011725693
-census data	563	subspace clustering	0.020340592142749397
-census data	544	spearman's rank correlation coefficient	0.02010123858380691
-census data	132	customer analytics	0.019895323028692593
-census data	506	sql	0.019858108022336056
-census data	53	bioinformatic	0.019702093615848633
-census data	54	bioinformatics	0.019702093615848633
-census data	384	multifactor dimensionality reduction	0.019634900113063663
-census data	111	computer data storage	0.019559107213554684
-census data	438	people's republic of china	0.019525517170672274
-census data	48	bibliometrics	0.01934816620567176
-census data	444	police-enforced anpr in the uk	0.01900274739110138
-census data	636	web scraping	0.018656851558544622
-census data	349	matrix	0.018625308765403217
-census data	387	multiprocessing	0.0182704710970216
-census data	449	predictive model markup language	0.018257545090751275
-census data	110	computer architecture	0.018034006859473206
-census data	507	statistica	0.017964488775936278
-census data	398	natural language processing	0.017921856987798378
-census data	288	information retrieval	0.017337773098736426
-census data	376	mining software repositories	0.016737449083584134
-census data	652	xml for analysis	0.016504152965791087
-census data	634	web query classification	0.016448320959820337
-census data	412	object-oriented programming	0.01642363781437611
-census data	337	learning to rank	0.016335708576070095
-census data	117	computer vision	0.016294900106099647
-census data	564	support vector machines	0.01604156516065323
-census data	120	condition monitoring	0.01598458181167316
-census data	116	computer science	0.015599984304427762
-census data	477	reactive business intelligence	0.015490935968439075
-census data	268	ibm	0.015185607415741497
-census data	33	artificial neural network	0.015023055928272423
-census data	276	index (search engine)	0.014859501011913002
-census data	517	search engine indexing	0.014859501011913002
-census data	359	market basket analysis	0.014847573361172817
-census data	430	outline of information science	0.014764044285972323
-census data	285	information management	0.014623314807252763
-census data	536	software design	0.014562404196120428
-census data	202	environment for developing kdd-applications supported by index-structures	0.014458100142045778
-census data	646	wireless sensor network	0.014382394408801638
-census data	386	multimedia information retrieval	0.01437432349886793
-census data	460	programming paradigm	0.014338821258817856
-census data	224	file transfer protocol	0.014296001765586307
-census data	385	multilinear subspace learning	0.013871452022192799
-census data	617	vivisimo	0.0136632328106243
-census data	283	information extraction	0.01360891349226498
-census data	198	electronic health records	0.013543830698634417
-census data	103	computational geometry	0.013516381468201628
-census data	527	sequence mining	0.013511515251564264
-census data	114	computer networking	0.013499923945359338
-census data	435	parallel computing	0.01346689513944154
-census data	270	ill-posed	0.013405477197688863
-census data	323	kxen inc.	0.013388996841606892
-census data	567	surveillance	0.013312921059754408
-census data	10	adversarial information retrieval	0.013263679315485567
-census data	272	image retrieval	0.013151244837384649
-census data	2	acm computing classification system	0.013083027896935244
-census data	294	information theory	0.012955790584252825
-census data	201	enterprise search	0.012948307473015784
-census data	281	information access	0.012307390051334726
-census data	172	desktop search	0.011981574200885458
-census data	587	total information awareness	0.01185808534944386
-census data	548	spreadsheets	0.011722669436089378
-census data	119	concurrency control	0.01156954417965978
-census data	543	spatial index	0.011540911544217507
-census data	280	information retrieval facility	0.011524472246422073
-census data	551	standard boolean model	0.011155442840564463
-census data	174	digital obsolescence	0.011124889364498399
-census data	530	slowly changing dimension	0.011114231895781779
-census data	259	harmonic mean	0.010862590195650699
-census data	457	procedural programming	0.01075236404742396
-census data	223	federated search	0.010534537505397996
-census data	650	xml	0.010439961030855925
-census data	497	russian federation	0.010272190590952
-census data	372	microarchitecture	0.010198096352062735
-census data	173	digital object identifier	0.010087266335834379
-census data	525	semantic search	0.010058016019207208
-census data	403	network topology	0.009945749650271061
-census data	122	conference on knowledge discovery and data mining	0.009815802258241847
-census data	321	kdd conference	0.009815802258241847
-census data	502	sigkdd	0.009815802258241847
-census data	222	factor analysis	0.00973912519294042
-census data	576	text retrieval conference	0.00947538017182045
-census data	459	programming language	0.009373492242462826
-census data	16	algorithm	0.009332681229905422
-census data	572	telecommunication	0.009135338654337013
-census data	545	special interest group on information retrieval	0.00912287665102929
-census data	470	question answering	0.008960714624527057
-census data	560	stellar wind (code name)	0.008854392806890557
-census data	475	rank order	0.008820965975103212
-census data	189	donald b. crouch	0.008806849519946239
-census data	390	music information retrieval	0.008767504233662968
-census data	467	quantitative structure%e2%80%93activity relationship	0.008593823821860715
-census data	212	expertise finding	0.008478972946642738
-census data	77	categorization	0.008232511170961028
-census data	231	functional programming	0.008229571964807529
-census data	393	national bureau of standards	0.008185664980964805
-census data	395	national institute of standards and technology	0.008185664980964805
-census data	112	computer graphics	0.008109165725477822
-census data	541	sogou.com	0.007993491965992092
-census data	404	neural networks	0.007765504529988511
-census data	591	trevor hastie	0.00775682013517823
-census data	104	computational linguistics	0.007668872656207389
-census data	307	inverted index	0.007640619787352976
-census data	595	uima	0.00762868046817153
-census data	302	interactive visualization	0.007588251644028422
-census data	371	metasearch engine	0.007325165812880047
-census data	633	web portal	0.007267557510619367
-census data	208	exalead	0.007034767812185237
-census data	568	symbolic computation	0.00699750357229063
-census data	9	actuate corporation	0.0068256289518468264
-census data	500	sas institute	0.006777427100015167
-census data	204	europe	0.006775885795258601
-census data	264	human%e2%80%93computer information retrieval	0.006730584059009849
-census data	648	world wide web	0.006692426259986644
-census data	469	query string	0.006663729865900806
-census data	540	software testing	0.006657988633447846
-census data	380	morgan kaufmann	0.006598237649204308
-census data	107	computational science	0.006567271371452325
-census data	254	grid computing	0.006566680578482106
-census data	647	wolfram alpha	0.006497299226050492
-census data	345	local search (internet)	0.00645497213586563
-census data	253	graph theory	0.00639382326048781
-census data	352	ml-flex	0.006261467561923338
-census data	97	comparison of olap servers	0.006203463113348546
-census data	596	us congress	0.006172084138185314
-census data	286	information need	0.0061610097703395945
-census data	290	information science	0.0061592689115848205
-census data	249	google drive	0.0061040772055912275
-census data	409	numerical analysis	0.005979112718746776
-census data	229	formal methods	0.005875088418890242
-census data	260	health insurance portability and accountability act	0.005823165625371219
-census data	250	google search	0.0057428606957214915
-census data	537	software development process	0.005603553639651391
-census data	637	web search engine	0.00559376227704064
-census data	454	privacy	0.005576473852458655
-census data	332	language model	0.005541345585655374
-census data	394	national center for supercomputing applications	0.005502804450213821
-census data	333	latent dirichlet allocation	0.0054930276035160585
-census data	508	scalability	0.00548927303082761
-census data	604	uppsala monitoring centre	0.005482247360507065
-census data	396	national security agency	0.005437692445290163
-census data	271	image processing	0.005434039384204246
-census data	486	requirements analysis	0.0052482436272014345
-census data	605	usability	0.005235189014464534
-census data	8	accuracy and precision	0.0052245389253623865
-census data	573	temporal information retrieval	0.005193751584798044
-census data	298	institutional memory	0.005115736720441491
-census data	429	oscar nierstrasz	0.0049086911204832715
-census data	278	informatics (academic field)	0.004900829958356887
-census data	419	open directory project	0.004862050719125884
-census data	425	oracle machine	0.004861457618835175
-census data	17	algorithm design	0.004767739828192343
-census data	417	ontology (information science)	0.0047066397433096294
-census data	416	ontologies	0.004706583129383326
-census data	421	operating system	0.004689390491591388
-census data	542	sorrell v. ims health, inc.	0.004670978837537711
-census data	625	web crawler	0.004626771534869398
-census data	626	web crawling	0.004626771534869398
-census data	613	video search engine	0.004610962481195053
-census data	211	expert system	0.004574807575460066
-census data	588	traffic analysis	0.004562207339242481
-census data	214	extended boolean model	0.00455172556188951
-census data	133	customer relationship management	0.004483549972374489
-census data	331	lionsolver	0.004473180711996577
-census data	29	archie search engine	0.004364486485668384
-census data	239	genieknows	0.004359317849133619
-census data	335	latent semantic indexing	0.004205434205146699
-census data	169	decision trees	0.004166058981343363
-census data	247	google	0.004109059563550275
-census data	237	genetic algorithms	0.0040439717623855865
-census data	85	clarabridge	0.0040326048120527215
-census data	210	experian hitwise	0.004032045475656229
-census data	262	hitwise	0.004032045475656229
-census data	129	cryptography	0.0039600925253518455
-census data	363	mathematics	0.003947804153267032
-census data	338	library and information science	0.0038706131680832623
-census data	378	modeling and simulation	0.0038704427680076574
-census data	603	uplift modelling	0.0038368832761736444
-census data	584	tim berners-lee	0.0037503048143606387
-census data	413	online algorithm	0.003722698547389714
-census data	512	search engine watch	0.0036382049434576214
-census data	219	facebook	0.0036173131241408443
-census data	263	hotbot	0.0035554684270481204
-census data	6	academic press	0.0034565066650526204
-census data	113	computer music	0.0034457117516846253
-census data	57	blekko	0.0034249194106369197
-census data	593	type theory	0.003311645134160138
-census data	36	association for computing machinery	0.0031975623704589627
-census data	75	carrot2	0.0031781638585580423
-census data	34	as we may think	0.003150841137748254
-census data	303	international conference on very large data bases	0.003079818634369482
-census data	340	list of computer science conferences	0.003078243801492428
-census data	291	information seeking	0.003071839765865651
-census data	257	html	0.003069531484837464
-census data	440	personal information management	0.0030672464381486806
-census data	101	computational chemistry	0.0030026812688742277
-census data	490	robert tibshirani	0.002952408136411641
-census data	180	discovery (observation)	0.00293903128227371
-census data	495	routing	0.0029165661987865716
-census data	639	webserver	0.0028959051365231676
-census data	329	knowledge organization	0.0028313326611777586
-census data	399	natural language search engine	0.0027772902830659613
-census data	183	distributed computing	0.0027519853830380624
-census data	255	guruji.com	0.002741734790218893
-census data	326	keyword (internet search)	0.002689057257695837
-census data	519	search engine optimization	0.002689057257695837
-census data	479	receiver operating characteristic	0.002681239441060621
-census data	538	software engineering	0.002660838845772387
-census data	607	user interface	0.0026525295690484575
-census data	313	java (programming language)	0.002645603044584973
-census data	489	robert r. korfhage	0.0026396786167217664
-census data	522	selection-based search	0.0026009230982084837
-census data	31	artificial intelligence	0.0025975702060589724
-census data	232	fuzzy retrieval	0.002573298683451189
-census data	92	collaborative search engine	0.0025566658935920784
-census data	653	yahoo!	0.0025342821217077863
-census data	391	nltk	0.0025311419417408027
-census data	397	natural language toolkit	0.0025311419417408027
-census data	55	biomedical	0.0024875014761127235
-census data	485	representational state transfer	0.002453289478698565
-census data	315	john nunn	0.0024451236910324526
-census data	35	ask.com	0.0024077350865380747
-census data	478	real-time computing	0.0023999438529035367
-census data	592	true knowledge	0.00236834542404195
-census data	488	robert m. hayes	0.002361892312187867
-census data	334	latent semantic analysis	0.002357906758663647
-census data	621	wearable computer	0.0023485865563247867
-census data	184	distributed web crawling	0.0023261011149540304
-census data	44	automatic summarization	0.002309436178155692
-census data	539	software release life cycle	0.0023088099739717515
-census data	124	controlled vocabulary	0.00230372013855345
-census data	570	tablebase	0.0023034314788010954
-census data	23	analysis of algorithms	0.0022954383759930088
-census data	292	information society	0.0022919132294012172
-census data	242	gerard salton	0.0022900885909255386
-census data	638	web search query	0.0022425640788004924
-census data	439	perl	0.002235668922629182
-census data	81	chemicalize.org	0.0022065608001795825
-census data	166	decision making	0.002200326897192888
-census data	468	quantum computer	0.0021970653083673913
-census data	50	binary independence model	0.0021724173034170053
-census data	533	social search	0.002146779458460331
-census data	4	aol	0.0021174665282746607
-census data	5	aol search	0.0021174665282746607
-census data	32	artificial life	0.002116327508419267
-census data	1	a9.com	0.0020995411933083944
-census data	614	viewzi	0.0020951214126346666
-census data	513	search aggregator	0.0020640955556266815
-census data	577	text corpora	0.0020435446029901314
-census data	581	theodor nelson	0.0020416705387618582
-census data	442	philosophy of information	0.0020266467243982714
-census data	643	wide area information server	0.0020106735079334936
-census data	258	hans peter luhn	0.001999419117991152
-census data	96	communications of the acm	0.0019965127030194146
-census data	494	rocchio classification	0.0019734403006334425
-census data	651	xml-retrieval	0.001967358225445757
-census data	18	aliweb	0.001925590829880277
-census data	346	logic programming	0.0019210500929047857
-census data	188	don swanson	0.0018910982087818945
-census data	658	z39.50	0.00188605036197352
-census data	590	transaction processing	0.0018731156162659678
-census data	436	parsing	0.0018374948417781449
-census data	509	science, technology and society	0.0018316117604734092
-census data	28	archie comics	0.0018286706176969347
-census data	235	general architecture for text engineering	0.0018130726224210125
-census data	68	cern	0.0018081274780474266
-census data	615	virtual reality	0.0017945163823143621
-census data	373	microsoft	0.0017838398216944668
-census data	52	bing	0.0017727727366674219
-census data	344	live search	0.0017727727366674219
-census data	354	msn search	0.0017727727366674219
-census data	91	collaborative information seeking	0.0017626333479289651
-census data	267	hypertext	0.001759815769241416
-census data	635	web robot	0.001757000694448173
-census data	30	argonne national laboratory	0.0017378878206862826
-census data	84	churn rate	0.0017297237459741315
-census data	624	web cache	0.0016699915145851176
-census data	118	concurrency (computer science)	0.0016584823438621987
-census data	304	international standard book number	0.001644371782956728
-census data	265	human%e2%80%93computer interaction	0.0016301784876454233
-census data	594	ubm plc	0.00162743536321197
-census data	79	censorship	0.0016148605152153219
-census data	392	named-entity recognition	0.0015912862621892108
-census data	234	gartner	0.00158934088073273
-census data	462	pubmed identifier	0.001557779407628313
-census data	347	looksmart	0.0015444740400648472
-census data	106	computational physics	0.001523964777825754
-census data	287	information overload	0.0014982887496406895
-census data	99	compiler	0.0014954418033177892
-census data	105	computational neuroscience	0.0014946772599299552
-census data	369	meta tags	0.0014310146896616101
-census data	452	preservation (library and archival science)	0.0013467589381523522
-census data	7	academic journal	0.0013365295248939893
-census data	127	cross-platform	0.001323921528662361
-census data	632	web page	0.001322470394240322
-census data	296	initial public offering	0.0012857133846384647
-census data	225	filter bubble	0.0012037790051312694
-census data	194	duckduckgo	0.0011446477165312893
-census data	109	computer animation	0.0011432202370321328
-census data	248	google bombing	0.0011025457855750492
-census data	135	dna	0.0010962828418119802
-census data	654	yahoo! search	0.0010924131747721423
-census data	197	electrical power	0.0010832383483810346
-census data	95	combinatorics	0.0010580694995397455
-census data	445	positive predictive value	0.0010384577065557902
-census data	375	mind maps	0.0010242486034587092
-census data	623	web archiving	0.001018736781133617
-census data	207	evolutionary computation	9.841122428488704E-4
-census data	597	ubiquitous computing	9.274073235565558E-4
-census data	448	precision and recall	8.939242926663975E-4
-census data	534	society for industrial and applied mathematics	8.87955122106471E-4
-census data	205	european conference on machine learning and principles and practice of knowledge discovery in databases	8.74456672607404E-4
-census data	465	python (programming language)	8.722043044566045E-4
-census data	491	robotics	8.462434886248976E-4
-census data	492	robots.txt	8.355090074733977E-4
-census data	493	robots exclusion standard	8.355090074733977E-4
-census data	518	search engine marketing	8.236012173373359E-4
-census data	655	yandex	7.64684908498059E-4
-census data	273	imperial college london	7.488798703726796E-4
-census data	309	j. c. r. licklider	7.408218401442804E-4
-census data	238	genetics	7.359493684159595E-4
-census data	182	dissolved gas analysis	7.219697438003488E-4
-census data	546	spell checker	6.979904431844755E-4
-census data	228	forestle	6.85485798280801E-4
-census data	170	deepwater horizon oil spill	6.741828948649112E-4
-census data	305	internet search engines and libraries	6.591234184488116E-4
-census data	348	lycos	6.448185361715289E-4
-census data	301	intellectual property	6.43760104655385E-4
-census data	428	orthogonality	6.189119712421363E-4
-census data	463	public library	6.054421922606708E-4
-census data	361	massachusetts institute of technology	5.936921194247802E-4
-census data	351	mit	5.935537480527498E-4
-census data	368	memory	5.790515920938137E-4
-census data	400	nature (journal)	5.679353423290632E-4
-census data	252	gopher (protocol)	5.567343464490557E-4
-census data	73	cancer	5.479009784206043E-4
-census data	130	cuil	5.171225556927113E-4
-census data	45	baidu	4.969548369638249E-4
-census data	269	ieee	4.1925997497134146E-4
-census data	209	excite	4.0914145029972873E-4
-census data	356	magellan (search engine)	4.0914145029972873E-4
-census data	42	automata theory	4.0770561975167464E-4
-census data	62	british petroleum	3.7057273833748886E-4
-census data	100	computability theory	3.532689909172188E-4
-census data	433	pagerank	3.4902890740395274E-4
-census data	367	medicine	3.312812315207781E-4
-census data	602	university of minnesota	3.2399505986148864E-4
-census data	76	case western reserve university	3.086331208721156E-4
-census data	12	advertising	2.938627453495162E-4
-census data	608	vannevar bush	2.592630323144587E-4
-census data	59	boolean algebra	2.543501781895631E-4
-census data	226	first amendment to the united states constitution	2.330436341084431E-4
-census data	402	netscape	1.6753337326275454E-4
-census data	82	chess	1.3245235951744928E-4
-census data	83	chess endgame	1.2348298737795138E-4
-census data	565	supreme court of the united states	1.089602328306678E-4
-census data	11	adverse drug reaction	0.0
-census data	14	aggregate function	0.0
-census data	15	alan emtage	0.0
-census data	19	alltheweb	0.0
-census data	20	alpha consumer	0.0
-census data	21	altavista	0.0
-census data	22	alvin weinberg	0.0
-census data	41	atlantic monthly	0.0
-census data	43	automated reasoning	0.0
-census data	46	bayes' theorem	0.0
-census data	47	berlekamp	0.0
-census data	51	binary classification	0.0
-census data	58	boogami	0.0
-census data	60	boolean operators	0.0
-census data	61	bram stoker	0.0
-census data	65	buzzword	0.0
-census data	66	c. j. van rijsbergen	0.0
-census data	67	capps ii	0.0
-census data	69	cikm conference	0.0
-census data	71	calvin mooers	0.0
-census data	72	cambridge university press	0.0
-census data	74	carnegie mellon university	0.0
-census data	78	category theory	0.0
-census data	80	chacha (search engine)	0.0
-census data	86	classification of the sciences (peirce)	0.0
-census data	89	co-occurrence	0.0
-census data	90	cognitive science	0.0
-census data	94	combinatorial game	0.0
-census data	98	comparison of web search engines	0.0
-census data	102	computational complexity theory	0.0
-census data	108	computer accessibility	0.0
-census data	121	conference on information and knowledge management	0.0
-census data	123	contextual advertising	0.0
-census data	125	cornelis j. van rijsbergen	0.0
-census data	126	cross-language information retrieval	0.0
-census data	131	cultural studies	0.0
-census data	134	cyril w. cleverdon	0.0
-census data	165	daum communications	0.0
-census data	179	discounted cumulative gain	0.0
-census data	185	divergence-from-randomness model	0.0
-census data	186	document retrieval	0.0
-census data	187	dogpile	0.0
-census data	190	dot-com bubble	0.0
-census data	191	dots-and-boxes	0.0
-census data	192	dracula	0.0
-census data	193	drug discovery	0.0
-census data	199	eli pariser	0.0
-census data	200	emanuel goldberg	0.0
-census data	203	eugene garfield	0.0
-census data	206	european summer school in information retrieval	0.0
-census data	216	f-score	0.0
-census data	217	f. wilfrid lancaster	0.0
-census data	218	fico	0.0
-census data	227	focused crawler	0.0
-census data	230	forrester research	0.0
-census data	233	gnu project	0.0
-census data	236	generalized vector space model	0.0
-census data	240	genres	0.0
-census data	243	gerard salton award	0.0
-census data	244	go.com	0.0
-census data	245	goby inc.	0.0
-census data	246	goodsearch	0.0
-census data	251	google effect	0.0
-census data	266	human rights	0.0
-census data	274	independency	0.0
-census data	277	info.com	0.0
-census data	279	informationweek	0.0
-census data	289	information retrieval applications	0.0
-census data	295	infoseek	0.0
-census data	297	inktomi (company)	0.0
-census data	299	insulator (electrical)	0.0
-census data	300	intellectual freedom	0.0
-census data	306	interpreter (computing)	0.0
-census data	308	iterative algorithm	0.0
-census data	310	jasis	0.0
-census data	312	jacquard loom	0.0
-census data	316	john seward	0.0
-census data	317	joseph marie jacquard	0.0
-census data	318	jughead (computer)	0.0
-census data	319	jughead jones	0.0
-census data	320	jumpstation	0.0
-census data	324	karen spa�rck jones	0.0
-census data	327	kluwer academic publishers	0.0
-census data	336	leapfish	0.0
-census data	339	linkrot	0.0
-census data	341	list of information retrieval libraries	0.0
-census data	343	list of search engines	0.0
-census data	350	medlars	0.0
-census data	357	main page	0.0
-census data	358	mark mccahill	0.0
-census data	362	mathematical logic	0.0
-census data	364	mcgill university	0.0
-census data	365	mean reciprocal rank	0.0
-census data	381	msnbot	0.0
-census data	382	mugurdy	0.0
-census data	388	multisearch	0.0
-census data	401	naver	0.0
-census data	405	nicholas j. belkin	0.0
-census data	406	nicholas jardine	0.0
-census data	407	northern light group	0.0
-census data	408	number theory	0.0
-census data	410	oclc	0.0
-census data	415	online search	0.0
-census data	418	opensearch	0.0
-census data	420	open drive	0.0
-census data	423	oracle	0.0
-census data	427	organic search	0.0
-census data	432	overture	0.0
-census data	434	paid inclusion	0.0
-census data	437	pattern	0.0
-census data	441	pharmacy	0.0
-census data	443	picollator	0.0
-census data	446	power transformer	0.0
-census data	447	powerset (company)	0.0
-census data	451	prentice hall	0.0
-census data	453	principle of least astonishment	0.0
-census data	455	probabilistic relevance model	0.0
-census data	456	probabilistic relevance model (bm25)	0.0
-census data	461	proximity search (text)	0.0
-census data	466	quaero	0.0
-census data	471	quora	0.0
-census data	482	relevance	0.0
-census data	483	relevance (information retrieval)	0.0
-census data	484	relevance feedback	0.0
-census data	496	rule of inference	0.0
-census data	498	sapo (company)	0.0
-census data	504	smart information retrieval system	0.0
-census data	510	scientific american magazine	0.0
-census data	511	searchme	0.0
-census data	514	search directory	0.0
-census data	515	search engine (computing)	0.0
-census data	516	search engine (disambiguation)	0.0
-census data	520	search engine results pages	0.0
-census data	526	sensitivity and specificity	0.0
-census data	528	set theory	0.0
-census data	531	social science research network	0.0
-census data	547	spider trap	0.0
-census data	549	springer verlag	0.0
-census data	550	sproose	0.0
-census data	553	statcounter	0.0
-census data	558	statistical noise	0.0
-census data	562	subject indexing	0.0
-census data	569	systems architecture	0.0
-census data	574	teoma	0.0
-census data	579	tf-idf	0.0
-census data	580	the american statistician	0.0
-census data	582	theory of forms	0.0
-census data	583	theory of computation	0.0
-census data	585	tony kent strix award	0.0
-census data	586	topic-based vector space model	0.0
-census data	598	uncertain inference	0.0
-census data	599	united states national research council	0.0
-census data	600	university of calabria	0.0
-census data	601	university of geneva	0.0
-census data	606	user expectations	0.0
-census data	609	vector space model	0.0
-census data	610	veronica (computer)	0.0
-census data	611	veronica lodge	0.0
-census data	612	vertical search	0.0
-census data	618	voice search	0.0
-census data	619	volunia	0.0
-census data	620	w3catalog	0.0
-census data	622	webcrawler	0.0
-census data	627	web directories	0.0
-census data	628	web directory	0.0
-census data	630	web indexing	0.0
-census data	640	website parse template	0.0
-census data	641	website mirroring software	0.0
-census data	644	wikia search	0.0
-census data	645	wikiseek	0.0
-census data	649	world wide web wanderer	0.0
-census data	656	yebol	0.0
-census data	657	yummly	0.0
 bing	52	bing	0.8750761159504945
 bing	344	live search	0.8750761159504945
 bing	354	msn search	0.8750761159504945
@@ -1975,1980 +657,1321 @@ bing	653	yahoo!	0.0
 bing	655	yandex	0.0
 bing	657	yummly	0.0
 bing	658	z39.50	0.0
-bing	98	comparison of web search engines	0.14515624090868212
-bing	277	info.com	0.12595458930162529
-bing	656	yebol	0.10797838315701425
-bing	520	search engine results pages	0.0984710298184091
-bing	381	msnbot	0.09393228971762482
-bing	52	bing	0.0852531619320275
-bing	344	live search	0.0852531619320275
-bing	354	msn search	0.0852531619320275
-bing	427	organic search	0.07583695942452788
-bing	637	web search engine	0.06956009125438183
-bing	447	powerset (company)	0.0682460090497109
-bing	343	list of search engines	0.065997662149463
-bing	638	web search query	0.06318973662305043
-bing	336	leapfish	0.0628189987684732
-bing	622	webcrawler	0.06011227772718554
-bing	245	goby inc.	0.058089965820955006
-bing	326	keyword (internet search)	0.05731286281144361
-bing	519	search engine optimization	0.05731286281144361
-bing	654	yahoo! search	0.0564441048965683
-bing	525	semantic search	0.0561466623539578
-bing	75	carrot2	0.052800145000386024
-bing	187	dogpile	0.05147480616747723
-bing	518	search engine marketing	0.0509052057882011
-bing	492	robots.txt	0.04905339561837248
-bing	493	robots exclusion standard	0.04905339561837248
-bing	194	duckduckgo	0.048755537530264494
-bing	337	learning to rank	0.045966127271347086
-bing	631	web mining	0.04416958676146374
-bing	647	wolfram alpha	0.04189136864890945
-bing	401	naver	0.03639394352677188
-bing	250	google search	0.03199365217146833
-bing	21	altavista	0.03139855901695186
-bing	244	go.com	0.029644818725705305
-bing	466	quaero	0.029386497530887807
-bing	619	volunia	0.027520751127407147
-bing	373	microsoft	0.026923163090436273
-bing	369	meta tags	0.023727890916553165
-bing	152	data mining	0.021961883394507078
-bing	355	machine learning	0.02187511237388989
-bing	35	ask.com	0.02164690174121254
-bing	276	index (search engine)	0.01903283066578374
-bing	517	search engine indexing	0.01903283066578374
-bing	117	computer vision	0.01845127401603443
-bing	625	web crawler	0.014678833777903615
-bing	626	web crawling	0.014678833777903615
-bing	45	baidu	0.01381840421886197
-bing	241	geographic information systems	0.01181211730288285
-bing	247	google	0.008300097707334949
-bing	0	1890 us census	0.0
-bing	1	a9.com	0.0
-bing	2	acm computing classification system	0.0
-bing	3	advise	0.0
-bing	4	aol	0.0
-bing	5	aol search	0.0
-bing	6	academic press	0.0
-bing	7	academic journal	0.0
-bing	8	accuracy and precision	0.0
-bing	9	actuate corporation	0.0
-bing	10	adversarial information retrieval	0.0
-bing	11	adverse drug reaction	0.0
-bing	12	advertising	0.0
-bing	13	aggregate (data warehouse)	0.0
-bing	14	aggregate function	0.0
-bing	15	alan emtage	0.0
-bing	16	algorithm	0.0
-bing	17	algorithm design	0.0
-bing	18	aliweb	0.0
-bing	19	alltheweb	0.0
-bing	20	alpha consumer	0.0
-bing	22	alvin weinberg	0.0
-bing	23	analysis of algorithms	0.0
-bing	24	analytics	0.0
-bing	25	anchor modeling	0.0
-bing	26	angoss	0.0
-bing	27	anomaly detection	0.0
-bing	28	archie comics	0.0
-bing	29	archie search engine	0.0
-bing	30	argonne national laboratory	0.0
-bing	31	artificial intelligence	0.0
-bing	32	artificial life	0.0
-bing	33	artificial neural network	0.0
-bing	34	as we may think	0.0
-bing	36	association for computing machinery	0.0
-bing	37	association rule	0.0
-bing	38	association rule learning	0.0
-bing	39	association rule mining	0.0
-bing	40	association rules	0.0
-bing	41	atlantic monthly	0.0
-bing	42	automata theory	0.0
-bing	43	automated reasoning	0.0
-bing	44	automatic summarization	0.0
-bing	46	bayes' theorem	0.0
-bing	47	berlekamp	0.0
-bing	48	bibliometrics	0.0
-bing	49	bill inmon	0.0
-bing	50	binary independence model	0.0
-bing	51	binary classification	0.0
-bing	53	bioinformatic	0.0
-bing	54	bioinformatics	0.0
-bing	55	biomedical	0.0
-bing	56	blackle.com	0.0
-bing	57	blekko	0.0
-bing	58	boogami	0.0
-bing	59	boolean algebra	0.0
-bing	60	boolean operators	0.0
-bing	61	bram stoker	0.0
-bing	62	british petroleum	0.0
-bing	63	business intelligence	0.0
-bing	64	business intelligence tools	0.0
-bing	65	buzzword	0.0
-bing	66	c. j. van rijsbergen	0.0
-bing	67	capps ii	0.0
-bing	68	cern	0.0
-bing	69	cikm conference	0.0
-bing	70	crisp-dm	0.0
-bing	71	calvin mooers	0.0
-bing	72	cambridge university press	0.0
-bing	73	cancer	0.0
-bing	74	carnegie mellon university	0.0
-bing	76	case western reserve university	0.0
-bing	77	categorization	0.0
-bing	78	category theory	0.0
-bing	79	censorship	0.0
-bing	80	chacha (search engine)	0.0
-bing	81	chemicalize.org	0.0
-bing	82	chess	0.0
-bing	83	chess endgame	0.0
-bing	84	churn rate	0.0
-bing	85	clarabridge	0.0
-bing	86	classification of the sciences (peirce)	0.0
-bing	87	cloud storage	0.0
-bing	88	cluster analysis	0.0
-bing	89	co-occurrence	0.0
-bing	90	cognitive science	0.0
-bing	91	collaborative information seeking	0.0
-bing	92	collaborative search engine	0.0
-bing	93	column-oriented dbms	0.0
-bing	94	combinatorial game	0.0
-bing	95	combinatorics	0.0
-bing	96	communications of the acm	0.0
-bing	97	comparison of olap servers	0.0
-bing	99	compiler	0.0
-bing	100	computability theory	0.0
-bing	101	computational chemistry	0.0
-bing	102	computational complexity theory	0.0
-bing	103	computational geometry	0.0
-bing	104	computational linguistics	0.0
-bing	105	computational neuroscience	0.0
-bing	106	computational physics	0.0
-bing	107	computational science	0.0
-bing	108	computer accessibility	0.0
-bing	109	computer animation	0.0
-bing	110	computer architecture	0.0
-bing	111	computer data storage	0.0
-bing	112	computer graphics	0.0
-bing	113	computer music	0.0
-bing	114	computer networking	0.0
-bing	115	computer programming	0.0
-bing	116	computer science	0.0
-bing	118	concurrency (computer science)	0.0
-bing	119	concurrency control	0.0
-bing	120	condition monitoring	0.0
-bing	121	conference on information and knowledge management	0.0
-bing	122	conference on knowledge discovery and data mining	0.0
-bing	123	contextual advertising	0.0
-bing	124	controlled vocabulary	0.0
-bing	125	cornelis j. van rijsbergen	0.0
-bing	126	cross-language information retrieval	0.0
-bing	127	cross-platform	0.0
-bing	128	cross industry standard process for data mining	0.0
-bing	129	cryptography	0.0
-bing	130	cuil	0.0
-bing	131	cultural studies	0.0
-bing	132	customer analytics	0.0
-bing	133	customer relationship management	0.0
-bing	134	cyril w. cleverdon	0.0
-bing	135	dna	0.0
-bing	136	dashboard (business)	0.0
-bing	137	data	0.0
-bing	138	data mining extensions	0.0
-bing	139	data pre-processing	0.0
-bing	140	data vault modeling	0.0
-bing	141	data analysis	0.0
-bing	142	data cleaning	0.0
-bing	143	data clustering	0.0
-bing	144	data collection	0.0
-bing	145	data dictionary	0.0
-bing	146	data dredging	0.0
-bing	147	data extraction	0.0
-bing	148	data integration	0.0
-bing	149	data loading	0.0
-bing	150	data management	0.0
-bing	151	data mart	0.0
-bing	153	data mining in agriculture	0.0
-bing	154	data mining in meteorology	0.0
-bing	155	data modeling	0.0
-bing	156	data set	0.0
-bing	157	data snooping	0.0
-bing	158	data structure	0.0
-bing	159	data transformation	0.0
-bing	160	data visualization	0.0
-bing	161	data warehouse	0.0
-bing	162	database	0.0
-bing	163	database management system	0.0
-bing	164	database system	0.0
-bing	165	daum communications	0.0
-bing	166	decision making	0.0
-bing	167	decision support system	0.0
-bing	168	decision tree learning	0.0
-bing	169	decision trees	0.0
-bing	170	deepwater horizon oil spill	0.0
-bing	171	degenerate dimension	0.0
-bing	172	desktop search	0.0
-bing	173	digital object identifier	0.0
-bing	174	digital obsolescence	0.0
-bing	175	dimension (data warehouse)	0.0
-bing	176	dimension reduction	0.0
-bing	177	dimension table	0.0
-bing	178	dimensional modeling	0.0
-bing	179	discounted cumulative gain	0.0
-bing	180	discovery (observation)	0.0
-bing	181	discovery net	0.0
-bing	182	dissolved gas analysis	0.0
-bing	183	distributed computing	0.0
-bing	184	distributed web crawling	0.0
-bing	185	divergence-from-randomness model	0.0
-bing	186	document retrieval	0.0
-bing	188	don swanson	0.0
-bing	189	donald b. crouch	0.0
-bing	190	dot-com bubble	0.0
-bing	191	dots-and-boxes	0.0
-bing	192	dracula	0.0
-bing	193	drug discovery	0.0
-bing	195	early-arriving fact	0.0
-bing	196	educational data mining	0.0
-bing	197	electrical power	0.0
-bing	198	electronic health records	0.0
-bing	199	eli pariser	0.0
-bing	200	emanuel goldberg	0.0
-bing	201	enterprise search	0.0
-bing	202	environment for developing kdd-applications supported by index-structures	0.0
-bing	203	eugene garfield	0.0
-bing	204	europe	0.0
-bing	205	european conference on machine learning and principles and practice of knowledge discovery in databases	0.0
-bing	206	european summer school in information retrieval	0.0
-bing	207	evolutionary computation	0.0
-bing	208	exalead	0.0
-bing	209	excite	0.0
-bing	210	experian hitwise	0.0
-bing	211	expert system	0.0
-bing	212	expertise finding	0.0
-bing	213	exploratory data analysis	0.0
-bing	214	extended boolean model	0.0
-bing	215	extract, transform, load	0.0
-bing	216	f-score	0.0
-bing	217	f. wilfrid lancaster	0.0
-bing	218	fico	0.0
-bing	219	facebook	0.0
-bing	220	fact (data warehouse)	0.0
-bing	221	fact table	0.0
-bing	222	factor analysis	0.0
-bing	223	federated search	0.0
-bing	224	file transfer protocol	0.0
-bing	225	filter bubble	0.0
-bing	226	first amendment to the united states constitution	0.0
-bing	227	focused crawler	0.0
-bing	228	forestle	0.0
-bing	229	formal methods	0.0
-bing	230	forrester research	0.0
-bing	231	functional programming	0.0
-bing	232	fuzzy retrieval	0.0
-bing	233	gnu project	0.0
-bing	234	gartner	0.0
-bing	235	general architecture for text engineering	0.0
-bing	236	generalized vector space model	0.0
-bing	237	genetic algorithms	0.0
-bing	238	genetics	0.0
-bing	239	genieknows	0.0
-bing	240	genres	0.0
-bing	242	gerard salton	0.0
-bing	243	gerard salton award	0.0
-bing	246	goodsearch	0.0
-bing	248	google bombing	0.0
-bing	249	google drive	0.0
-bing	251	google effect	0.0
-bing	252	gopher (protocol)	0.0
-bing	253	graph theory	0.0
-bing	254	grid computing	0.0
-bing	255	guruji.com	0.0
-bing	256	holap	0.0
-bing	257	html	0.0
-bing	258	hans peter luhn	0.0
-bing	259	harmonic mean	0.0
-bing	260	health insurance portability and accountability act	0.0
-bing	261	herman hollerith	0.0
-bing	262	hitwise	0.0
-bing	263	hotbot	0.0
-bing	264	human%e2%80%93computer information retrieval	0.0
-bing	265	human%e2%80%93computer interaction	0.0
-bing	266	human rights	0.0
-bing	267	hypertext	0.0
-bing	268	ibm	0.0
-bing	269	ieee	0.0
-bing	270	ill-posed	0.0
-bing	271	image processing	0.0
-bing	272	image retrieval	0.0
-bing	273	imperial college london	0.0
-bing	274	independency	0.0
-bing	275	index (database)	0.0
-bing	278	informatics (academic field)	0.0
-bing	279	informationweek	0.0
-bing	280	information retrieval facility	0.0
-bing	281	information access	0.0
-bing	282	information architecture	0.0
-bing	283	information extraction	0.0
-bing	284	information integration	0.0
-bing	285	information management	0.0
-bing	286	information need	0.0
-bing	287	information overload	0.0
-bing	288	information retrieval	0.0
-bing	289	information retrieval applications	0.0
-bing	290	information science	0.0
-bing	291	information seeking	0.0
-bing	292	information society	0.0
-bing	293	information technology	0.0
-bing	294	information theory	0.0
-bing	295	infoseek	0.0
-bing	296	initial public offering	0.0
-bing	297	inktomi (company)	0.0
-bing	298	institutional memory	0.0
-bing	299	insulator (electrical)	0.0
-bing	300	intellectual freedom	0.0
-bing	301	intellectual property	0.0
-bing	302	interactive visualization	0.0
-bing	303	international conference on very large data bases	0.0
-bing	304	international standard book number	0.0
-bing	305	internet search engines and libraries	0.0
-bing	306	interpreter (computing)	0.0
-bing	307	inverted index	0.0
-bing	308	iterative algorithm	0.0
-bing	309	j. c. r. licklider	0.0
-bing	310	jasis	0.0
-bing	311	jhepwork	0.0
-bing	312	jacquard loom	0.0
-bing	313	java (programming language)	0.0
-bing	314	java data mining	0.0
-bing	315	john nunn	0.0
-bing	316	john seward	0.0
-bing	317	joseph marie jacquard	0.0
-bing	318	jughead (computer)	0.0
-bing	319	jughead jones	0.0
-bing	320	jumpstation	0.0
-bing	321	kdd conference	0.0
-bing	322	knime	0.0
-bing	323	kxen inc.	0.0
-bing	324	karen spa�rck jones	0.0
-bing	325	keypunch	0.0
-bing	327	kluwer academic publishers	0.0
-bing	328	knowledge discovery	0.0
-bing	329	knowledge organization	0.0
-bing	330	knowledge visualization	0.0
-bing	331	lionsolver	0.0
-bing	332	language model	0.0
-bing	333	latent dirichlet allocation	0.0
-bing	334	latent semantic analysis	0.0
-bing	335	latent semantic indexing	0.0
-bing	338	library and information science	0.0
-bing	339	linkrot	0.0
-bing	340	list of computer science conferences	0.0
-bing	341	list of information retrieval libraries	0.0
-bing	342	list of reporting software	0.0
-bing	345	local search (internet)	0.0
-bing	346	logic programming	0.0
-bing	347	looksmart	0.0
-bing	348	lycos	0.0
-bing	349	matrix	0.0
-bing	350	medlars	0.0
-bing	351	mit	0.0
-bing	352	ml-flex	0.0
-bing	353	molap	0.0
-bing	356	magellan (search engine)	0.0
-bing	357	main page	0.0
-bing	358	mark mccahill	0.0
-bing	359	market basket analysis	0.0
-bing	360	mass surveillance	0.0
-bing	361	massachusetts institute of technology	0.0
-bing	362	mathematical logic	0.0
-bing	363	mathematics	0.0
-bing	364	mcgill university	0.0
-bing	365	mean reciprocal rank	0.0
-bing	366	measure (data warehouse)	0.0
-bing	367	medicine	0.0
-bing	368	memory	0.0
-bing	370	metadata	0.0
-bing	371	metasearch engine	0.0
-bing	372	microarchitecture	0.0
-bing	374	microsoft analysis services	0.0
-bing	375	mind maps	0.0
-bing	376	mining software repositories	0.0
-bing	377	missing data	0.0
-bing	378	modeling and simulation	0.0
-bing	379	montreal	0.0
-bing	380	morgan kaufmann	0.0
-bing	382	mugurdy	0.0
-bing	383	multidimensional expressions	0.0
-bing	384	multifactor dimensionality reduction	0.0
-bing	385	multilinear subspace learning	0.0
-bing	386	multimedia information retrieval	0.0
-bing	387	multiprocessing	0.0
-bing	388	multisearch	0.0
-bing	389	multivariate statistics	0.0
-bing	390	music information retrieval	0.0
-bing	391	nltk	0.0
-bing	392	named-entity recognition	0.0
-bing	393	national bureau of standards	0.0
-bing	394	national center for supercomputing applications	0.0
-bing	395	national institute of standards and technology	0.0
-bing	396	national security agency	0.0
-bing	397	natural language toolkit	0.0
-bing	398	natural language processing	0.0
-bing	399	natural language search engine	0.0
-bing	400	nature (journal)	0.0
-bing	402	netscape	0.0
-bing	403	network topology	0.0
-bing	404	neural networks	0.0
-bing	405	nicholas j. belkin	0.0
-bing	406	nicholas jardine	0.0
-bing	407	northern light group	0.0
-bing	408	number theory	0.0
-bing	409	numerical analysis	0.0
-bing	410	oclc	0.0
-bing	411	olap cube	0.0
-bing	412	object-oriented programming	0.0
-bing	413	online algorithm	0.0
-bing	414	online analytical processing	0.0
-bing	415	online search	0.0
-bing	416	ontologies	0.0
-bing	417	ontology (information science)	0.0
-bing	418	opensearch	0.0
-bing	419	open directory project	0.0
-bing	420	open drive	0.0
-bing	421	operating system	0.0
-bing	422	operational data store	0.0
-bing	423	oracle	0.0
-bing	424	oracle data mining	0.0
-bing	425	oracle machine	0.0
-bing	426	orange (software)	0.0
-bing	428	orthogonality	0.0
-bing	429	oscar nierstrasz	0.0
-bing	430	outline of information science	0.0
-bing	431	overfitting	0.0
-bing	432	overture	0.0
-bing	433	pagerank	0.0
-bing	434	paid inclusion	0.0
-bing	435	parallel computing	0.0
-bing	436	parsing	0.0
-bing	437	pattern	0.0
-bing	438	people's republic of china	0.0
-bing	439	perl	0.0
-bing	440	personal information management	0.0
-bing	441	pharmacy	0.0
-bing	442	philosophy of information	0.0
-bing	443	picollator	0.0
-bing	444	police-enforced anpr in the uk	0.0
-bing	445	positive predictive value	0.0
-bing	446	power transformer	0.0
-bing	448	precision and recall	0.0
-bing	449	predictive model markup language	0.0
-bing	450	predictive analytics	0.0
-bing	451	prentice hall	0.0
-bing	452	preservation (library and archival science)	0.0
-bing	453	principle of least astonishment	0.0
-bing	454	privacy	0.0
-bing	455	probabilistic relevance model	0.0
-bing	456	probabilistic relevance model (bm25)	0.0
-bing	457	procedural programming	0.0
-bing	458	profiling practices	0.0
-bing	459	programming language	0.0
-bing	460	programming paradigm	0.0
-bing	461	proximity search (text)	0.0
-bing	462	pubmed identifier	0.0
-bing	463	public library	0.0
-bing	464	punched cards	0.0
-bing	465	python (programming language)	0.0
-bing	467	quantitative structure%e2%80%93activity relationship	0.0
-bing	468	quantum computer	0.0
-bing	469	query string	0.0
-bing	470	question answering	0.0
-bing	471	quora	0.0
-bing	472	rolap	0.0
-bing	473	r (programming language)	0.0
-bing	474	ralph kimball	0.0
-bing	475	rank order	0.0
-bing	476	rapidminer	0.0
-bing	477	reactive business intelligence	0.0
-bing	478	real-time computing	0.0
-bing	479	receiver operating characteristic	0.0
-bing	480	regression analysis	0.0
-bing	481	relational database	0.0
-bing	482	relevance	0.0
-bing	483	relevance (information retrieval)	0.0
-bing	484	relevance feedback	0.0
-bing	485	representational state transfer	0.0
-bing	486	requirements analysis	0.0
-bing	487	rexer's annual data miner survey	0.0
-bing	488	robert m. hayes	0.0
-bing	489	robert r. korfhage	0.0
-bing	490	robert tibshirani	0.0
-bing	491	robotics	0.0
-bing	494	rocchio classification	0.0
-bing	495	routing	0.0
-bing	496	rule of inference	0.0
-bing	497	russian federation	0.0
-bing	498	sapo (company)	0.0
-bing	499	sas (software)	0.0
-bing	500	sas institute	0.0
-bing	501	semma	0.0
-bing	502	sigkdd	0.0
-bing	503	sigmod	0.0
-bing	504	smart information retrieval system	0.0
-bing	505	spss modeler	0.0
-bing	506	sql	0.0
-bing	507	statistica	0.0
-bing	508	scalability	0.0
-bing	509	science, technology and society	0.0
-bing	510	scientific american magazine	0.0
-bing	511	searchme	0.0
-bing	512	search engine watch	0.0
-bing	513	search aggregator	0.0
-bing	514	search directory	0.0
-bing	515	search engine (computing)	0.0
-bing	516	search engine (disambiguation)	0.0
-bing	521	search oriented architecture	0.0
-bing	522	selection-based search	0.0
-bing	523	self-organizing map	0.0
-bing	524	semantic web	0.0
-bing	526	sensitivity and specificity	0.0
-bing	527	sequence mining	0.0
-bing	528	set theory	0.0
-bing	529	sixth normal form	0.0
-bing	530	slowly changing dimension	0.0
-bing	531	social science research network	0.0
-bing	532	social information seeking	0.0
-bing	533	social search	0.0
-bing	534	society for industrial and applied mathematics	0.0
-bing	535	software	0.0
-bing	536	software design	0.0
-bing	537	software development process	0.0
-bing	538	software engineering	0.0
-bing	539	software release life cycle	0.0
-bing	540	software testing	0.0
-bing	541	sogou.com	0.0
-bing	542	sorrell v. ims health, inc.	0.0
-bing	543	spatial index	0.0
-bing	544	spearman's rank correlation coefficient	0.0
-bing	545	special interest group on information retrieval	0.0
-bing	546	spell checker	0.0
-bing	547	spider trap	0.0
-bing	548	spreadsheets	0.0
-bing	549	springer verlag	0.0
-bing	550	sproose	0.0
-bing	551	standard boolean model	0.0
-bing	552	star schema	0.0
-bing	553	statcounter	0.0
-bing	554	statsoft	0.0
-bing	555	statistical classification	0.0
-bing	556	statistical inference	0.0
-bing	557	statistical model	0.0
-bing	558	statistical noise	0.0
-bing	559	statistics	0.0
-bing	560	stellar wind (code name)	0.0
-bing	561	structured data analysis (statistics)	0.0
-bing	562	subject indexing	0.0
-bing	563	subspace clustering	0.0
-bing	564	support vector machines	0.0
-bing	565	supreme court of the united states	0.0
-bing	566	surrogate key	0.0
-bing	567	surveillance	0.0
-bing	568	symbolic computation	0.0
-bing	569	systems architecture	0.0
-bing	570	tablebase	0.0
-bing	571	tabulating machine	0.0
-bing	572	telecommunication	0.0
-bing	573	temporal information retrieval	0.0
-bing	574	teoma	0.0
-bing	575	test set	0.0
-bing	576	text retrieval conference	0.0
-bing	577	text corpora	0.0
-bing	578	text mining	0.0
-bing	579	tf-idf	0.0
-bing	580	the american statistician	0.0
-bing	581	theodor nelson	0.0
-bing	582	theory of forms	0.0
-bing	583	theory of computation	0.0
-bing	584	tim berners-lee	0.0
-bing	585	tony kent strix award	0.0
-bing	586	topic-based vector space model	0.0
-bing	587	total information awareness	0.0
-bing	588	traffic analysis	0.0
-bing	589	training set	0.0
-bing	590	transaction processing	0.0
-bing	591	trevor hastie	0.0
-bing	592	true knowledge	0.0
-bing	593	type theory	0.0
-bing	594	ubm plc	0.0
-bing	595	uima	0.0
-bing	596	us congress	0.0
-bing	597	ubiquitous computing	0.0
-bing	598	uncertain inference	0.0
-bing	599	united states national research council	0.0
-bing	600	university of calabria	0.0
-bing	601	university of geneva	0.0
-bing	602	university of minnesota	0.0
-bing	603	uplift modelling	0.0
-bing	604	uppsala monitoring centre	0.0
-bing	605	usability	0.0
-bing	606	user expectations	0.0
-bing	607	user interface	0.0
-bing	608	vannevar bush	0.0
-bing	609	vector space model	0.0
-bing	610	veronica (computer)	0.0
-bing	611	veronica lodge	0.0
-bing	612	vertical search	0.0
-bing	613	video search engine	0.0
-bing	614	viewzi	0.0
-bing	615	virtual reality	0.0
-bing	616	visualization (computer graphics)	0.0
-bing	617	vivisimo	0.0
-bing	618	voice search	0.0
-bing	620	w3catalog	0.0
-bing	621	wearable computer	0.0
-bing	623	web archiving	0.0
-bing	624	web cache	0.0
-bing	627	web directories	0.0
-bing	628	web directory	0.0
-bing	629	web form	0.0
-bing	630	web indexing	0.0
-bing	632	web page	0.0
-bing	633	web portal	0.0
-bing	634	web query classification	0.0
-bing	635	web robot	0.0
-bing	636	web scraping	0.0
-bing	639	webserver	0.0
-bing	640	website parse template	0.0
-bing	641	website mirroring software	0.0
-bing	642	weka (machine learning)	0.0
-bing	643	wide area information server	0.0
-bing	644	wikia search	0.0
-bing	645	wikiseek	0.0
-bing	646	wireless sensor network	0.0
-bing	648	world wide web	0.0
-bing	649	world wide web wanderer	0.0
-bing	650	xml	0.0
-bing	651	xml-retrieval	0.0
-bing	652	xml for analysis	0.0
-bing	653	yahoo!	0.0
-bing	655	yandex	0.0
-bing	657	yummly	0.0
-bing	658	z39.50	0.0
-web	516	search engine (disambiguation)	0.07293926677339889
-web	415	online search	0.07003001696527045
-web	649	world wide web wanderer	0.0678911406766582
-web	388	multisearch	0.05681903663321113
-web	630	web indexing	0.05412762510983091
-web	612	vertical search	0.04635181133232806
-web	547	spider trap	0.04368365912107881
-web	10	adversarial information retrieval	0.04324464909958783
-web	515	search engine (computing)	0.04285986736445891
-web	618	voice search	0.04047610581465298
-web	320	jumpstation	0.038893612557685024
-web	371	metasearch engine	0.03741981501605607
-web	620	w3catalog	0.03713375394125717
-web	227	focused crawler	0.0361813450938065
-web	514	search directory	0.03585983586315693
-web	627	web directories	0.03585983586315693
-web	628	web directory	0.03585983586315693
-web	574	teoma	0.03571947328397561
-web	522	selection-based search	0.03531562687860486
-web	185	divergence-from-randomness model	0.03430491333119912
-web	634	web query classification	0.03317404234384574
-web	520	search engine results pages	0.03235589536078018
-web	184	distributed web crawling	0.03185608463160478
-web	656	yebol	0.031574627010763946
-web	533	social search	0.03157443520784523
-web	624	web cache	0.030448677248205127
-web	223	federated search	0.030246286171243777
-web	638	web search query	0.030080201338335857
-web	639	webserver	0.030063050329183494
-web	632	web page	0.029914781215286762
-web	658	z39.50	0.029642057033758377
-web	147	data extraction	0.029529881291487533
-web	345	local search (internet)	0.02943372384030483
-web	434	paid inclusion	0.028935711690504358
-web	201	enterprise search	0.02855316063982654
-web	553	statcounter	0.028487095476078476
-web	289	information retrieval applications	0.028343571392165038
-web	631	web mining	0.027431521446296656
-web	623	web archiving	0.02725910155961882
-web	239	genieknows	0.026966762616151194
-web	513	search aggregator	0.026950905705656097
-web	282	information architecture	0.026923023283231234
-web	263	hotbot	0.02673667713911419
-web	629	web form	0.0266349612749239
-web	18	aliweb	0.026622855246120552
-web	525	semantic search	0.02606610444252391
-web	427	organic search	0.025588055280672626
-web	19	alltheweb	0.025564087812680793
-web	210	experian hitwise	0.02522360864084965
-web	262	hitwise	0.02522360864084965
-web	443	picollator	0.025190165366132736
-web	622	webcrawler	0.025139524101527935
-web	255	guruji.com	0.025010143612315686
-web	633	web portal	0.024984949385840564
-web	245	goby inc.	0.024293774101199844
-web	654	yahoo! search	0.02417544251668359
-web	418	opensearch	0.024166118507755966
-web	640	website parse template	0.0241224439193114
-web	15	alan emtage	0.024068394621691653
-web	645	wikiseek	0.023846385962027594
-web	469	query string	0.02336957882409157
-web	492	robots.txt	0.023350880940235446
-web	493	robots exclusion standard	0.023350880940235446
-web	635	web robot	0.022520499801424326
-web	272	image retrieval	0.02241704837322636
-web	283	information extraction	0.022385292411490513
-web	81	chemicalize.org	0.021819422619483688
-web	576	text retrieval conference	0.021648613005841446
-web	348	lycos	0.021634247591236527
-web	208	exalead	0.021596973435633656
-web	21	altavista	0.021260886198798307
-web	554	statsoft	0.020996530045644987
-web	381	msnbot	0.0204691363133805
-web	532	social information seeking	0.02043227188164298
-web	339	linkrot	0.02018480252661017
-web	369	meta tags	0.020134288942922622
-web	539	software release life cycle	0.020106767127827645
-web	24	analytics	0.020061392464452668
-web	382	mugurdy	0.020054218467989753
-web	399	natural language search engine	0.019865763790142692
-web	485	representational state transfer	0.01970414314042337
-web	29	archie search engine	0.019656672629998158
-web	636	web scraping	0.019332774238201705
-web	521	search oriented architecture	0.019138178136385336
-web	637	web search engine	0.019012589304280268
-web	613	video search engine	0.018929799591475817
-web	92	collaborative search engine	0.018894235141513036
-web	644	wikia search	0.018585393467296794
-web	614	viewzi	0.01857145066812919
-web	124	controlled vocabulary	0.018500357476538963
-web	507	statistica	0.018453597130172725
-web	75	carrot2	0.018307184414415943
-web	531	social science research network	0.018293472222676542
-web	625	web crawler	0.01822714005058199
-web	626	web crawling	0.01822714005058199
-web	585	tony kent strix award	0.018172474199083147
-web	130	cuil	0.017978676942027854
-web	541	sogou.com	0.017746215785612307
-web	524	semantic web	0.017657572970546213
-web	336	leapfish	0.017572758939825656
-web	619	volunia	0.017534568461103104
-web	20	alpha consumer	0.01738542531877815
-web	643	wide area information server	0.017269146367268187
-web	123	contextual advertising	0.017243365308230518
-web	127	cross-platform	0.017118834072325294
-web	267	hypertext	0.016723136391507517
-web	228	forestle	0.016652326003960296
-web	165	daum communications	0.01650286883991576
-web	641	website mirroring software	0.016399252438530368
-web	276	index (search engine)	0.016150298118543256
-web	517	search engine indexing	0.016150298118543256
-web	560	stellar wind (code name)	0.016039264430606708
-web	326	keyword (internet search)	0.015753654193263213
-web	519	search engine optimization	0.015753654193263213
-web	545	special interest group on information retrieval	0.015633533458454463
-web	447	powerset (company)	0.01557521536633121
-web	580	the american statistician	0.015503003300650046
-web	584	tim berners-lee	0.015493996021933855
-web	518	search engine marketing	0.015469943809798638
-web	648	world wide web	0.015406519066515554
-web	9	actuate corporation	0.015282691192225455
-web	108	computer accessibility	0.015281656851055852
-web	484	relevance feedback	0.015274264668967481
-web	402	netscape	0.015269345204047352
-web	401	naver	0.015220292010780958
-web	225	filter bubble	0.015189214653798867
-web	58	boogami	0.015110368835246791
-web	358	mark mccahill	0.015073007563994774
-web	461	proximity search (text)	0.01492622049177064
-web	1	a9.com	0.014809790043198994
-web	17	algorithm design	0.014794314825557384
-web	456	probabilistic relevance model (bm25)	0.014685397175815568
-web	394	national center for supercomputing applications	0.01462817725100967
-web	209	excite	0.014603056705489323
-web	356	magellan (search engine)	0.014603056705489323
-web	172	desktop search	0.01451239234200322
-web	470	question answering	0.014453045175974663
-web	57	blekko	0.014375568973144962
-web	365	mean reciprocal rank	0.014062740333379111
-web	216	f-score	0.013813372043257176
-web	390	music information retrieval	0.013793252167397508
-web	87	cloud storage	0.013748973474323349
-web	206	european summer school in information retrieval	0.01367354494715457
-web	591	trevor hastie	0.013480985123147937
-web	291	information seeking	0.013383031943231049
-web	133	customer relationship management	0.013163695842842412
-web	607	user interface	0.0130792623369869
-web	433	pagerank	0.013071387976087848
-web	407	northern light group	0.013061122635452147
-web	417	ontology (information science)	0.013059287135003119
-web	416	ontologies	0.01305775921434842
-web	194	duckduckgo	0.01292502499025941
-web	252	gopher (protocol)	0.01290653173133362
-web	297	inktomi (company)	0.012791131253912666
-web	35	ask.com	0.012707991004335475
-web	426	orange (software)	0.01268475609996803
-web	370	metadata	0.012664905074456816
-web	511	searchme	0.012589368074839588
-web	419	open directory project	0.01254457773931984
-web	330	knowledge visualization	0.012477647416045283
-web	616	visualization (computer graphics)	0.012477647416045283
-web	244	go.com	0.012397744071894581
-web	323	kxen inc.	0.012306655814733057
-web	257	html	0.01226958867004849
-web	281	information access	0.012221819767359582
-web	573	temporal information retrieval	0.012156883402317293
-web	290	information science	0.012098413215361642
-web	250	google search	0.01209346084353298
-web	249	google drive	0.012044653096257778
-web	512	search engine watch	0.012006668784399653
-web	595	uima	0.011990413718579838
-web	617	vivisimo	0.011798856771706825
-web	311	jhepwork	0.011781170444749335
-web	647	wolfram alpha	0.011765638732621587
-web	7	academic journal	0.011440029306298458
-web	199	eli pariser	0.011422055233316943
-web	68	cern	0.011375634541135098
-web	577	text corpora	0.011354745912109984
-web	657	yummly	0.011350900196929912
-web	328	knowledge discovery	0.011309837158766328
-web	264	human%e2%80%93computer information retrieval	0.011255343238284058
-web	410	oclc	0.01115062494298931
-web	550	sproose	0.011111745330900261
-web	650	xml	0.011076656690505494
-web	32	artificial life	0.010982907851208113
-web	91	collaborative information seeking	0.010978386482485333
-web	578	text mining	0.010875447036792805
-web	52	bing	0.010829889891327198
-web	344	live search	0.010829889891327198
-web	354	msn search	0.010829889891327198
-web	343	list of search engines	0.010734060361712981
-web	337	learning to rank	0.010716514461706548
-web	45	baidu	0.010712988845247073
-web	288	information retrieval	0.010589845291625948
-web	488	robert m. hayes	0.010500755626548916
-web	122	conference on knowledge discovery and data mining	0.010495837162535462
-web	321	kdd conference	0.010495837162535462
-web	502	sigkdd	0.010495837162535462
-web	213	exploratory data analysis	0.010318332434771038
-web	464	punched cards	0.010310264180217164
-web	605	usability	0.010264042180646618
-web	473	r (programming language)	0.010243751763669857
-web	116	computer science	0.010217451845424922
-web	653	yahoo!	0.010170739401760696
-web	462	pubmed identifier	0.010159952761966979
-web	173	digital object identifier	0.010158806420074384
-web	475	rank order	0.010138843813538618
-web	499	sas (software)	0.00997120936413508
-web	466	quaero	0.009915262017776868
-web	80	chacha (search engine)	0.009849533839242058
-web	587	total information awareness	0.00984615650262002
-web	241	geographic information systems	0.009629935842163099
-web	167	decision support system	0.009605436751833205
-web	295	infoseek	0.009602723062047265
-web	448	precision and recall	0.009549387331302464
-web	212	expertise finding	0.009522046516669337
-web	153	data mining in agriculture	0.009490724221324881
-web	398	natural language processing	0.00944350793097959
-web	98	comparison of web search engines	0.009393455990393488
-web	224	file transfer protocol	0.009344710438317087
-web	474	ralph kimball	0.009259691318284068
-web	548	spreadsheets	0.00924907288969203
-web	148	data integration	0.00920289336021071
-web	41	atlantic monthly	0.009194191927770204
-web	313	java (programming language)	0.009152106235940505
-web	254	grid computing	0.009081306525058026
-web	248	google bombing	0.009057424254726516
-web	65	buzzword	0.00901755683589432
-web	85	clarabridge	0.008870250859527105
-web	351	mit	0.008854736961233265
-web	361	massachusetts institute of technology	0.008851795668326985
-web	562	subject indexing	0.008829792840507715
-web	183	distributed computing	0.00881751115921509
-web	535	software	0.008764858775230104
-web	421	operating system	0.008744633004916605
-web	310	jasis	0.008662146586239329
-web	537	software development process	0.00860553611315377
-web	655	yandex	0.008533580258520095
-web	646	wireless sensor network	0.008501429547569517
-web	49	bill inmon	0.008500982832323785
-web	56	blackle.com	0.008455059625325412
-web	179	discounted cumulative gain	0.008448031053540327
-web	581	theodor nelson	0.008424224518603092
-web	360	mass surveillance	0.00832283597766553
-web	48	bibliometrics	0.008311043535159495
-web	570	tablebase	0.008293793018158248
-web	160	data visualization	0.008170832437842803
-web	235	general architecture for text engineering	0.008149851612709274
-web	450	predictive analytics	0.008147555783970875
-web	340	list of computer science conferences	0.008116906135457862
-web	540	software testing	0.008074925322127337
-web	373	microsoft	0.008029412533395262
-web	4	aol	0.008012221815549206
-web	5	aol search	0.008012221815549206
-web	465	python (programming language)	0.007919535068403821
-web	247	google	0.00791322012553097
-web	454	privacy	0.007807717121023872
-web	603	uplift modelling	0.007789394284542709
-web	114	computer networking	0.007781442654098581
-web	246	goodsearch	0.007712998796689181
-web	538	software engineering	0.0076828519956500365
-web	53	bioinformatic	0.007642916529369607
-web	54	bioinformatics	0.007642916529369607
-web	219	facebook	0.007642533978787869
-web	430	outline of information science	0.007625328527221048
-web	205	european conference on machine learning and principles and practice of knowledge discovery in databases	0.007603180479886531
-web	483	relevance (information retrieval)	0.007586046183721706
-web	293	information technology	0.007496755936341955
-web	347	looksmart	0.0074785752768908205
-web	452	preservation (library and archival science)	0.007395918859478131
-web	280	information retrieval facility	0.007391955220033639
-web	334	latent semantic analysis	0.007356892449922755
-web	439	perl	0.007245396996307514
-web	440	personal information management	0.007180265527644458
-web	287	information overload	0.007170935737671803
-web	162	database	0.007130548639031898
-web	36	association for computing machinery	0.007038445997271686
-web	268	ibm	0.006978806785237777
-web	546	spell checker	0.006927655984330397
-web	651	xml-retrieval	0.006865930093415868
-web	181	discovery net	0.0068111223423950994
-web	12	advertising	0.006764203346298387
-web	152	data mining	0.006745023914821481
-web	233	gnu project	0.006685377409971294
-web	88	cluster analysis	0.0066207663000493544
-web	143	data clustering	0.0066207663000493544
-web	400	nature (journal)	0.006604368911686118
-web	536	software design	0.006572096707708741
-web	491	robotics	0.006515964438264725
-web	190	dot-com bubble	0.0064959072190979164
-web	602	university of minnesota	0.006480809842587955
-web	265	human%e2%80%93computer interaction	0.00644265239553702
-web	583	theory of computation	0.006340783708533985
-web	510	scientific american magazine	0.0063400958407639745
-web	266	human rights	0.006229923546968436
-web	590	transaction processing	0.005968435839575537
-web	567	surveillance	0.0059225872061241655
-web	34	as we may think	0.005907763944494569
-web	79	censorship	0.005886785252036708
-web	202	environment for developing kdd-applications supported by index-structures	0.0058522779585017904
-web	240	genres	0.005799511883442444
-web	389	multivariate statistics	0.005797257146902823
-web	374	microsoft analysis services	0.005716224123280355
-web	261	herman hollerith	0.005701889462986791
-web	508	scalability	0.005696163792183107
-web	44	automatic summarization	0.005588980689463649
-web	305	internet search engines and libraries	0.0055512513825003214
-web	572	telecommunication	0.005522590658344963
-web	467	quantitative structure%e2%80%93activity relationship	0.005452603407602995
-web	460	programming paradigm	0.005413292623538953
-web	396	national security agency	0.005336543226021791
-web	105	computational neuroscience	0.005334395150236213
-web	424	oracle data mining	0.005328719030052828
-web	82	chess	0.0053217254204127335
-web	379	montreal	0.005296942431207035
-web	441	pharmacy	0.005226924591796507
-web	269	ieee	0.005147476030394586
-web	312	jacquard loom	0.005121067081822153
-web	112	computer graphics	0.004979205864975536
-web	137	data	0.004975687169918803
-web	471	quora	0.004956606835544539
-web	299	insulator (electrical)	0.004881813628517981
-web	149	data loading	0.004853012920771031
-web	215	extract, transform, load	0.004853012920771031
-web	55	biomedical	0.004833794689286022
-web	296	initial public offering	0.004790727872293321
-web	349	matrix	0.004779985139478508
-web	31	artificial intelligence	0.0047616871403935905
-web	231	functional programming	0.0047589153582453525
-web	198	electronic health records	0.004746625556185974
-web	129	cryptography	0.004728285757651463
-web	459	programming language	0.004705688509688957
-web	468	quantum computer	0.0046818498854310255
-web	414	online analytical processing	0.0046335263881155135
-web	204	europe	0.004594094839327979
-web	355	machine learning	0.0043592517341130834
-web	428	orthogonality	0.004350853861703092
-web	486	requirements analysis	0.004293539514446128
-web	161	data warehouse	0.004261815322338084
-web	597	ubiquitous computing	0.00423786331927436
-web	37	association rule	0.004198427448851632
-web	38	association rule learning	0.004198427448851632
-web	39	association rule mining	0.004198427448851632
-web	40	association rules	0.004198427448851632
-web	309	j. c. r. licklider	0.004179895306682683
-web	335	latent semantic indexing	0.004140313014763846
-web	115	computer programming	0.004040462736220336
-web	611	veronica lodge	0.003980545987552288
-web	63	business intelligence	0.003948718321302936
-web	458	profiling practices	0.003937147170476316
-web	99	compiler	0.003924557198340778
-web	372	microarchitecture	0.003906538608817746
-web	28	archie comics	0.00368186682361616
-web	442	philosophy of information	0.0036743972016754223
-web	170	deepwater horizon oil spill	0.003654551383799408
-web	62	british petroleum	0.00358706854358582
-web	211	expert system	0.0035392849273996664
-web	73	cancer	0.0035267399535600166
-web	364	mcgill university	0.003461037815361117
-web	463	public library	0.0034525521758787315
-web	109	computer animation	0.003433638070965068
-web	596	us congress	0.003431338822665759
-web	500	sas institute	0.003409222756107464
-web	78	category theory	0.0033909742274721615
-web	367	medicine	0.003351436184997486
-web	317	joseph marie jacquard	0.003349223745464221
-web	253	graph theory	0.0033460422031874205
-web	16	algorithm	0.003317681841612349
-web	238	genetics	0.0032630811257943725
-web	90	cognitive science	0.0032418511164381894
-web	438	people's republic of china	0.0031550480943170808
-web	621	wearable computer	0.003041540863281121
-web	33	artificial neural network	0.0029976616129317466
-web	479	receiver operating characteristic	0.002970741566362451
-web	608	vannevar bush	0.002957620213279514
-web	292	information society	0.0029279947058952235
-web	163	database management system	0.002847761335649398
-web	304	international standard book number	0.002798113374352799
-web	61	bram stoker	0.0027539011957271936
-web	412	object-oriented programming	0.0027437019580267125
-web	237	genetic algorithms	0.002724372051383522
-web	319	jughead jones	0.002722810411397799
-web	497	russian federation	0.0025866784701031606
-web	59	boolean algebra	0.002484655592781425
-web	506	sql	0.002346416553564626
-web	301	intellectual property	0.0023339530285838885
-web	135	dna	0.0022956618978240404
-web	273	imperial college london	0.0021648650934161288
-web	408	number theory	0.0019058643209128262
-web	74	carnegie mellon university	0.001900327706007347
-web	565	supreme court of the united states	0.0012767358465293776
-web	0	1890 us census	0.0
-web	2	acm computing classification system	0.0
-web	3	advise	0.0
-web	6	academic press	0.0
-web	8	accuracy and precision	0.0
-web	11	adverse drug reaction	0.0
-web	13	aggregate (data warehouse)	0.0
-web	14	aggregate function	0.0
-web	22	alvin weinberg	0.0
-web	23	analysis of algorithms	0.0
-web	25	anchor modeling	0.0
-web	26	angoss	0.0
-web	27	anomaly detection	0.0
-web	30	argonne national laboratory	0.0
-web	42	automata theory	0.0
-web	43	automated reasoning	0.0
-web	46	bayes' theorem	0.0
-web	47	berlekamp	0.0
-web	50	binary independence model	0.0
-web	51	binary classification	0.0
-web	60	boolean operators	0.0
-web	64	business intelligence tools	0.0
-web	66	c. j. van rijsbergen	0.0
-web	67	capps ii	0.0
-web	69	cikm conference	0.0
-web	70	crisp-dm	0.0
-web	71	calvin mooers	0.0
-web	72	cambridge university press	0.0
-web	76	case western reserve university	0.0
-web	77	categorization	0.0
-web	83	chess endgame	0.0
-web	84	churn rate	0.0
-web	86	classification of the sciences (peirce)	0.0
-web	89	co-occurrence	0.0
-web	93	column-oriented dbms	0.0
-web	94	combinatorial game	0.0
-web	95	combinatorics	0.0
-web	96	communications of the acm	0.0
-web	97	comparison of olap servers	0.0
-web	100	computability theory	0.0
-web	101	computational chemistry	0.0
-web	102	computational complexity theory	0.0
-web	103	computational geometry	0.0
-web	104	computational linguistics	0.0
-web	106	computational physics	0.0
-web	107	computational science	0.0
-web	110	computer architecture	0.0
-web	111	computer data storage	0.0
-web	113	computer music	0.0
-web	117	computer vision	0.0
-web	118	concurrency (computer science)	0.0
-web	119	concurrency control	0.0
-web	120	condition monitoring	0.0
-web	121	conference on information and knowledge management	0.0
-web	125	cornelis j. van rijsbergen	0.0
-web	126	cross-language information retrieval	0.0
-web	128	cross industry standard process for data mining	0.0
-web	131	cultural studies	0.0
-web	132	customer analytics	0.0
-web	134	cyril w. cleverdon	0.0
-web	136	dashboard (business)	0.0
-web	138	data mining extensions	0.0
-web	139	data pre-processing	0.0
-web	140	data vault modeling	0.0
-web	141	data analysis	0.0
-web	142	data cleaning	0.0
-web	144	data collection	0.0
-web	145	data dictionary	0.0
-web	146	data dredging	0.0
-web	150	data management	0.0
-web	151	data mart	0.0
-web	154	data mining in meteorology	0.0
-web	155	data modeling	0.0
-web	156	data set	0.0
-web	157	data snooping	0.0
-web	158	data structure	0.0
-web	159	data transformation	0.0
-web	164	database system	0.0
-web	166	decision making	0.0
-web	168	decision tree learning	0.0
-web	169	decision trees	0.0
-web	171	degenerate dimension	0.0
-web	174	digital obsolescence	0.0
-web	175	dimension (data warehouse)	0.0
-web	176	dimension reduction	0.0
-web	177	dimension table	0.0
-web	178	dimensional modeling	0.0
-web	180	discovery (observation)	0.0
-web	182	dissolved gas analysis	0.0
-web	186	document retrieval	0.0
-web	187	dogpile	0.0
-web	188	don swanson	0.0
-web	189	donald b. crouch	0.0
-web	191	dots-and-boxes	0.0
-web	192	dracula	0.0
-web	193	drug discovery	0.0
-web	195	early-arriving fact	0.0
-web	196	educational data mining	0.0
-web	197	electrical power	0.0
-web	200	emanuel goldberg	0.0
-web	203	eugene garfield	0.0
-web	207	evolutionary computation	0.0
-web	214	extended boolean model	0.0
-web	217	f. wilfrid lancaster	0.0
-web	218	fico	0.0
-web	220	fact (data warehouse)	0.0
-web	221	fact table	0.0
-web	222	factor analysis	0.0
-web	226	first amendment to the united states constitution	0.0
-web	229	formal methods	0.0
-web	230	forrester research	0.0
-web	232	fuzzy retrieval	0.0
-web	234	gartner	0.0
-web	236	generalized vector space model	0.0
-web	242	gerard salton	0.0
-web	243	gerard salton award	0.0
-web	251	google effect	0.0
-web	256	holap	0.0
-web	258	hans peter luhn	0.0
-web	259	harmonic mean	0.0
-web	260	health insurance portability and accountability act	0.0
-web	270	ill-posed	0.0
-web	271	image processing	0.0
-web	274	independency	0.0
-web	275	index (database)	0.0
-web	277	info.com	0.0
-web	278	informatics (academic field)	0.0
-web	279	informationweek	0.0
-web	284	information integration	0.0
-web	285	information management	0.0
-web	286	information need	0.0
-web	294	information theory	0.0
-web	298	institutional memory	0.0
-web	300	intellectual freedom	0.0
-web	302	interactive visualization	0.0
-web	303	international conference on very large data bases	0.0
-web	306	interpreter (computing)	0.0
-web	307	inverted index	0.0
-web	308	iterative algorithm	0.0
-web	314	java data mining	0.0
-web	315	john nunn	0.0
-web	316	john seward	0.0
-web	318	jughead (computer)	0.0
-web	322	knime	0.0
-web	324	karen spa�rck jones	0.0
-web	325	keypunch	0.0
-web	327	kluwer academic publishers	0.0
-web	329	knowledge organization	0.0
-web	331	lionsolver	0.0
-web	332	language model	0.0
-web	333	latent dirichlet allocation	0.0
-web	338	library and information science	0.0
-web	341	list of information retrieval libraries	0.0
-web	342	list of reporting software	0.0
-web	346	logic programming	0.0
-web	350	medlars	0.0
-web	352	ml-flex	0.0
-web	353	molap	0.0
-web	357	main page	0.0
-web	359	market basket analysis	0.0
-web	362	mathematical logic	0.0
-web	363	mathematics	0.0
-web	366	measure (data warehouse)	0.0
-web	368	memory	0.0
-web	375	mind maps	0.0
-web	376	mining software repositories	0.0
-web	377	missing data	0.0
-web	378	modeling and simulation	0.0
-web	380	morgan kaufmann	0.0
-web	383	multidimensional expressions	0.0
-web	384	multifactor dimensionality reduction	0.0
-web	385	multilinear subspace learning	0.0
-web	386	multimedia information retrieval	0.0
-web	387	multiprocessing	0.0
-web	391	nltk	0.0
-web	392	named-entity recognition	0.0
-web	393	national bureau of standards	0.0
-web	395	national institute of standards and technology	0.0
-web	397	natural language toolkit	0.0
-web	403	network topology	0.0
-web	404	neural networks	0.0
-web	405	nicholas j. belkin	0.0
-web	406	nicholas jardine	0.0
-web	409	numerical analysis	0.0
-web	411	olap cube	0.0
-web	413	online algorithm	0.0
-web	420	open drive	0.0
-web	422	operational data store	0.0
-web	423	oracle	0.0
-web	425	oracle machine	0.0
-web	429	oscar nierstrasz	0.0
-web	431	overfitting	0.0
-web	432	overture	0.0
-web	435	parallel computing	0.0
-web	436	parsing	0.0
-web	437	pattern	0.0
-web	444	police-enforced anpr in the uk	0.0
-web	445	positive predictive value	0.0
-web	446	power transformer	0.0
-web	449	predictive model markup language	0.0
-web	451	prentice hall	0.0
-web	453	principle of least astonishment	0.0
-web	455	probabilistic relevance model	0.0
-web	457	procedural programming	0.0
-web	472	rolap	0.0
-web	476	rapidminer	0.0
-web	477	reactive business intelligence	0.0
-web	478	real-time computing	0.0
-web	480	regression analysis	0.0
-web	481	relational database	0.0
-web	482	relevance	0.0
-web	487	rexer's annual data miner survey	0.0
-web	489	robert r. korfhage	0.0
-web	490	robert tibshirani	0.0
-web	494	rocchio classification	0.0
-web	495	routing	0.0
-web	496	rule of inference	0.0
-web	498	sapo (company)	0.0
-web	501	semma	0.0
-web	503	sigmod	0.0
-web	504	smart information retrieval system	0.0
-web	505	spss modeler	0.0
-web	509	science, technology and society	0.0
-web	523	self-organizing map	0.0
-web	526	sensitivity and specificity	0.0
-web	527	sequence mining	0.0
-web	528	set theory	0.0
-web	529	sixth normal form	0.0
-web	530	slowly changing dimension	0.0
-web	534	society for industrial and applied mathematics	0.0
-web	542	sorrell v. ims health, inc.	0.0
-web	543	spatial index	0.0
-web	544	spearman's rank correlation coefficient	0.0
-web	549	springer verlag	0.0
-web	551	standard boolean model	0.0
-web	552	star schema	0.0
-web	555	statistical classification	0.0
-web	556	statistical inference	0.0
-web	557	statistical model	0.0
-web	558	statistical noise	0.0
-web	559	statistics	0.0
-web	561	structured data analysis (statistics)	0.0
-web	563	subspace clustering	0.0
-web	564	support vector machines	0.0
-web	566	surrogate key	0.0
-web	568	symbolic computation	0.0
-web	569	systems architecture	0.0
-web	571	tabulating machine	0.0
-web	575	test set	0.0
-web	579	tf-idf	0.0
-web	582	theory of forms	0.0
-web	586	topic-based vector space model	0.0
-web	588	traffic analysis	0.0
-web	589	training set	0.0
-web	592	true knowledge	0.0
-web	593	type theory	0.0
-web	594	ubm plc	0.0
-web	598	uncertain inference	0.0
-web	599	united states national research council	0.0
-web	600	university of calabria	0.0
-web	601	university of geneva	0.0
-web	604	uppsala monitoring centre	0.0
-web	606	user expectations	0.0
-web	609	vector space model	0.0
-web	610	veronica (computer)	0.0
-web	615	virtual reality	0.0
-web	642	weka (machine learning)	0.0
-web	652	xml for analysis	0.0
-web	648	world wide web	0.32261907774940585
-web	632	web page	0.2752033541469625
-web	639	webserver	0.2736087226417932
-web	623	web archiving	0.27047895321721455
-web	631	web mining	0.24195770986027812
-web	524	semantic web	0.2418585841533101
-web	630	web indexing	0.21819536687181396
-web	625	web crawler	0.20695130687885627
-web	626	web crawling	0.20695130687885627
-web	415	online search	0.1622498586333509
-web	634	web query classification	0.14163565143275403
-web	547	spider trap	0.12704437936207094
-web	637	web search engine	0.12424182843974789
-web	624	web cache	0.123829599987575
-web	533	social search	0.12323872157903427
-web	584	tim berners-lee	0.1177373864904529
-web	649	world wide web wanderer	0.11566753643146709
-web	638	web search query	0.11264519413539055
-web	227	focused crawler	0.11173866385654974
-web	636	web scraping	0.11156471915522774
-web	339	linkrot	0.11069511916199451
-web	10	adversarial information retrieval	0.1031088364025317
-web	320	jumpstation	0.09498350854489958
-web	388	multisearch	0.09036194416552312
-web	629	web form	0.08804883202391606
-web	522	selection-based search	0.08709717300791002
-web	184	distributed web crawling	0.08345807441373643
-web	514	search directory	0.08249974654096394
-web	627	web directories	0.08249974654096394
-web	628	web directory	0.08249974654096394
-web	618	voice search	0.07859792575847173
-web	525	semantic search	0.076183897193617
-web	371	metasearch engine	0.07592557142520318
-web	515	search engine (computing)	0.0753769157886453
-web	18	aliweb	0.07369406336346995
-web	345	local search (internet)	0.07333925487601449
-web	223	federated search	0.0705540610791576
-web	399	natural language search engine	0.06975238880880408
-web	418	opensearch	0.06965465870796785
-web	513	search aggregator	0.06912041645410645
-web	516	search engine (disambiguation)	0.06900584077541423
-web	485	representational state transfer	0.06846113543042769
-web	633	web portal	0.06736102635604319
-web	612	vertical search	0.06706596172492985
-web	201	enterprise search	0.061942896730652036
-web	92	collaborative search engine	0.06115366496802421
-web	282	information architecture	0.059878242209030784
-web	469	query string	0.05844364922637375
-web	257	html	0.058124999658695185
-web	573	temporal information retrieval	0.05773083715846662
-web	326	keyword (internet search)	0.05628032730067877
-web	519	search engine optimization	0.05628032730067877
-web	620	w3catalog	0.05529300770258621
-web	283	information extraction	0.052082515020561826
-web	361	massachusetts institute of technology	0.05147754261894517
-web	351	mit	0.051465544787126484
-web	658	z39.50	0.049624310107094206
-web	276	index (search engine)	0.0462057570125896
-web	517	search engine indexing	0.0462057570125896
-web	369	meta tags	0.044497535266453926
-web	492	robots.txt	0.04196806469808854
-web	493	robots exclusion standard	0.04196806469808854
-web	239	genieknows	0.04170873697704674
-web	574	teoma	0.041037035590059584
-web	127	cross-platform	0.03958409945678371
-web	250	google search	0.03892014633208436
-web	434	paid inclusion	0.036594597347138776
-web	654	yahoo! search	0.036581665695839365
-web	433	pagerank	0.03589867051476864
-web	613	video search engine	0.03584457712097116
-web	267	hypertext	0.03577953090908848
-web	108	computer accessibility	0.03396825227432919
-web	640	website parse template	0.033749129584788734
-web	635	web robot	0.03362098491982712
-web	147	data extraction	0.03333726009562711
-web	539	software release life cycle	0.03313507454618443
-web	656	yebol	0.032216336522673396
-web	272	image retrieval	0.03145686038655306
-web	21	altavista	0.03124517869809019
-web	185	divergence-from-randomness model	0.0311995767314464
-web	402	netscape	0.030856067075353398
-web	576	text retrieval conference	0.029140005199295976
-web	641	website mirroring software	0.028519496334099278
-web	24	analytics	0.028518013379971056
-web	520	search engine results pages	0.02848351376661461
-web	15	alan emtage	0.028417715839783416
-web	381	msnbot	0.028393167799481055
-web	518	search engine marketing	0.027579953350164475
-web	68	cern	0.026670308028239297
-web	643	wide area information server	0.02645164935505882
-web	81	chemicalize.org	0.026389697661310354
-web	328	knowledge discovery	0.025223519699041783
-web	124	controlled vocabulary	0.024796520518707114
-web	443	picollator	0.024612693474473073
-web	290	information science	0.024554236073048307
-web	532	social information seeking	0.02446120656883196
-web	553	statcounter	0.024391162686367433
-web	247	google	0.024025427262218436
-web	447	powerset (company)	0.023468612073914246
-web	619	volunia	0.023439369927365408
-web	225	filter bubble	0.02303484335903131
-web	417	ontology (information science)	0.02251590798069826
-web	416	ontologies	0.02251563714757217
-web	19	alltheweb	0.022475867328738665
-web	252	gopher (protocol)	0.021972550478357465
-web	653	yahoo!	0.021491928813717674
-web	263	hotbot	0.02126108123249955
-web	208	exalead	0.02103334243792164
-web	245	goby inc.	0.02008873905653497
-web	130	cuil	0.019790737364628806
-web	255	guruji.com	0.0196741151684062
-web	348	lycos	0.018508331569661304
-web	370	metadata	0.018392233371643297
-web	165	daum communications	0.018272775806410665
-web	622	webcrawler	0.018233613010949324
-web	20	alpha consumer	0.017916400524583237
-web	248	google bombing	0.01714188202641972
-web	373	microsoft	0.017067281741574132
-web	427	organic search	0.016953572095312702
-web	645	wikiseek	0.016670361385135182
-web	650	xml	0.016387650973440995
-web	289	information retrieval applications	0.01636505980871688
-web	210	experian hitwise	0.016073952588807346
-web	262	hitwise	0.016073952588807346
-web	249	google drive	0.01572364438891887
-web	29	archie search engine	0.015659320893531208
-web	473	r (programming language)	0.015399718345093261
-web	585	tony kent strix award	0.015363246917795146
-web	394	national center for supercomputing applications	0.015356045178700128
-web	241	geographic information systems	0.015300313060062107
-web	358	mark mccahill	0.01510187198915492
-web	52	bing	0.01484122058968042
-web	344	live search	0.01484122058968042
-web	354	msn search	0.01484122058968042
-web	607	user interface	0.0148042200185992
-web	644	wikia search	0.01472782050967319
-web	116	computer science	0.01421488548519335
-web	343	list of search engines	0.014155029306631406
-web	554	statsoft	0.014127278226297123
-web	560	stellar wind (code name)	0.014119393349101218
-web	360	mass surveillance	0.014081697794610881
-web	91	collaborative information seeking	0.014053653430805977
-web	87	cloud storage	0.014015619515171579
-web	35	ask.com	0.013437980252336054
-web	313	java (programming language)	0.013359317913121163
-web	578	text mining	0.013250246614979932
-web	336	leapfish	0.013011943915994405
-web	470	question answering	0.012860042637464014
-web	382	mugurdy	0.012696169762659564
-web	1	a9.com	0.0125548902424003
-web	419	open directory project	0.012524277451536258
-web	337	learning to rank	0.01233911859207886
-web	521	search oriented architecture	0.011708065934528514
-web	580	the american statistician	0.011646138929326394
-web	172	desktop search	0.011463635922189503
-web	507	statistica	0.011458614447082929
-web	17	algorithm design	0.011404101131819602
-web	173	digital object identifier	0.011136017314718975
-web	291	information seeking	0.011021439700902974
-web	123	contextual advertising	0.010939051470989912
-web	545	special interest group on information retrieval	0.010910642326397572
-web	288	information retrieval	0.010774831675414279
-web	605	usability	0.010733320270320753
-web	133	customer relationship management	0.010724338818192514
-web	45	baidu	0.01069813177861259
-web	75	carrot2	0.010642724793631259
-web	531	social science research network	0.01053463471753984
-web	219	facebook	0.01019742510475296
-web	548	spreadsheets	0.010125486101612074
-web	114	computer networking	0.010090898904182773
-web	614	viewzi	0.010022768579713105
-web	228	forestle	0.009837805312020446
-web	281	information access	0.009812806198318796
-web	365	mean reciprocal rank	0.009806618670060822
-web	421	operating system	0.009614309985710303
-web	7	academic journal	0.009590656212463293
-web	541	sogou.com	0.009559937628887303
-web	456	probabilistic relevance model (bm25)	0.009394880466862578
-web	464	punched cards	0.009270227260268459
-web	390	music information retrieval	0.008987682264316772
-web	254	grid computing	0.008975452534379052
-web	216	f-score	0.008964180452884548
-web	330	knowledge visualization	0.008946629347819842
-web	616	visualization (computer graphics)	0.008946629347819842
-web	209	excite	0.008807740313266723
-web	356	magellan (search engine)	0.008807740313266723
-web	401	naver	0.008785470444995197
-web	512	search engine watch	0.00870233246959861
-web	426	orange (software)	0.008557385803094817
-web	58	boogami	0.008551004327893316
-web	12	advertising	0.008434790288740987
-web	587	total information awareness	0.008272749650038286
-web	194	duckduckgo	0.008213752505395255
-web	57	blekko	0.00819216835119211
-web	297	inktomi (company)	0.008083899724945547
-web	452	preservation (library and archival science)	0.008053383617984933
-web	264	human%e2%80%93computer information retrieval	0.008049543814376173
-web	407	northern light group	0.008042501475061756
-web	461	proximity search (text)	0.008027141887153958
-web	323	kxen inc.	0.008006386649520128
-web	398	natural language processing	0.00779415125687079
-web	293	information technology	0.00762937476596178
-web	32	artificial life	0.0075931616878565115
-web	570	tablebase	0.0075757652286960134
-web	462	pubmed identifier	0.007452199384124039
-web	206	european summer school in information retrieval	0.007425488012087399
-web	491	robotics	0.007421903139017869
-web	591	trevor hastie	0.007421509098280306
-web	484	relevance feedback	0.007399356676281204
-web	311	jhepwork	0.007303670179234717
-web	268	ibm	0.007268287737224987
-web	617	vivisimo	0.007262555535275144
-web	41	atlantic monthly	0.007122182563384786
-web	466	quaero	0.0071046841623216535
-web	213	exploratory data analysis	0.0070539387527447615
-web	511	searchme	0.006765461493371349
-web	657	yummly	0.006739545979281601
-web	410	oclc	0.006728018187752624
-web	153	data mining in agriculture	0.006707492968687103
-web	379	montreal	0.00670003405936808
-web	450	predictive analytics	0.006680568793030814
-web	224	file transfer protocol	0.0066490353834819
-web	183	distributed computing	0.0065825570925405075
-web	9	actuate corporation	0.0065305713533156135
-web	310	jasis	0.0064134943185578195
-web	167	decision support system	0.006390685682515111
-web	538	software engineering	0.00636454093263041
-web	465	python (programming language)	0.006258755586965021
-web	152	data mining	0.006240386865150746
-web	148	data integration	0.0061332424498342945
-web	572	telecommunication	0.006118306010744345
-web	595	uima	0.006082423866540961
-web	244	go.com	0.006069526071700641
-web	535	software	0.006027196170551067
-web	430	outline of information science	0.00588576069651464
-web	122	conference on knowledge discovery and data mining	0.005869678593880757
-web	321	kdd conference	0.005869678593880757
-web	502	sigkdd	0.005869678593880757
-web	540	software testing	0.005791070703326023
-web	48	bibliometrics	0.005784933010081857
-web	53	bioinformatic	0.005747077287841359
-web	54	bioinformatics	0.005747077287841359
-web	199	eli pariser	0.00571306702049045
-web	647	wolfram alpha	0.00565130421065904
-web	488	robert m. hayes	0.00564948167502462
-web	562	subject indexing	0.005574065226317262
-web	454	privacy	0.005492338563274671
-web	98	comparison of web search engines	0.005472829576607483
-web	602	university of minnesota	0.005424815097743859
-web	56	blackle.com	0.005386748001638465
-web	287	information overload	0.005375703281207013
-web	499	sas (software)	0.005374808713074025
-web	537	software development process	0.0053613237892126235
-web	646	wireless sensor network	0.005292566814148148
-web	204	europe	0.005273664714467123
-web	474	ralph kimball	0.0052617940552744545
-web	567	surveillance	0.005066023873586696
-web	550	sproose	0.0050027919692699875
-web	577	text corpora	0.004888016158532594
-web	581	theodor nelson	0.004883533527609581
-web	85	clarabridge	0.00482285472346629
-web	190	dot-com bubble	0.004821484985492717
-web	49	bill inmon	0.00481383473817911
-web	510	scientific american magazine	0.004774498313032542
-web	266	human rights	0.004751267702448329
-web	305	internet search engines and libraries	0.004729731734454232
-web	651	xml-retrieval	0.0047057836572443595
-web	280	information retrieval facility	0.004594288968674526
-web	162	database	0.004588409273276332
-web	212	expertise finding	0.004506913756106505
-web	295	infoseek	0.004503620752908716
-web	483	relevance (information retrieval)	0.004502613880110347
-web	65	buzzword	0.004488305096579776
-web	536	software design	0.004354031893502992
-web	235	general architecture for text engineering	0.004336743255821061
-web	448	precision and recall	0.004276409118415775
-web	475	rank order	0.004219827074689886
-web	4	aol	0.004206587018935807
-web	5	aol search	0.004206587018935807
-web	160	data visualization	0.00419813937634953
-web	400	nature (journal)	0.004075385180598784
-web	265	human%e2%80%93computer interaction	0.003899273241819004
-web	79	censorship	0.003862633720154179
-web	246	goodsearch	0.0038494517916342337
-web	36	association for computing machinery	0.003824173084318698
-web	34	as we may think	0.0037682961193377658
-web	334	latent semantic analysis	0.0037599656726509875
-web	396	national security agency	0.003716166018428059
-web	347	looksmart	0.0036942741808643313
-web	440	personal information management	0.0036683197738710442
-web	105	computational neuroscience	0.003575163755975102
-web	583	theory of computation	0.0034649713393994693
-web	179	discounted cumulative gain	0.003452455135293887
-web	340	list of computer science conferences	0.003346792942646994
-web	546	spell checker	0.003339088914227648
-web	508	scalability	0.0032824895568736613
-web	82	chess	0.003168168057647174
-web	202	environment for developing kdd-applications supported by index-structures	0.0031438879205098825
-web	389	multivariate statistics	0.0031428435208812814
-web	31	artificial intelligence	0.003106603379627926
-web	80	chacha (search engine)	0.003067244301047126
-web	603	uplift modelling	0.003059185728056071
-web	439	perl	0.003008004823657756
-web	55	biomedical	0.002974965017113305
-web	181	discovery net	0.0029631478245825496
-web	374	microsoft analysis services	0.002949888612526407
-web	137	data	0.0029390690076638
-web	88	cluster analysis	0.002919666262148608
-web	143	data clustering	0.002919666262148608
-web	460	programming paradigm	0.0028581216963594566
-web	349	matrix	0.002620614088289593
-web	312	jacquard loom	0.002547026694241893
-web	424	oracle data mining	0.0025043542987928597
-web	115	computer programming	0.00248319088849929
-web	655	yandex	0.0024387639551756387
-web	112	computer graphics	0.0024245698528157903
-web	442	philosophy of information	0.002423798805761556
-web	355	machine learning	0.0024233842730852426
-web	231	functional programming	0.002315830841057285
-web	261	herman hollerith	0.002309646731932798
-web	467	quantitative structure%e2%80%93activity relationship	0.0022839807983840595
-web	240	genres	0.0022566182238828725
-web	590	transaction processing	0.002240180954629255
-web	149	data loading	0.002236193160308099
-web	215	extract, transform, load	0.002236193160308099
-web	198	electronic health records	0.0022341998886096
-web	597	ubiquitous computing	0.002218293633744486
-web	129	cryptography	0.002185907334157822
-web	459	programming language	0.002135308539783896
-web	233	gnu project	0.0021225348405350124
-web	414	online analytical processing	0.0021171586925853468
-web	37	association rule	0.002115429855991432
-web	38	association rule learning	0.002115429855991432
-web	39	association rule mining	0.002115429855991432
-web	40	association rules	0.002115429855991432
-web	205	european conference on machine learning and principles and practice of knowledge discovery in databases	0.002091639369841678
-web	296	initial public offering	0.0020502244939695435
-web	269	ieee	0.002005681235718823
-web	44	automatic summarization	0.0018413367536986587
-web	299	insulator (electrical)	0.0018279472576766193
-web	441	pharmacy	0.001807952300663576
-web	486	requirements analysis	0.0017933475293118435
-web	309	j. c. r. licklider	0.001771994171265261
-web	468	quantum computer	0.0017517423260442321
-web	372	microarchitecture	0.001742366798853056
-web	63	business intelligence	0.0017127412890200863
-web	438	people's republic of china	0.0016437902388290444
-web	458	profiling practices	0.001632795363897936
-web	367	medicine	0.001584803199619677
-web	16	algorithm	0.0015807189381441585
-web	211	expert system	0.0015632315199710389
-web	90	cognitive science	0.0015521680492286475
-web	161	data warehouse	0.001515999971837896
-web	596	us congress	0.0015150649362106645
-web	611	veronica lodge	0.0015022288751563764
-web	428	orthogonality	0.0014803942677415753
-web	463	public library	0.001448175495899293
-web	621	wearable computer	0.0014044138087603343
-web	292	information society	0.0013705241474636259
-web	109	computer animation	0.0013672515351996737
-web	73	cancer	0.001310540925741011
-web	317	joseph marie jacquard	0.001295634503957958
-web	253	graph theory	0.0012744649405717309
-web	335	latent semantic indexing	0.00125738816260266
-web	608	vannevar bush	0.0012402781807736767
-web	33	artificial neural network	0.001239106964210142
-web	99	compiler	0.001192330830144642
-web	238	genetics	0.0011735597058220707
-web	170	deepwater horizon oil spill	0.0011727988814885977
-web	78	category theory	0.001103072032220461
-web	237	genetic algorithms	0.0010747664888126822
-web	479	receiver operating characteristic	0.0010688896222787359
-web	497	russian federation	0.0010433453862988202
-web	471	quora	0.001042903282689338
-web	62	british petroleum	0.0010341148342431076
-web	304	international standard book number	9.83305653564729E-4
-web	163	database management system	9.765146950177103E-4
-web	28	archie comics	9.463277834472754E-4
-web	412	object-oriented programming	8.928226396995388E-4
-web	364	mcgill university	8.599393609063159E-4
-web	500	sas institute	8.532175218767955E-4
-web	301	intellectual property	7.699146348873093E-4
-web	319	jughead jones	7.561192628497191E-4
-web	408	number theory	7.50313554998868E-4
-web	506	sql	6.785601334146531E-4
-web	61	bram stoker	6.14956257154273E-4
-web	59	boolean algebra	6.083878859786423E-4
-web	135	dna	5.827182432870345E-4
-web	74	carnegie mellon university	5.556119901805595E-4
-web	273	imperial college london	4.4781710438633517E-4
-web	565	supreme court of the united states	2.606252772435083E-4
-web	0	1890 us census	0.0
-web	2	acm computing classification system	0.0
-web	3	advise	0.0
-web	6	academic press	0.0
-web	8	accuracy and precision	0.0
-web	11	adverse drug reaction	0.0
-web	13	aggregate (data warehouse)	0.0
-web	14	aggregate function	0.0
-web	22	alvin weinberg	0.0
-web	23	analysis of algorithms	0.0
-web	25	anchor modeling	0.0
-web	26	angoss	0.0
-web	27	anomaly detection	0.0
-web	30	argonne national laboratory	0.0
-web	42	automata theory	0.0
-web	43	automated reasoning	0.0
-web	46	bayes' theorem	0.0
-web	47	berlekamp	0.0
-web	50	binary independence model	0.0
-web	51	binary classification	0.0
-web	60	boolean operators	0.0
-web	64	business intelligence tools	0.0
-web	66	c. j. van rijsbergen	0.0
-web	67	capps ii	0.0
-web	69	cikm conference	0.0
-web	70	crisp-dm	0.0
-web	71	calvin mooers	0.0
-web	72	cambridge university press	0.0
-web	76	case western reserve university	0.0
-web	77	categorization	0.0
-web	83	chess endgame	0.0
-web	84	churn rate	0.0
-web	86	classification of the sciences (peirce)	0.0
-web	89	co-occurrence	0.0
-web	93	column-oriented dbms	0.0
-web	94	combinatorial game	0.0
-web	95	combinatorics	0.0
-web	96	communications of the acm	0.0
-web	97	comparison of olap servers	0.0
-web	100	computability theory	0.0
-web	101	computational chemistry	0.0
-web	102	computational complexity theory	0.0
-web	103	computational geometry	0.0
-web	104	computational linguistics	0.0
-web	106	computational physics	0.0
-web	107	computational science	0.0
-web	110	computer architecture	0.0
-web	111	computer data storage	0.0
-web	113	computer music	0.0
-web	117	computer vision	0.0
-web	118	concurrency (computer science)	0.0
-web	119	concurrency control	0.0
-web	120	condition monitoring	0.0
-web	121	conference on information and knowledge management	0.0
-web	125	cornelis j. van rijsbergen	0.0
-web	126	cross-language information retrieval	0.0
-web	128	cross industry standard process for data mining	0.0
-web	131	cultural studies	0.0
-web	132	customer analytics	0.0
-web	134	cyril w. cleverdon	0.0
-web	136	dashboard (business)	0.0
-web	138	data mining extensions	0.0
-web	139	data pre-processing	0.0
-web	140	data vault modeling	0.0
-web	141	data analysis	0.0
-web	142	data cleaning	0.0
-web	144	data collection	0.0
-web	145	data dictionary	0.0
-web	146	data dredging	0.0
-web	150	data management	0.0
-web	151	data mart	0.0
-web	154	data mining in meteorology	0.0
-web	155	data modeling	0.0
-web	156	data set	0.0
-web	157	data snooping	0.0
-web	158	data structure	0.0
-web	159	data transformation	0.0
-web	164	database system	0.0
-web	166	decision making	0.0
-web	168	decision tree learning	0.0
-web	169	decision trees	0.0
-web	171	degenerate dimension	0.0
-web	174	digital obsolescence	0.0
-web	175	dimension (data warehouse)	0.0
-web	176	dimension reduction	0.0
-web	177	dimension table	0.0
-web	178	dimensional modeling	0.0
-web	180	discovery (observation)	0.0
-web	182	dissolved gas analysis	0.0
-web	186	document retrieval	0.0
-web	187	dogpile	0.0
-web	188	don swanson	0.0
-web	189	donald b. crouch	0.0
-web	191	dots-and-boxes	0.0
-web	192	dracula	0.0
-web	193	drug discovery	0.0
-web	195	early-arriving fact	0.0
-web	196	educational data mining	0.0
-web	197	electrical power	0.0
-web	200	emanuel goldberg	0.0
-web	203	eugene garfield	0.0
-web	207	evolutionary computation	0.0
-web	214	extended boolean model	0.0
-web	217	f. wilfrid lancaster	0.0
-web	218	fico	0.0
-web	220	fact (data warehouse)	0.0
-web	221	fact table	0.0
-web	222	factor analysis	0.0
-web	226	first amendment to the united states constitution	0.0
-web	229	formal methods	0.0
-web	230	forrester research	0.0
-web	232	fuzzy retrieval	0.0
-web	234	gartner	0.0
-web	236	generalized vector space model	0.0
-web	242	gerard salton	0.0
-web	243	gerard salton award	0.0
-web	251	google effect	0.0
-web	256	holap	0.0
-web	258	hans peter luhn	0.0
-web	259	harmonic mean	0.0
-web	260	health insurance portability and accountability act	0.0
-web	270	ill-posed	0.0
-web	271	image processing	0.0
-web	274	independency	0.0
-web	275	index (database)	0.0
-web	277	info.com	0.0
-web	278	informatics (academic field)	0.0
-web	279	informationweek	0.0
-web	284	information integration	0.0
-web	285	information management	0.0
-web	286	information need	0.0
-web	294	information theory	0.0
-web	298	institutional memory	0.0
-web	300	intellectual freedom	0.0
-web	302	interactive visualization	0.0
-web	303	international conference on very large data bases	0.0
-web	306	interpreter (computing)	0.0
-web	307	inverted index	0.0
-web	308	iterative algorithm	0.0
-web	314	java data mining	0.0
-web	315	john nunn	0.0
-web	316	john seward	0.0
-web	318	jughead (computer)	0.0
-web	322	knime	0.0
-web	324	karen spa�rck jones	0.0
-web	325	keypunch	0.0
-web	327	kluwer academic publishers	0.0
-web	329	knowledge organization	0.0
-web	331	lionsolver	0.0
-web	332	language model	0.0
-web	333	latent dirichlet allocation	0.0
-web	338	library and information science	0.0
-web	341	list of information retrieval libraries	0.0
-web	342	list of reporting software	0.0
-web	346	logic programming	0.0
-web	350	medlars	0.0
-web	352	ml-flex	0.0
-web	353	molap	0.0
-web	357	main page	0.0
-web	359	market basket analysis	0.0
-web	362	mathematical logic	0.0
-web	363	mathematics	0.0
-web	366	measure (data warehouse)	0.0
-web	368	memory	0.0
-web	375	mind maps	0.0
-web	376	mining software repositories	0.0
-web	377	missing data	0.0
-web	378	modeling and simulation	0.0
-web	380	morgan kaufmann	0.0
-web	383	multidimensional expressions	0.0
-web	384	multifactor dimensionality reduction	0.0
-web	385	multilinear subspace learning	0.0
-web	386	multimedia information retrieval	0.0
-web	387	multiprocessing	0.0
-web	391	nltk	0.0
-web	392	named-entity recognition	0.0
-web	393	national bureau of standards	0.0
-web	395	national institute of standards and technology	0.0
-web	397	natural language toolkit	0.0
-web	403	network topology	0.0
-web	404	neural networks	0.0
-web	405	nicholas j. belkin	0.0
-web	406	nicholas jardine	0.0
-web	409	numerical analysis	0.0
-web	411	olap cube	0.0
-web	413	online algorithm	0.0
-web	420	open drive	0.0
-web	422	operational data store	0.0
-web	423	oracle	0.0
-web	425	oracle machine	0.0
-web	429	oscar nierstrasz	0.0
-web	431	overfitting	0.0
-web	432	overture	0.0
-web	435	parallel computing	0.0
-web	436	parsing	0.0
-web	437	pattern	0.0
-web	444	police-enforced anpr in the uk	0.0
-web	445	positive predictive value	0.0
-web	446	power transformer	0.0
-web	449	predictive model markup language	0.0
-web	451	prentice hall	0.0
-web	453	principle of least astonishment	0.0
-web	455	probabilistic relevance model	0.0
-web	457	procedural programming	0.0
-web	472	rolap	0.0
-web	476	rapidminer	0.0
-web	477	reactive business intelligence	0.0
-web	478	real-time computing	0.0
-web	480	regression analysis	0.0
-web	481	relational database	0.0
-web	482	relevance	0.0
-web	487	rexer's annual data miner survey	0.0
-web	489	robert r. korfhage	0.0
-web	490	robert tibshirani	0.0
-web	494	rocchio classification	0.0
-web	495	routing	0.0
-web	496	rule of inference	0.0
-web	498	sapo (company)	0.0
-web	501	semma	0.0
-web	503	sigmod	0.0
-web	504	smart information retrieval system	0.0
-web	505	spss modeler	0.0
-web	509	science, technology and society	0.0
-web	523	self-organizing map	0.0
-web	526	sensitivity and specificity	0.0
-web	527	sequence mining	0.0
-web	528	set theory	0.0
-web	529	sixth normal form	0.0
-web	530	slowly changing dimension	0.0
-web	534	society for industrial and applied mathematics	0.0
-web	542	sorrell v. ims health, inc.	0.0
-web	543	spatial index	0.0
-web	544	spearman's rank correlation coefficient	0.0
-web	549	springer verlag	0.0
-web	551	standard boolean model	0.0
-web	552	star schema	0.0
-web	555	statistical classification	0.0
-web	556	statistical inference	0.0
-web	557	statistical model	0.0
-web	558	statistical noise	0.0
-web	559	statistics	0.0
-web	561	structured data analysis (statistics)	0.0
-web	563	subspace clustering	0.0
-web	564	support vector machines	0.0
-web	566	surrogate key	0.0
-web	568	symbolic computation	0.0
-web	569	systems architecture	0.0
-web	571	tabulating machine	0.0
-web	575	test set	0.0
-web	579	tf-idf	0.0
-web	582	theory of forms	0.0
-web	586	topic-based vector space model	0.0
-web	588	traffic analysis	0.0
-web	589	training set	0.0
-web	592	true knowledge	0.0
-web	593	type theory	0.0
-web	594	ubm plc	0.0
-web	598	uncertain inference	0.0
-web	599	united states national research council	0.0
-web	600	university of calabria	0.0
-web	601	university of geneva	0.0
-web	604	uppsala monitoring centre	0.0
-web	606	user expectations	0.0
-web	609	vector space model	0.0
-web	610	veronica (computer)	0.0
-web	615	virtual reality	0.0
-web	642	weka (machine learning)	0.0
-web	652	xml for analysis	0.0
+google	247	google	0.7132631314307182
+google	250	google search	0.6439276140057939
+google	249	google drive	0.5808994675591947
+google	248	google bombing	0.42314509315861776
+google	326	keyword (internet search)	0.2792554358145414
+google	519	search engine optimization	0.2792554358145414
+google	433	pagerank	0.17492751490398636
+google	345	local search (internet)	0.14572636302289024
+google	420	open drive	0.13735149291414622
+google	225	filter bubble	0.1304462972917742
+google	637	web search engine	0.12989194395197587
+google	533	social search	0.12600986121754565
+google	98	comparison of web search engines	0.11363963961537646
+google	343	list of search engines	0.09619190192839755
+google	427	organic search	0.09600806357711171
+google	251	google effect	0.07137909604619334
+google	619	volunia	0.0688266604591988
+google	369	meta tags	0.06138205825804499
+google	518	search engine marketing	0.05578044682033311
+google	172	desktop search	0.05409879995863939
+google	360	mass surveillance	0.05316309465788873
+google	19	alltheweb	0.053033673555558845
+google	339	linkrot	0.052238863381476965
+google	56	blackle.com	0.05084191517355526
+google	228	forestle	0.04952131792223526
+google	52	bing	0.04902672768840593
+google	344	live search	0.04902672768840593
+google	354	msn search	0.04902672768840593
+google	644	wikia search	0.045176968602453356
+google	277	info.com	0.04443674554314282
+google	194	duckduckgo	0.038762060895447675
+google	461	proximity search (text)	0.037881414425608835
+google	525	semantic search	0.037844679079792755
+google	513	search aggregator	0.037278938706105
+google	618	voice search	0.037091665259022195
+google	539	software release life cycle	0.03648631339303689
+google	453	principle of least astonishment	0.034673748944027166
+google	492	robots.txt	0.03395215896592612
+google	493	robots exclusion standard	0.03395215896592612
+google	130	cuil	0.03268852065318267
+google	15	alan emtage	0.032185899864920445
+google	508	scalability	0.03098122569644803
+google	656	yebol	0.030406847474399496
+google	408	number theory	0.02832683326208541
+google	434	paid inclusion	0.027631356262705846
+google	123	contextual advertising	0.027532372743780776
+google	57	blekko	0.02706214118337024
+google	466	quaero	0.026822546694650614
+google	613	video search engine	0.026024077961780696
+google	373	microsoft	0.025505389206070418
+google	473	r (programming language)	0.02543583909493303
+google	612	vertical search	0.02531963207497105
+google	399	natural language search engine	0.025079854939187345
+google	447	powerset (company)	0.024611616506534918
+google	336	leapfish	0.024562208910415877
+google	635	web robot	0.023799450932528818
+google	522	selection-based search	0.02348720060297034
+google	22	alvin weinberg	0.02321772390697998
+google	48	bibliometrics	0.021840046966653804
+google	199	eli pariser	0.02156872894356763
+google	647	wolfram alpha	0.021335553785763784
+google	87	cloud storage	0.02116545086656176
+google	620	w3catalog	0.020874950203355006
+google	305	internet search engines and libraries	0.02083236288939158
+google	23	analysis of algorithms	0.020728571961946825
+google	45	baidu	0.020194503557185054
+google	252	gopher (protocol)	0.020109985238117033
+google	81	chemicalize.org	0.019925977893066625
+google	653	yahoo!	0.019764672636687432
+google	654	yahoo! search	0.019729708575293176
+google	655	yandex	0.019565183963441854
+google	567	surveillance	0.01912592576966717
+google	223	federated search	0.019026075459072596
+google	648	world wide web	0.018595333822608865
+google	35	ask.com	0.01811887383857492
+google	7	academic journal	0.018103959177762762
+google	520	search engine results pages	0.017922456991695597
+google	282	information architecture	0.01738925292049851
+google	596	us congress	0.01715962275105225
+google	268	ibm	0.016769013938512465
+google	512	search engine watch	0.016427100324605204
+google	235	general architecture for text engineering	0.016372648779922668
+google	320	jumpstation	0.0162997431435866
+google	21	altavista	0.016085583541491998
+google	208	exalead	0.015881573249313087
+google	645	wikiseek	0.01573404026321182
+google	624	web cache	0.015080578789636657
+google	485	representational state transfer	0.01476934661211604
+google	313	java (programming language)	0.01459985717580991
+google	465	python (programming language)	0.01417733091123786
+google	311	jhepwork	0.013786892559122127
+google	59	boolean algebra	0.01378120021154273
+google	276	index (search engine)	0.013418623617408693
+google	517	search engine indexing	0.013418623617408693
+google	156	data set	0.012993782507301535
+google	27	anomaly detection	0.012984262786067279
+google	514	search directory	0.012977666408377532
+google	627	web directories	0.012977666408377532
+google	628	web directory	0.012977666408377532
+google	204	europe	0.012941395371779098
+google	165	daum communications	0.012934839126301435
+google	511	searchme	0.012770934123939601
+google	657	yummly	0.012722014279587154
+google	584	tim berners-lee	0.012699937412295003
+google	245	goby inc.	0.012640279029764374
+google	546	spell checker	0.012606171685215934
+google	255	guruji.com	0.012379388506790085
+google	337	learning to rank	0.011646069587515422
+google	622	webcrawler	0.011472992681646981
+google	391	nltk	0.011428526775975592
+google	397	natural language toolkit	0.011428526775975592
+google	430	outline of information science	0.01111035251595297
+google	574	teoma	0.01106631884558903
+google	401	naver	0.011056024723100981
+google	460	programming paradigm	0.010790360402811217
+google	592	true knowledge	0.010693473426783591
+google	184	distributed web crawling	0.010502733346354978
+google	297	inktomi (company)	0.010173137087835944
+google	487	rexer's annual data miner survey	0.010153674396971
+google	287	information overload	0.01014753428741043
+google	187	dogpile	0.010128585689460816
+google	309	j. c. r. licklider	0.01003480140330678
+google	219	facebook	0.009916324816648486
+google	293	information technology	0.009601142768891567
+google	614	viewzi	0.009459821580273533
+google	636	web scraping	0.00935986525273806
+google	623	web archiving	0.009199531949480035
+google	190	dot-com bubble	0.009101355050150101
+google	421	operating system	0.009074304804996804
+google	651	xml-retrieval	0.008882949544101503
+google	200	emanuel goldberg	0.008859304798008172
+google	18	aliweb	0.008694362807533676
+google	419	open directory project	0.008443449045262787
+google	428	orthogonality	0.008383471411067447
+google	625	web crawler	0.008356257150274252
+google	626	web crawling	0.008356257150274252
+google	271	image processing	0.008178530485910841
+google	496	rule of inference	0.00813594899809717
+google	263	hotbot	0.008026765597291876
+google	414	online analytical processing	0.00799297851873812
+google	621	wearable computer	0.007953194139972117
+google	363	mathematics	0.007922218773693573
+google	296	initial public offering	0.00774027964756765
+google	24	analytics	0.007690356390703307
+google	411	olap cube	0.007661128434310223
+google	209	excite	0.007389366740446139
+google	356	magellan (search engine)	0.007389366740446139
+google	79	censorship	0.007291363764811712
+google	294	information theory	0.007019705872088697
+google	484	relevance feedback	0.006983758370726502
+google	446	power transformer	0.0069304090730923735
+google	418	opensearch	0.006920250347697874
+google	112	computer graphics	0.006865168451451156
+google	133	customer relationship management	0.006747991234800224
+google	239	genieknows	0.006561015003047411
+google	639	webserver	0.006537746628835523
+google	4	aol	0.006496881413750752
+google	5	aol search	0.006496881413750752
+google	631	web mining	0.0063435476575323954
+google	43	automated reasoning	0.006168420418218221
+google	9	actuate corporation	0.006163769953209824
+google	576	text retrieval conference	0.006111845308148125
+google	538	software engineering	0.006007064932627105
+google	117	computer vision	0.005659552591760502
+google	641	website mirroring software	0.005383529405755604
+google	299	insulator (electrical)	0.005175831840746565
+google	312	jacquard loom	0.004807936628705818
+google	1	a9.com	0.004739888812495104
+google	8	accuracy and precision	0.004717932409556284
+google	361	massachusetts institute of technology	0.004691082629690218
+google	577	text corpora	0.004613471853955143
+google	581	theodor nelson	0.004609240998138741
+google	355	machine learning	0.004574540988650357
+google	437	pattern	0.0045739401024818905
+google	452	preservation (library and archival science)	0.004560630420890107
+google	582	theory of forms	0.004534916407084697
+google	510	scientific american magazine	0.004506329944405207
+google	226	first amendment to the united states constitution	0.00420892304529911
+google	470	question answering	0.004045911662617079
+google	351	mit	0.004019990813673717
+google	233	gnu project	0.004006637633042164
+google	37	association rule	0.00399322579267524
+google	38	association rule learning	0.00399322579267524
+google	39	association rule mining	0.00399322579267524
+google	40	association rules	0.00399322579267524
+google	12	advertising	0.003980517486955564
+google	328	knowledge discovery	0.003967799151198201
+google	241	geographic information systems	0.003938439051936889
+google	565	supreme court of the united states	0.003935788563688033
+google	62	british petroleum	0.0039041275861659984
+google	73	cancer	0.003710796043794718
+google	222	factor analysis	0.003664480815509842
+google	46	bayes' theorem	0.003655865799036116
+google	438	people's republic of china	0.00354620291384897
+google	94	combinatorial game	0.0035105924849497885
+google	173	digital object identifier	0.003503514226109292
+google	61	bram stoker	0.003482496732964824
+google	257	html	0.003464861273251877
+google	486	requirements analysis	0.0033852418169271945
+google	412	object-oriented programming	0.003370702538810184
+google	116	computer science	0.003354120156633362
+google	572	telecommunication	0.0032998058527493397
+google	410	oclc	0.0031750634138056144
+google	379	montreal	0.003035382949737046
+google	548	spreadsheets	0.0029405445495420614
+google	348	lycos	0.0029114629190702037
+google	301	intellectual property	0.0029066839247659706
+google	346	logic programming	0.002891286875000151
+google	75	carrot2	0.002869987665013213
+google	524	semantic web	0.0026855783239947096
+google	91	collaborative information seeking	0.002652860892658243
+google	113	computer music	0.0025929935922741486
+google	192	dracula	0.002546238665746977
+google	556	statistical inference	0.002469598044592068
+google	253	graph theory	0.002405764605305809
+google	266	human rights	0.0023916821990683343
+google	95	combinatorics	0.0023886798695328467
+google	462	pubmed identifier	0.0023445443573055676
+google	608	vannevar bush	0.0023412314086096683
+google	404	neural networks	0.002191409018455136
+google	74	carnegie mellon university	0.0020976201348626698
+google	615	virtual reality	0.002025634970030722
+google	471	quora	0.001968653451640426
+google	417	ontology (information science)	0.0019319328289317053
+google	416	ontologies	0.0019319095906324588
+google	80	chacha (search engine)	0.0019299779696763956
+google	131	cultural studies	0.0018776506353959126
+google	88	cluster analysis	0.0018371186027896595
+google	143	data clustering	0.0018371186027896595
+google	28	archie comics	0.001786351129764028
+google	44	automatic summarization	0.0017379147309104063
+google	370	metadata	0.0016532571602417751
+google	30	argonne national laboratory	0.0015693705014974567
+google	402	netscape	0.0015128820795297549
+google	16	algorithm	0.0014919349882695984
+google	454	privacy	0.0014811003980961196
+google	497	russian federation	0.0014771159968163586
+google	540	software testing	0.0013664511750550025
+google	570	tablebase	0.0013000470211677645
+google	491	robotics	0.0012736433582613378
+google	468	quantum computer	0.0011022350246639547
+google	31	artificial intelligence	8.37747245419322E-4
+google	170	deepwater horizon oil spill	8.301948768089833E-4
+google	364	mcgill university	8.116393049814436E-4
+google	439	perl	6.30901059990331E-4
+google	82	chess	5.980444290078958E-4
+google	0	1890 us census	0.0
+google	2	acm computing classification system	0.0
+google	3	advise	0.0
+google	6	academic press	0.0
+google	10	adversarial information retrieval	0.0
+google	11	adverse drug reaction	0.0
+google	13	aggregate (data warehouse)	0.0
+google	14	aggregate function	0.0
+google	17	algorithm design	0.0
+google	20	alpha consumer	0.0
+google	25	anchor modeling	0.0
+google	26	angoss	0.0
+google	29	archie search engine	0.0
+google	32	artificial life	0.0
+google	33	artificial neural network	0.0
+google	34	as we may think	0.0
+google	36	association for computing machinery	0.0
+google	41	atlantic monthly	0.0
+google	42	automata theory	0.0
+google	47	berlekamp	0.0
+google	49	bill inmon	0.0
+google	50	binary independence model	0.0
+google	51	binary classification	0.0
+google	53	bioinformatic	0.0
+google	54	bioinformatics	0.0
+google	55	biomedical	0.0
+google	58	boogami	0.0
+google	60	boolean operators	0.0
+google	63	business intelligence	0.0
+google	64	business intelligence tools	0.0
+google	65	buzzword	0.0
+google	66	c. j. van rijsbergen	0.0
+google	67	capps ii	0.0
+google	68	cern	0.0
+google	69	cikm conference	0.0
+google	70	crisp-dm	0.0
+google	71	calvin mooers	0.0
+google	72	cambridge university press	0.0
+google	76	case western reserve university	0.0
+google	77	categorization	0.0
+google	78	category theory	0.0
+google	83	chess endgame	0.0
+google	84	churn rate	0.0
+google	85	clarabridge	0.0
+google	86	classification of the sciences (peirce)	0.0
+google	89	co-occurrence	0.0
+google	90	cognitive science	0.0
+google	92	collaborative search engine	0.0
+google	93	column-oriented dbms	0.0
+google	96	communications of the acm	0.0
+google	97	comparison of olap servers	0.0
+google	99	compiler	0.0
+google	100	computability theory	0.0
+google	101	computational chemistry	0.0
+google	102	computational complexity theory	0.0
+google	103	computational geometry	0.0
+google	104	computational linguistics	0.0
+google	105	computational neuroscience	0.0
+google	106	computational physics	0.0
+google	107	computational science	0.0
+google	108	computer accessibility	0.0
+google	109	computer animation	0.0
+google	110	computer architecture	0.0
+google	111	computer data storage	0.0
+google	114	computer networking	0.0
+google	115	computer programming	0.0
+google	118	concurrency (computer science)	0.0
+google	119	concurrency control	0.0
+google	120	condition monitoring	0.0
+google	121	conference on information and knowledge management	0.0
+google	122	conference on knowledge discovery and data mining	0.0
+google	124	controlled vocabulary	0.0
+google	125	cornelis j. van rijsbergen	0.0
+google	126	cross-language information retrieval	0.0
+google	127	cross-platform	0.0
+google	128	cross industry standard process for data mining	0.0
+google	129	cryptography	0.0
+google	132	customer analytics	0.0
+google	134	cyril w. cleverdon	0.0
+google	135	dna	0.0
+google	136	dashboard (business)	0.0
+google	137	data	0.0
+google	138	data mining extensions	0.0
+google	139	data pre-processing	0.0
+google	140	data vault modeling	0.0
+google	141	data analysis	0.0
+google	142	data cleaning	0.0
+google	144	data collection	0.0
+google	145	data dictionary	0.0
+google	146	data dredging	0.0
+google	147	data extraction	0.0
+google	148	data integration	0.0
+google	149	data loading	0.0
+google	150	data management	0.0
+google	151	data mart	0.0
+google	152	data mining	0.0
+google	153	data mining in agriculture	0.0
+google	154	data mining in meteorology	0.0
+google	155	data modeling	0.0
+google	157	data snooping	0.0
+google	158	data structure	0.0
+google	159	data transformation	0.0
+google	160	data visualization	0.0
+google	161	data warehouse	0.0
+google	162	database	0.0
+google	163	database management system	0.0
+google	164	database system	0.0
+google	166	decision making	0.0
+google	167	decision support system	0.0
+google	168	decision tree learning	0.0
+google	169	decision trees	0.0
+google	171	degenerate dimension	0.0
+google	174	digital obsolescence	0.0
+google	175	dimension (data warehouse)	0.0
+google	176	dimension reduction	0.0
+google	177	dimension table	0.0
+google	178	dimensional modeling	0.0
+google	179	discounted cumulative gain	0.0
+google	180	discovery (observation)	0.0
+google	181	discovery net	0.0
+google	182	dissolved gas analysis	0.0
+google	183	distributed computing	0.0
+google	185	divergence-from-randomness model	0.0
+google	186	document retrieval	0.0
+google	188	don swanson	0.0
+google	189	donald b. crouch	0.0
+google	191	dots-and-boxes	0.0
+google	193	drug discovery	0.0
+google	195	early-arriving fact	0.0
+google	196	educational data mining	0.0
+google	197	electrical power	0.0
+google	198	electronic health records	0.0
+google	201	enterprise search	0.0
+google	202	environment for developing kdd-applications supported by index-structures	0.0
+google	203	eugene garfield	0.0
+google	205	european conference on machine learning and principles and practice of knowledge discovery in databases	0.0
+google	206	european summer school in information retrieval	0.0
+google	207	evolutionary computation	0.0
+google	210	experian hitwise	0.0
+google	211	expert system	0.0
+google	212	expertise finding	0.0
+google	213	exploratory data analysis	0.0
+google	214	extended boolean model	0.0
+google	215	extract, transform, load	0.0
+google	216	f-score	0.0
+google	217	f. wilfrid lancaster	0.0
+google	218	fico	0.0
+google	220	fact (data warehouse)	0.0
+google	221	fact table	0.0
+google	224	file transfer protocol	0.0
+google	227	focused crawler	0.0
+google	229	formal methods	0.0
+google	230	forrester research	0.0
+google	231	functional programming	0.0
+google	232	fuzzy retrieval	0.0
+google	234	gartner	0.0
+google	236	generalized vector space model	0.0
+google	237	genetic algorithms	0.0
+google	238	genetics	0.0
+google	240	genres	0.0
+google	242	gerard salton	0.0
+google	243	gerard salton award	0.0
+google	244	go.com	0.0
+google	246	goodsearch	0.0
+google	254	grid computing	0.0
+google	256	holap	0.0
+google	258	hans peter luhn	0.0
+google	259	harmonic mean	0.0
+google	260	health insurance portability and accountability act	0.0
+google	261	herman hollerith	0.0
+google	262	hitwise	0.0
+google	264	human%e2%80%93computer information retrieval	0.0
+google	265	human%e2%80%93computer interaction	0.0
+google	267	hypertext	0.0
+google	269	ieee	0.0
+google	270	ill-posed	0.0
+google	272	image retrieval	0.0
+google	273	imperial college london	0.0
+google	274	independency	0.0
+google	275	index (database)	0.0
+google	278	informatics (academic field)	0.0
+google	279	informationweek	0.0
+google	280	information retrieval facility	0.0
+google	281	information access	0.0
+google	283	information extraction	0.0
+google	284	information integration	0.0
+google	285	information management	0.0
+google	286	information need	0.0
+google	288	information retrieval	0.0
+google	289	information retrieval applications	0.0
+google	290	information science	0.0
+google	291	information seeking	0.0
+google	292	information society	0.0
+google	295	infoseek	0.0
+google	298	institutional memory	0.0
+google	300	intellectual freedom	0.0
+google	302	interactive visualization	0.0
+google	303	international conference on very large data bases	0.0
+google	304	international standard book number	0.0
+google	306	interpreter (computing)	0.0
+google	307	inverted index	0.0
+google	308	iterative algorithm	0.0
+google	310	jasis	0.0
+google	314	java data mining	0.0
+google	315	john nunn	0.0
+google	316	john seward	0.0
+google	317	joseph marie jacquard	0.0
+google	318	jughead (computer)	0.0
+google	319	jughead jones	0.0
+google	321	kdd conference	0.0
+google	322	knime	0.0
+google	323	kxen inc.	0.0
+google	324	karen spa�rck jones	0.0
+google	325	keypunch	0.0
+google	327	kluwer academic publishers	0.0
+google	329	knowledge organization	0.0
+google	330	knowledge visualization	0.0
+google	331	lionsolver	0.0
+google	332	language model	0.0
+google	333	latent dirichlet allocation	0.0
+google	334	latent semantic analysis	0.0
+google	335	latent semantic indexing	0.0
+google	338	library and information science	0.0
+google	340	list of computer science conferences	0.0
+google	341	list of information retrieval libraries	0.0
+google	342	list of reporting software	0.0
+google	347	looksmart	0.0
+google	349	matrix	0.0
+google	350	medlars	0.0
+google	352	ml-flex	0.0
+google	353	molap	0.0
+google	357	main page	0.0
+google	358	mark mccahill	0.0
+google	359	market basket analysis	0.0
+google	362	mathematical logic	0.0
+google	365	mean reciprocal rank	0.0
+google	366	measure (data warehouse)	0.0
+google	367	medicine	0.0
+google	368	memory	0.0
+google	371	metasearch engine	0.0
+google	372	microarchitecture	0.0
+google	374	microsoft analysis services	0.0
+google	375	mind maps	0.0
+google	376	mining software repositories	0.0
+google	377	missing data	0.0
+google	378	modeling and simulation	0.0
+google	380	morgan kaufmann	0.0
+google	381	msnbot	0.0
+google	382	mugurdy	0.0
+google	383	multidimensional expressions	0.0
+google	384	multifactor dimensionality reduction	0.0
+google	385	multilinear subspace learning	0.0
+google	386	multimedia information retrieval	0.0
+google	387	multiprocessing	0.0
+google	388	multisearch	0.0
+google	389	multivariate statistics	0.0
+google	390	music information retrieval	0.0
+google	392	named-entity recognition	0.0
+google	393	national bureau of standards	0.0
+google	394	national center for supercomputing applications	0.0
+google	395	national institute of standards and technology	0.0
+google	396	national security agency	0.0
+google	398	natural language processing	0.0
+google	400	nature (journal)	0.0
+google	403	network topology	0.0
+google	405	nicholas j. belkin	0.0
+google	406	nicholas jardine	0.0
+google	407	northern light group	0.0
+google	409	numerical analysis	0.0
+google	413	online algorithm	0.0
+google	415	online search	0.0
+google	422	operational data store	0.0
+google	423	oracle	0.0
+google	424	oracle data mining	0.0
+google	425	oracle machine	0.0
+google	426	orange (software)	0.0
+google	429	oscar nierstrasz	0.0
+google	431	overfitting	0.0
+google	432	overture	0.0
+google	435	parallel computing	0.0
+google	436	parsing	0.0
+google	440	personal information management	0.0
+google	441	pharmacy	0.0
+google	442	philosophy of information	0.0
+google	443	picollator	0.0
+google	444	police-enforced anpr in the uk	0.0
+google	445	positive predictive value	0.0
+google	448	precision and recall	0.0
+google	449	predictive model markup language	0.0
+google	450	predictive analytics	0.0
+google	451	prentice hall	0.0
+google	455	probabilistic relevance model	0.0
+google	456	probabilistic relevance model (bm25)	0.0
+google	457	procedural programming	0.0
+google	458	profiling practices	0.0
+google	459	programming language	0.0
+google	463	public library	0.0
+google	464	punched cards	0.0
+google	467	quantitative structure%e2%80%93activity relationship	0.0
+google	469	query string	0.0
+google	472	rolap	0.0
+google	474	ralph kimball	0.0
+google	475	rank order	0.0
+google	476	rapidminer	0.0
+google	477	reactive business intelligence	0.0
+google	478	real-time computing	0.0
+google	479	receiver operating characteristic	0.0
+google	480	regression analysis	0.0
+google	481	relational database	0.0
+google	482	relevance	0.0
+google	483	relevance (information retrieval)	0.0
+google	488	robert m. hayes	0.0
+google	489	robert r. korfhage	0.0
+google	490	robert tibshirani	0.0
+google	494	rocchio classification	0.0
+google	495	routing	0.0
+google	498	sapo (company)	0.0
+google	499	sas (software)	0.0
+google	500	sas institute	0.0
+google	501	semma	0.0
+google	502	sigkdd	0.0
+google	503	sigmod	0.0
+google	504	smart information retrieval system	0.0
+google	505	spss modeler	0.0
+google	506	sql	0.0
+google	507	statistica	0.0
+google	509	science, technology and society	0.0
+google	515	search engine (computing)	0.0
+google	516	search engine (disambiguation)	0.0
+google	521	search oriented architecture	0.0
+google	523	self-organizing map	0.0
+google	526	sensitivity and specificity	0.0
+google	527	sequence mining	0.0
+google	528	set theory	0.0
+google	529	sixth normal form	0.0
+google	530	slowly changing dimension	0.0
+google	531	social science research network	0.0
+google	532	social information seeking	0.0
+google	534	society for industrial and applied mathematics	0.0
+google	535	software	0.0
+google	536	software design	0.0
+google	537	software development process	0.0
+google	541	sogou.com	0.0
+google	542	sorrell v. ims health, inc.	0.0
+google	543	spatial index	0.0
+google	544	spearman's rank correlation coefficient	0.0
+google	545	special interest group on information retrieval	0.0
+google	547	spider trap	0.0
+google	549	springer verlag	0.0
+google	550	sproose	0.0
+google	551	standard boolean model	0.0
+google	552	star schema	0.0
+google	553	statcounter	0.0
+google	554	statsoft	0.0
+google	555	statistical classification	0.0
+google	557	statistical model	0.0
+google	558	statistical noise	0.0
+google	559	statistics	0.0
+google	560	stellar wind (code name)	0.0
+google	561	structured data analysis (statistics)	0.0
+google	562	subject indexing	0.0
+google	563	subspace clustering	0.0
+google	564	support vector machines	0.0
+google	566	surrogate key	0.0
+google	568	symbolic computation	0.0
+google	569	systems architecture	0.0
+google	571	tabulating machine	0.0
+google	573	temporal information retrieval	0.0
+google	575	test set	0.0
+google	578	text mining	0.0
+google	579	tf-idf	0.0
+google	580	the american statistician	0.0
+google	583	theory of computation	0.0
+google	585	tony kent strix award	0.0
+google	586	topic-based vector space model	0.0
+google	587	total information awareness	0.0
+google	588	traffic analysis	0.0
+google	589	training set	0.0
+google	590	transaction processing	0.0
+google	591	trevor hastie	0.0
+google	593	type theory	0.0
+google	594	ubm plc	0.0
+google	595	uima	0.0
+google	597	ubiquitous computing	0.0
+google	598	uncertain inference	0.0
+google	599	united states national research council	0.0
+google	600	university of calabria	0.0
+google	601	university of geneva	0.0
+google	602	university of minnesota	0.0
+google	603	uplift modelling	0.0
+google	604	uppsala monitoring centre	0.0
+google	605	usability	0.0
+google	606	user expectations	0.0
+google	607	user interface	0.0
+google	609	vector space model	0.0
+google	610	veronica (computer)	0.0
+google	611	veronica lodge	0.0
+google	616	visualization (computer graphics)	0.0
+google	617	vivisimo	0.0
+google	629	web form	0.0
+google	630	web indexing	0.0
+google	632	web page	0.0
+google	633	web portal	0.0
+google	634	web query classification	0.0
+google	638	web search query	0.0
+google	640	website parse template	0.0
+google	642	weka (machine learning)	0.0
+google	643	wide area information server	0.0
+google	646	wireless sensor network	0.0
+google	649	world wide web wanderer	0.0
+google	650	xml	0.0
+google	652	xml for analysis	0.0
+google	658	z39.50	0.0
+salsa	433	pagerank	0.010380522816646807
+salsa	0	1890 us census	0.0
+salsa	1	a9.com	0.0
+salsa	2	acm computing classification system	0.0
+salsa	3	advise	0.0
+salsa	4	aol	0.0
+salsa	5	aol search	0.0
+salsa	6	academic press	0.0
+salsa	7	academic journal	0.0
+salsa	8	accuracy and precision	0.0
+salsa	9	actuate corporation	0.0
+salsa	10	adversarial information retrieval	0.0
+salsa	11	adverse drug reaction	0.0
+salsa	12	advertising	0.0
+salsa	13	aggregate (data warehouse)	0.0
+salsa	14	aggregate function	0.0
+salsa	15	alan emtage	0.0
+salsa	16	algorithm	0.0
+salsa	17	algorithm design	0.0
+salsa	18	aliweb	0.0
+salsa	19	alltheweb	0.0
+salsa	20	alpha consumer	0.0
+salsa	21	altavista	0.0
+salsa	22	alvin weinberg	0.0
+salsa	23	analysis of algorithms	0.0
+salsa	24	analytics	0.0
+salsa	25	anchor modeling	0.0
+salsa	26	angoss	0.0
+salsa	27	anomaly detection	0.0
+salsa	28	archie comics	0.0
+salsa	29	archie search engine	0.0
+salsa	30	argonne national laboratory	0.0
+salsa	31	artificial intelligence	0.0
+salsa	32	artificial life	0.0
+salsa	33	artificial neural network	0.0
+salsa	34	as we may think	0.0
+salsa	35	ask.com	0.0
+salsa	36	association for computing machinery	0.0
+salsa	37	association rule	0.0
+salsa	38	association rule learning	0.0
+salsa	39	association rule mining	0.0
+salsa	40	association rules	0.0
+salsa	41	atlantic monthly	0.0
+salsa	42	automata theory	0.0
+salsa	43	automated reasoning	0.0
+salsa	44	automatic summarization	0.0
+salsa	45	baidu	0.0
+salsa	46	bayes' theorem	0.0
+salsa	47	berlekamp	0.0
+salsa	48	bibliometrics	0.0
+salsa	49	bill inmon	0.0
+salsa	50	binary independence model	0.0
+salsa	51	binary classification	0.0
+salsa	52	bing	0.0
+salsa	53	bioinformatic	0.0
+salsa	54	bioinformatics	0.0
+salsa	55	biomedical	0.0
+salsa	56	blackle.com	0.0
+salsa	57	blekko	0.0
+salsa	58	boogami	0.0
+salsa	59	boolean algebra	0.0
+salsa	60	boolean operators	0.0
+salsa	61	bram stoker	0.0
+salsa	62	british petroleum	0.0
+salsa	63	business intelligence	0.0
+salsa	64	business intelligence tools	0.0
+salsa	65	buzzword	0.0
+salsa	66	c. j. van rijsbergen	0.0
+salsa	67	capps ii	0.0
+salsa	68	cern	0.0
+salsa	69	cikm conference	0.0
+salsa	70	crisp-dm	0.0
+salsa	71	calvin mooers	0.0
+salsa	72	cambridge university press	0.0
+salsa	73	cancer	0.0
+salsa	74	carnegie mellon university	0.0
+salsa	75	carrot2	0.0
+salsa	76	case western reserve university	0.0
+salsa	77	categorization	0.0
+salsa	78	category theory	0.0
+salsa	79	censorship	0.0
+salsa	80	chacha (search engine)	0.0
+salsa	81	chemicalize.org	0.0
+salsa	82	chess	0.0
+salsa	83	chess endgame	0.0
+salsa	84	churn rate	0.0
+salsa	85	clarabridge	0.0
+salsa	86	classification of the sciences (peirce)	0.0
+salsa	87	cloud storage	0.0
+salsa	88	cluster analysis	0.0
+salsa	89	co-occurrence	0.0
+salsa	90	cognitive science	0.0
+salsa	91	collaborative information seeking	0.0
+salsa	92	collaborative search engine	0.0
+salsa	93	column-oriented dbms	0.0
+salsa	94	combinatorial game	0.0
+salsa	95	combinatorics	0.0
+salsa	96	communications of the acm	0.0
+salsa	97	comparison of olap servers	0.0
+salsa	98	comparison of web search engines	0.0
+salsa	99	compiler	0.0
+salsa	100	computability theory	0.0
+salsa	101	computational chemistry	0.0
+salsa	102	computational complexity theory	0.0
+salsa	103	computational geometry	0.0
+salsa	104	computational linguistics	0.0
+salsa	105	computational neuroscience	0.0
+salsa	106	computational physics	0.0
+salsa	107	computational science	0.0
+salsa	108	computer accessibility	0.0
+salsa	109	computer animation	0.0
+salsa	110	computer architecture	0.0
+salsa	111	computer data storage	0.0
+salsa	112	computer graphics	0.0
+salsa	113	computer music	0.0
+salsa	114	computer networking	0.0
+salsa	115	computer programming	0.0
+salsa	116	computer science	0.0
+salsa	117	computer vision	0.0
+salsa	118	concurrency (computer science)	0.0
+salsa	119	concurrency control	0.0
+salsa	120	condition monitoring	0.0
+salsa	121	conference on information and knowledge management	0.0
+salsa	122	conference on knowledge discovery and data mining	0.0
+salsa	123	contextual advertising	0.0
+salsa	124	controlled vocabulary	0.0
+salsa	125	cornelis j. van rijsbergen	0.0
+salsa	126	cross-language information retrieval	0.0
+salsa	127	cross-platform	0.0
+salsa	128	cross industry standard process for data mining	0.0
+salsa	129	cryptography	0.0
+salsa	130	cuil	0.0
+salsa	131	cultural studies	0.0
+salsa	132	customer analytics	0.0
+salsa	133	customer relationship management	0.0
+salsa	134	cyril w. cleverdon	0.0
+salsa	135	dna	0.0
+salsa	136	dashboard (business)	0.0
+salsa	137	data	0.0
+salsa	138	data mining extensions	0.0
+salsa	139	data pre-processing	0.0
+salsa	140	data vault modeling	0.0
+salsa	141	data analysis	0.0
+salsa	142	data cleaning	0.0
+salsa	143	data clustering	0.0
+salsa	144	data collection	0.0
+salsa	145	data dictionary	0.0
+salsa	146	data dredging	0.0
+salsa	147	data extraction	0.0
+salsa	148	data integration	0.0
+salsa	149	data loading	0.0
+salsa	150	data management	0.0
+salsa	151	data mart	0.0
+salsa	152	data mining	0.0
+salsa	153	data mining in agriculture	0.0
+salsa	154	data mining in meteorology	0.0
+salsa	155	data modeling	0.0
+salsa	156	data set	0.0
+salsa	157	data snooping	0.0
+salsa	158	data structure	0.0
+salsa	159	data transformation	0.0
+salsa	160	data visualization	0.0
+salsa	161	data warehouse	0.0
+salsa	162	database	0.0
+salsa	163	database management system	0.0
+salsa	164	database system	0.0
+salsa	165	daum communications	0.0
+salsa	166	decision making	0.0
+salsa	167	decision support system	0.0
+salsa	168	decision tree learning	0.0
+salsa	169	decision trees	0.0
+salsa	170	deepwater horizon oil spill	0.0
+salsa	171	degenerate dimension	0.0
+salsa	172	desktop search	0.0
+salsa	173	digital object identifier	0.0
+salsa	174	digital obsolescence	0.0
+salsa	175	dimension (data warehouse)	0.0
+salsa	176	dimension reduction	0.0
+salsa	177	dimension table	0.0
+salsa	178	dimensional modeling	0.0
+salsa	179	discounted cumulative gain	0.0
+salsa	180	discovery (observation)	0.0
+salsa	181	discovery net	0.0
+salsa	182	dissolved gas analysis	0.0
+salsa	183	distributed computing	0.0
+salsa	184	distributed web crawling	0.0
+salsa	185	divergence-from-randomness model	0.0
+salsa	186	document retrieval	0.0
+salsa	187	dogpile	0.0
+salsa	188	don swanson	0.0
+salsa	189	donald b. crouch	0.0
+salsa	190	dot-com bubble	0.0
+salsa	191	dots-and-boxes	0.0
+salsa	192	dracula	0.0
+salsa	193	drug discovery	0.0
+salsa	194	duckduckgo	0.0
+salsa	195	early-arriving fact	0.0
+salsa	196	educational data mining	0.0
+salsa	197	electrical power	0.0
+salsa	198	electronic health records	0.0
+salsa	199	eli pariser	0.0
+salsa	200	emanuel goldberg	0.0
+salsa	201	enterprise search	0.0
+salsa	202	environment for developing kdd-applications supported by index-structures	0.0
+salsa	203	eugene garfield	0.0
+salsa	204	europe	0.0
+salsa	205	european conference on machine learning and principles and practice of knowledge discovery in databases	0.0
+salsa	206	european summer school in information retrieval	0.0
+salsa	207	evolutionary computation	0.0
+salsa	208	exalead	0.0
+salsa	209	excite	0.0
+salsa	210	experian hitwise	0.0
+salsa	211	expert system	0.0
+salsa	212	expertise finding	0.0
+salsa	213	exploratory data analysis	0.0
+salsa	214	extended boolean model	0.0
+salsa	215	extract, transform, load	0.0
+salsa	216	f-score	0.0
+salsa	217	f. wilfrid lancaster	0.0
+salsa	218	fico	0.0
+salsa	219	facebook	0.0
+salsa	220	fact (data warehouse)	0.0
+salsa	221	fact table	0.0
+salsa	222	factor analysis	0.0
+salsa	223	federated search	0.0
+salsa	224	file transfer protocol	0.0
+salsa	225	filter bubble	0.0
+salsa	226	first amendment to the united states constitution	0.0
+salsa	227	focused crawler	0.0
+salsa	228	forestle	0.0
+salsa	229	formal methods	0.0
+salsa	230	forrester research	0.0
+salsa	231	functional programming	0.0
+salsa	232	fuzzy retrieval	0.0
+salsa	233	gnu project	0.0
+salsa	234	gartner	0.0
+salsa	235	general architecture for text engineering	0.0
+salsa	236	generalized vector space model	0.0
+salsa	237	genetic algorithms	0.0
+salsa	238	genetics	0.0
+salsa	239	genieknows	0.0
+salsa	240	genres	0.0
+salsa	241	geographic information systems	0.0
+salsa	242	gerard salton	0.0
+salsa	243	gerard salton award	0.0
+salsa	244	go.com	0.0
+salsa	245	goby inc.	0.0
+salsa	246	goodsearch	0.0
+salsa	247	google	0.0
+salsa	248	google bombing	0.0
+salsa	249	google drive	0.0
+salsa	250	google search	0.0
+salsa	251	google effect	0.0
+salsa	252	gopher (protocol)	0.0
+salsa	253	graph theory	0.0
+salsa	254	grid computing	0.0
+salsa	255	guruji.com	0.0
+salsa	256	holap	0.0
+salsa	257	html	0.0
+salsa	258	hans peter luhn	0.0
+salsa	259	harmonic mean	0.0
+salsa	260	health insurance portability and accountability act	0.0
+salsa	261	herman hollerith	0.0
+salsa	262	hitwise	0.0
+salsa	263	hotbot	0.0
+salsa	264	human%e2%80%93computer information retrieval	0.0
+salsa	265	human%e2%80%93computer interaction	0.0
+salsa	266	human rights	0.0
+salsa	267	hypertext	0.0
+salsa	268	ibm	0.0
+salsa	269	ieee	0.0
+salsa	270	ill-posed	0.0
+salsa	271	image processing	0.0
+salsa	272	image retrieval	0.0
+salsa	273	imperial college london	0.0
+salsa	274	independency	0.0
+salsa	275	index (database)	0.0
+salsa	276	index (search engine)	0.0
+salsa	277	info.com	0.0
+salsa	278	informatics (academic field)	0.0
+salsa	279	informationweek	0.0
+salsa	280	information retrieval facility	0.0
+salsa	281	information access	0.0
+salsa	282	information architecture	0.0
+salsa	283	information extraction	0.0
+salsa	284	information integration	0.0
+salsa	285	information management	0.0
+salsa	286	information need	0.0
+salsa	287	information overload	0.0
+salsa	288	information retrieval	0.0
+salsa	289	information retrieval applications	0.0
+salsa	290	information science	0.0
+salsa	291	information seeking	0.0
+salsa	292	information society	0.0
+salsa	293	information technology	0.0
+salsa	294	information theory	0.0
+salsa	295	infoseek	0.0
+salsa	296	initial public offering	0.0
+salsa	297	inktomi (company)	0.0
+salsa	298	institutional memory	0.0
+salsa	299	insulator (electrical)	0.0
+salsa	300	intellectual freedom	0.0
+salsa	301	intellectual property	0.0
+salsa	302	interactive visualization	0.0
+salsa	303	international conference on very large data bases	0.0
+salsa	304	international standard book number	0.0
+salsa	305	internet search engines and libraries	0.0
+salsa	306	interpreter (computing)	0.0
+salsa	307	inverted index	0.0
+salsa	308	iterative algorithm	0.0
+salsa	309	j. c. r. licklider	0.0
+salsa	310	jasis	0.0
+salsa	311	jhepwork	0.0
+salsa	312	jacquard loom	0.0
+salsa	313	java (programming language)	0.0
+salsa	314	java data mining	0.0
+salsa	315	john nunn	0.0
+salsa	316	john seward	0.0
+salsa	317	joseph marie jacquard	0.0
+salsa	318	jughead (computer)	0.0
+salsa	319	jughead jones	0.0
+salsa	320	jumpstation	0.0
+salsa	321	kdd conference	0.0
+salsa	322	knime	0.0
+salsa	323	kxen inc.	0.0
+salsa	324	karen spa�rck jones	0.0
+salsa	325	keypunch	0.0
+salsa	326	keyword (internet search)	0.0
+salsa	327	kluwer academic publishers	0.0
+salsa	328	knowledge discovery	0.0
+salsa	329	knowledge organization	0.0
+salsa	330	knowledge visualization	0.0
+salsa	331	lionsolver	0.0
+salsa	332	language model	0.0
+salsa	333	latent dirichlet allocation	0.0
+salsa	334	latent semantic analysis	0.0
+salsa	335	latent semantic indexing	0.0
+salsa	336	leapfish	0.0
+salsa	337	learning to rank	0.0
+salsa	338	library and information science	0.0
+salsa	339	linkrot	0.0
+salsa	340	list of computer science conferences	0.0
+salsa	341	list of information retrieval libraries	0.0
+salsa	342	list of reporting software	0.0
+salsa	343	list of search engines	0.0
+salsa	344	live search	0.0
+salsa	345	local search (internet)	0.0
+salsa	346	logic programming	0.0
+salsa	347	looksmart	0.0
+salsa	348	lycos	0.0
+salsa	349	matrix	0.0
+salsa	350	medlars	0.0
+salsa	351	mit	0.0
+salsa	352	ml-flex	0.0
+salsa	353	molap	0.0
+salsa	354	msn search	0.0
+salsa	355	machine learning	0.0
+salsa	356	magellan (search engine)	0.0
+salsa	357	main page	0.0
+salsa	358	mark mccahill	0.0
+salsa	359	market basket analysis	0.0
+salsa	360	mass surveillance	0.0
+salsa	361	massachusetts institute of technology	0.0
+salsa	362	mathematical logic	0.0
+salsa	363	mathematics	0.0
+salsa	364	mcgill university	0.0
+salsa	365	mean reciprocal rank	0.0
+salsa	366	measure (data warehouse)	0.0
+salsa	367	medicine	0.0
+salsa	368	memory	0.0
+salsa	369	meta tags	0.0
+salsa	370	metadata	0.0
+salsa	371	metasearch engine	0.0
+salsa	372	microarchitecture	0.0
+salsa	373	microsoft	0.0
+salsa	374	microsoft analysis services	0.0
+salsa	375	mind maps	0.0
+salsa	376	mining software repositories	0.0
+salsa	377	missing data	0.0
+salsa	378	modeling and simulation	0.0
+salsa	379	montreal	0.0
+salsa	380	morgan kaufmann	0.0
+salsa	381	msnbot	0.0
+salsa	382	mugurdy	0.0
+salsa	383	multidimensional expressions	0.0
+salsa	384	multifactor dimensionality reduction	0.0
+salsa	385	multilinear subspace learning	0.0
+salsa	386	multimedia information retrieval	0.0
+salsa	387	multiprocessing	0.0
+salsa	388	multisearch	0.0
+salsa	389	multivariate statistics	0.0
+salsa	390	music information retrieval	0.0
+salsa	391	nltk	0.0
+salsa	392	named-entity recognition	0.0
+salsa	393	national bureau of standards	0.0
+salsa	394	national center for supercomputing applications	0.0
+salsa	395	national institute of standards and technology	0.0
+salsa	396	national security agency	0.0
+salsa	397	natural language toolkit	0.0
+salsa	398	natural language processing	0.0
+salsa	399	natural language search engine	0.0
+salsa	400	nature (journal)	0.0
+salsa	401	naver	0.0
+salsa	402	netscape	0.0
+salsa	403	network topology	0.0
+salsa	404	neural networks	0.0
+salsa	405	nicholas j. belkin	0.0
+salsa	406	nicholas jardine	0.0
+salsa	407	northern light group	0.0
+salsa	408	number theory	0.0
+salsa	409	numerical analysis	0.0
+salsa	410	oclc	0.0
+salsa	411	olap cube	0.0
+salsa	412	object-oriented programming	0.0
+salsa	413	online algorithm	0.0
+salsa	414	online analytical processing	0.0
+salsa	415	online search	0.0
+salsa	416	ontologies	0.0
+salsa	417	ontology (information science)	0.0
+salsa	418	opensearch	0.0
+salsa	419	open directory project	0.0
+salsa	420	open drive	0.0
+salsa	421	operating system	0.0
+salsa	422	operational data store	0.0
+salsa	423	oracle	0.0
+salsa	424	oracle data mining	0.0
+salsa	425	oracle machine	0.0
+salsa	426	orange (software)	0.0
+salsa	427	organic search	0.0
+salsa	428	orthogonality	0.0
+salsa	429	oscar nierstrasz	0.0
+salsa	430	outline of information science	0.0
+salsa	431	overfitting	0.0
+salsa	432	overture	0.0
+salsa	434	paid inclusion	0.0
+salsa	435	parallel computing	0.0
+salsa	436	parsing	0.0
+salsa	437	pattern	0.0
+salsa	438	people's republic of china	0.0
+salsa	439	perl	0.0
+salsa	440	personal information management	0.0
+salsa	441	pharmacy	0.0
+salsa	442	philosophy of information	0.0
+salsa	443	picollator	0.0
+salsa	444	police-enforced anpr in the uk	0.0
+salsa	445	positive predictive value	0.0
+salsa	446	power transformer	0.0
+salsa	447	powerset (company)	0.0
+salsa	448	precision and recall	0.0
+salsa	449	predictive model markup language	0.0
+salsa	450	predictive analytics	0.0
+salsa	451	prentice hall	0.0
+salsa	452	preservation (library and archival science)	0.0
+salsa	453	principle of least astonishment	0.0
+salsa	454	privacy	0.0
+salsa	455	probabilistic relevance model	0.0
+salsa	456	probabilistic relevance model (bm25)	0.0
+salsa	457	procedural programming	0.0
+salsa	458	profiling practices	0.0
+salsa	459	programming language	0.0
+salsa	460	programming paradigm	0.0
+salsa	461	proximity search (text)	0.0
+salsa	462	pubmed identifier	0.0
+salsa	463	public library	0.0
+salsa	464	punched cards	0.0
+salsa	465	python (programming language)	0.0
+salsa	466	quaero	0.0
+salsa	467	quantitative structure%e2%80%93activity relationship	0.0
+salsa	468	quantum computer	0.0
+salsa	469	query string	0.0
+salsa	470	question answering	0.0
+salsa	471	quora	0.0
+salsa	472	rolap	0.0
+salsa	473	r (programming language)	0.0
+salsa	474	ralph kimball	0.0
+salsa	475	rank order	0.0
+salsa	476	rapidminer	0.0
+salsa	477	reactive business intelligence	0.0
+salsa	478	real-time computing	0.0
+salsa	479	receiver operating characteristic	0.0
+salsa	480	regression analysis	0.0
+salsa	481	relational database	0.0
+salsa	482	relevance	0.0
+salsa	483	relevance (information retrieval)	0.0
+salsa	484	relevance feedback	0.0
+salsa	485	representational state transfer	0.0
+salsa	486	requirements analysis	0.0
+salsa	487	rexer's annual data miner survey	0.0
+salsa	488	robert m. hayes	0.0
+salsa	489	robert r. korfhage	0.0
+salsa	490	robert tibshirani	0.0
+salsa	491	robotics	0.0
+salsa	492	robots.txt	0.0
+salsa	493	robots exclusion standard	0.0
+salsa	494	rocchio classification	0.0
+salsa	495	routing	0.0
+salsa	496	rule of inference	0.0
+salsa	497	russian federation	0.0
+salsa	498	sapo (company)	0.0
+salsa	499	sas (software)	0.0
+salsa	500	sas institute	0.0
+salsa	501	semma	0.0
+salsa	502	sigkdd	0.0
+salsa	503	sigmod	0.0
+salsa	504	smart information retrieval system	0.0
+salsa	505	spss modeler	0.0
+salsa	506	sql	0.0
+salsa	507	statistica	0.0
+salsa	508	scalability	0.0
+salsa	509	science, technology and society	0.0
+salsa	510	scientific american magazine	0.0
+salsa	511	searchme	0.0
+salsa	512	search engine watch	0.0
+salsa	513	search aggregator	0.0
+salsa	514	search directory	0.0
+salsa	515	search engine (computing)	0.0
+salsa	516	search engine (disambiguation)	0.0
+salsa	517	search engine indexing	0.0
+salsa	518	search engine marketing	0.0
+salsa	519	search engine optimization	0.0
+salsa	520	search engine results pages	0.0
+salsa	521	search oriented architecture	0.0
+salsa	522	selection-based search	0.0
+salsa	523	self-organizing map	0.0
+salsa	524	semantic web	0.0
+salsa	525	semantic search	0.0
+salsa	526	sensitivity and specificity	0.0
+salsa	527	sequence mining	0.0
+salsa	528	set theory	0.0
+salsa	529	sixth normal form	0.0
+salsa	530	slowly changing dimension	0.0
+salsa	531	social science research network	0.0
+salsa	532	social information seeking	0.0
+salsa	533	social search	0.0
+salsa	534	society for industrial and applied mathematics	0.0
+salsa	535	software	0.0
+salsa	536	software design	0.0
+salsa	537	software development process	0.0
+salsa	538	software engineering	0.0
+salsa	539	software release life cycle	0.0
+salsa	540	software testing	0.0
+salsa	541	sogou.com	0.0
+salsa	542	sorrell v. ims health, inc.	0.0
+salsa	543	spatial index	0.0
+salsa	544	spearman's rank correlation coefficient	0.0
+salsa	545	special interest group on information retrieval	0.0
+salsa	546	spell checker	0.0
+salsa	547	spider trap	0.0
+salsa	548	spreadsheets	0.0
+salsa	549	springer verlag	0.0
+salsa	550	sproose	0.0
+salsa	551	standard boolean model	0.0
+salsa	552	star schema	0.0
+salsa	553	statcounter	0.0
+salsa	554	statsoft	0.0
+salsa	555	statistical classification	0.0
+salsa	556	statistical inference	0.0
+salsa	557	statistical model	0.0
+salsa	558	statistical noise	0.0
+salsa	559	statistics	0.0
+salsa	560	stellar wind (code name)	0.0
+salsa	561	structured data analysis (statistics)	0.0
+salsa	562	subject indexing	0.0
+salsa	563	subspace clustering	0.0
+salsa	564	support vector machines	0.0
+salsa	565	supreme court of the united states	0.0
+salsa	566	surrogate key	0.0
+salsa	567	surveillance	0.0
+salsa	568	symbolic computation	0.0
+salsa	569	systems architecture	0.0
+salsa	570	tablebase	0.0
+salsa	571	tabulating machine	0.0
+salsa	572	telecommunication	0.0
+salsa	573	temporal information retrieval	0.0
+salsa	574	teoma	0.0
+salsa	575	test set	0.0
+salsa	576	text retrieval conference	0.0
+salsa	577	text corpora	0.0
+salsa	578	text mining	0.0
+salsa	579	tf-idf	0.0
+salsa	580	the american statistician	0.0
+salsa	581	theodor nelson	0.0
+salsa	582	theory of forms	0.0
+salsa	583	theory of computation	0.0
+salsa	584	tim berners-lee	0.0
+salsa	585	tony kent strix award	0.0
+salsa	586	topic-based vector space model	0.0
+salsa	587	total information awareness	0.0
+salsa	588	traffic analysis	0.0
+salsa	589	training set	0.0
+salsa	590	transaction processing	0.0
+salsa	591	trevor hastie	0.0
+salsa	592	true knowledge	0.0
+salsa	593	type theory	0.0
+salsa	594	ubm plc	0.0
+salsa	595	uima	0.0
+salsa	596	us congress	0.0
+salsa	597	ubiquitous computing	0.0
+salsa	598	uncertain inference	0.0
+salsa	599	united states national research council	0.0
+salsa	600	university of calabria	0.0
+salsa	601	university of geneva	0.0
+salsa	602	university of minnesota	0.0
+salsa	603	uplift modelling	0.0
+salsa	604	uppsala monitoring centre	0.0
+salsa	605	usability	0.0
+salsa	606	user expectations	0.0
+salsa	607	user interface	0.0
+salsa	608	vannevar bush	0.0
+salsa	609	vector space model	0.0
+salsa	610	veronica (computer)	0.0
+salsa	611	veronica lodge	0.0
+salsa	612	vertical search	0.0
+salsa	613	video search engine	0.0
+salsa	614	viewzi	0.0
+salsa	615	virtual reality	0.0
+salsa	616	visualization (computer graphics)	0.0
+salsa	617	vivisimo	0.0
+salsa	618	voice search	0.0
+salsa	619	volunia	0.0
+salsa	620	w3catalog	0.0
+salsa	621	wearable computer	0.0
+salsa	622	webcrawler	0.0
+salsa	623	web archiving	0.0
+salsa	624	web cache	0.0
+salsa	625	web crawler	0.0
+salsa	626	web crawling	0.0
+salsa	627	web directories	0.0
+salsa	628	web directory	0.0
+salsa	629	web form	0.0
+salsa	630	web indexing	0.0
+salsa	631	web mining	0.0
+salsa	632	web page	0.0
+salsa	633	web portal	0.0
+salsa	634	web query classification	0.0
+salsa	635	web robot	0.0
+salsa	636	web scraping	0.0
+salsa	637	web search engine	0.0
+salsa	638	web search query	0.0
+salsa	639	webserver	0.0
+salsa	640	website parse template	0.0
+salsa	641	website mirroring software	0.0
+salsa	642	weka (machine learning)	0.0
+salsa	643	wide area information server	0.0
+salsa	644	wikia search	0.0
+salsa	645	wikiseek	0.0
+salsa	646	wireless sensor network	0.0
+salsa	647	wolfram alpha	0.0
+salsa	648	world wide web	0.0
+salsa	649	world wide web wanderer	0.0
+salsa	650	xml	0.0
+salsa	651	xml-retrieval	0.0
+salsa	652	xml for analysis	0.0
+salsa	653	yahoo!	0.0
+salsa	654	yahoo! search	0.0
+salsa	655	yandex	0.0
+salsa	656	yebol	0.0
+salsa	657	yummly	0.0
+salsa	658	z39.50	0.0
