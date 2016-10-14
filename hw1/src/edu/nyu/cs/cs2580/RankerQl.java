@@ -33,6 +33,8 @@ public class RankerQl extends Ranker {
       results.add(all.get(i));
     }
     TsvGen.generate(results, "hw1.1-ql");
+    //        Evaluator evaluator = new Evaluator();
+    //        evaluator.evalRanker(query._query, results, "data/labels.tsv", "cosine");
     return results;
   }
 

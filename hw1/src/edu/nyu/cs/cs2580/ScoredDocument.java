@@ -29,6 +29,7 @@ class ScoredDocument implements Comparable<ScoredDocument> {
   public double getScore() {
     return _score;
   }
+  public int getDocid(){return _doc._docid;}
 
   /**
    * @CS2580: Student should implement {@code asHtmlResult} for final project.

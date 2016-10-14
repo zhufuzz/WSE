@@ -12,13 +12,22 @@ public class TsvGen {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         StringBuilder sb = new StringBuilder();
         for (ScoredDocument result : results) {
             sb.append(result.asTextResult()).append("\n");
         }
-
         pw.append(sb.toString());
+        pw.close();
+    }
+
+    public static void generate(String results, String fileName) {
+        PrintWriter pw = null;
+        try {
+            pw = new PrintWriter(new FileWriter("results/"+fileName+".tsv",true));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        pw.append(results);
         pw.close();
     }
 }
