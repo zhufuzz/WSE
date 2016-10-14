@@ -4,11 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
+
+
+
 
 /**
  * Evaluator for HW1.
@@ -61,7 +60,8 @@ class Evaluator {
       return 0.0;
     }
   }
-  
+
+
   /**
    * Usage: java -cp src edu.nyu.cs.cs2580.Evaluator [labels] [metric_id]
    */
@@ -142,9 +142,6 @@ class Evaluator {
       s.close();
     }
     reader.close();
-    if (results.size() > 0) {
-      evaluateQueryInstructor(currentQuery, results, judgments);
-    }
   }
   
   public static void evaluateQueryInstructor(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments) {
@@ -153,7 +150,7 @@ class Evaluator {
     for (int docid : docids) {
       DocumentRelevances relevances = judgments.get(query);
       if (relevances == null) {
-        System.out.println("Query [" + query + "] not found!");
+//        System.out.println("Query [" + query + "] not found!");
       } else {
         if (relevances.hasRelevanceForDoc(docid)) {
           R += relevances.getRelevanceForDoc(docid);
@@ -161,7 +158,7 @@ class Evaluator {
         ++N;
       }
     }
-    System.out.println(query + "\t" + Double.toString(R / N));
+    System.out.println(query + "\t" + Double.toString(R / N)+"instructor");
   }
 
   //  Metric0: Precision 1, 5, 10
@@ -332,56 +329,68 @@ class Evaluator {
 //  Metric5: NDCG at 1, 5, and 10 (using the gain values presented in Lecture 2)
   public static void evaluateQueryMetric5(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
     DocumentRelevances relevances = judgments.get(query);
-    double[] p1 = new double[1];
-    double[] p5 = new double[5];
-    double[] p10 = new double[10];
+    List<Double> p1 = new ArrayList<Double>();
+    List<Double> p5 = new ArrayList<Double>();
+    List<Double> p10 = new ArrayList<Double>();
     for(int i=0; i<10; i++){
       double rel = 0.0;
       if(relevances.hasRelevanceForDoc(docids.get(i))){
         rel = relevances.getRelevanceForDoc(docids.get(i));
       }
       if (i < 1) {
-        p1[i]= rel;
-        p5[i]= rel;
-        p10[i]= rel;
+        p1.add(rel);
+        p5.add(rel);
+        p10.add(rel);
       }
       if (i < 5){
-        p5[i]= rel;
-        p10[i]= rel;
+        p5.add(rel);
+        p10.add(rel);
       }
-      p10[i]= rel;
+      p10.add(rel);
     }
+
+    double ndcg1 = NDCG(p1);
+    double ndcg5 = NDCG(p5);
+    double ndcg10 = NDCG(p10);
+
+    System.out.print("Matric_5_1: "+ ndcg1);
+    System.out.print(" Matric_5_5: "+ ndcg5);
+    System.out.println(" Matric_5_10: "+ ndcg10);
   }
 
-  private double discountedCumulativeGain(int[] scores) {
+  private static double discountedCumulativeGain(List<Double> scores) {
     double result = 0.0;
-    for (int i = 0; i < scores.length; i++) {
-//      if (i == 0) {
-//        result += scores[i];
-//      } else {
-        result += scores[i]/(Math.log(i+1)/Math.log(2));
-//      }
+    for (int i = 0; i < scores.size(); i++) {
+      if (i == 0) {
+        result += scores.get(i);
+      } else {
+        result += scores.get(i)/(Math.log(i+1)/Math.log(2));
+      }
     }
     return result;
+  }
+
+  private static double NDCG(List<Double> scores){
+    double dcg = discountedCumulativeGain(scores);
+    Collections.sort(scores);
+    Collections.reverse(scores);
+    double idcg = discountedCumulativeGain(scores);
+    return dcg/idcg;
   }
 
   
 //  Metric6: Reciprocal rank
   public static void evaluateQueryMetric6(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments){
     DocumentRelevances relevances = judgments.get(query);
-    if (relevances == null) {
-      System.out.println("Query [" + query + "] not found!");
-    }
-    else{
-//      because docids are sorted based on relavence
+    if (relevances != null) {
+      //      because docids are sorted based on relavence
       for(int i = 0; i<docids.size(); i++){
         Integer docid = docids.get(i);
         if (relevances.hasRelevanceForDoc(docid) && relevances.getRelevanceForDoc(docid)==1.0) {
-          System.out.println(query + "\t" + Double.toString(1/i));
+          System.out.println(query + "\t" + Double.toString(1/(i+1)));
           break;
         }
       }
     }
-    System.out.println("Reciprocal rank: very bad result!");
   }
 }
