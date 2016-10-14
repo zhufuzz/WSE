@@ -9,8 +9,6 @@
   import java.util.concurrent.Executors;
 
   import com.sun.net.httpserver.HttpServer;
-  import com.sun.tools.classfile.Dependencies;
-  import com.sun.tools.hat.internal.util.VectorSorter;
   //import edu.nyu.cs.cs2580.QueryHandler;
 
   /**
@@ -219,9 +217,6 @@
         }
         bufferedReader.close();
     }
-
-
-
 
     public static void main(String[] args) {
       try {
