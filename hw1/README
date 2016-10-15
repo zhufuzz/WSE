@@ -1,0 +1,4 @@
+To generate all files for required, run the following command after compile:
+java -cp src edu.nyu.cs.cs2580.SearchEngine --mode=runall --options=conf/engine.conf
+
+search results are appended to the existing files
