@@ -218,9 +218,6 @@
         bufferedReader.close();
     }
 
-
-
-
     public static void main(String[] args) {
       try {
         SearchEngine.parseCommandLine(args);
