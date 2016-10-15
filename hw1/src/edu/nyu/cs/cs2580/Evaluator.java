@@ -175,15 +175,15 @@
     }
 
     //  Metric0: Precision 1, 5, 10
-    public static void evaluateQueryMetric0(
+    public static String evaluateQueryMetric0(
             String query, List<Integer> docids,
             Map<String, DocumentRelevances> judgments) {
-      String result = "";
+      String result = query;
       Integer[] recalls = {1, 5, 10};
       for (int numToJudge : recalls) {
-        result += "," + evaluateQueryPrecision(query, docids, judgments, numToJudge);
+        result += "\tPrecision@" + numToJudge + ": " + evaluateQueryPrecision(query, docids, judgments, numToJudge);
       }
-      System.out.println(query + "\t" + result);
+      return result;
     }
 
     private static double evaluateQueryPrecision(
@@ -204,15 +204,15 @@
     }
 
     //  Metric1: Recall 1, 5, 10
-    public static void evaluateQueryMetric1(
+    public static String evaluateQueryMetric1(
             String query, List<Integer> docids,
             Map<String, DocumentRelevances> judgments) {
       String result = "";
       Integer[] recalls = {1, 5, 10};
       for (int numToJudge : recalls) {
-        result += "," + evaluateQueryRecall(query, docids, judgments, numToJudge);
+        result += "\tRecall@" + numToJudge + ": " + evaluateQueryRecall(query, docids, judgments, numToJudge);
       }
-      System.out.println(query + "\t" + result);
+      return result;
     }
 
     private static double evaluateQueryRecall(
@@ -237,17 +237,16 @@
     }
 
     // perform F0.5
-    public static void evaluateQueryMetric2(
+    public static String evaluateQueryMetric2(
             String query, List<Integer> docids,
             Map<String, DocumentRelevances> judgments) {
 
       String outputResult = "";
       Integer[] selections = {1, 5, 10};
       for (int numToJudge : selections) {
-        outputResult += "," + evaluateF(query, docids, judgments, numToJudge);
+        outputResult += "\tF0.5@" + numToJudge + ": "  + evaluateF(query, docids, judgments, numToJudge);
       }
-
-      System.out.println("query" + "\t" + outputResult);
+      return outputResult;
     }
 
     private static double evaluateF(
@@ -262,7 +261,7 @@
     }
 
     // Precision at Recall Points
-    public static void evaluateQueryMetric3(
+    public static String evaluateQueryMetric3(
             String query, List<Integer> docids,
             Map<String, DocumentRelevances> judgments) {
       DocumentRelevances relevances = judgments.get(query);
@@ -307,13 +306,13 @@
 
       String outputResult = "";
       for (int i = 0; i < 11; i++) {
-        outputResult += "," + maxPrecisionAtRecallPoints[i];
+        outputResult += "\tPercision@Recall" + i + ": " + maxPrecisionAtRecallPoints[i];
       }
-      System.out.println("query" + "\t" + outputResult);
+      return outputResult;
     }
 
     // average precision
-    public static void evaluateQueryMetric4(
+    public static String evaluateQueryMetric4(
             String query, List<Integer> docids,
             Map<String, DocumentRelevances> judgments) {
       double recall = 0.0;
@@ -330,8 +329,8 @@
           hitCount++;
         }
       }
-
-      System.out.println(query + "\t" + (sumPrecision / hitCount));
+      String res = "\tAveragePrecision: "+(sumPrecision / hitCount);
+      return res;
     }
 
     //  Metric5: NDCG at 1, 5, and 10 (using the gain values presented in Lecture 2)
@@ -361,7 +360,7 @@
       double ndcg5 = NDCG(p5);
       double ndcg10 = NDCG(p10);
 
-      String res = query + "\tNDCG@1: " + ndcg1 + "\tNDCG@5: " + ndcg5 + "\tNDCG@10: " + ndcg10;
+      String res = "\tNDCG@1: " + ndcg1 + "\tNDCG@5: " + ndcg5 + "\tNDCG@10: " + ndcg10;
       return res;
     }
 
@@ -395,15 +394,13 @@
         for (int i = 0; i < docids.size(); i++) {
           Integer docid = docids.get(i);
           if (relevances.hasRelevanceForDoc(docid) && relevances.getRelevanceForDoc(docid) == 1.0) {
-            System.out.println(query + "\t" + Double.toString(1.0 / (i + 1.0)));
             return "\tRecoprocal: " + Double.toString(1.0 / (i + 1.0)) + "\n";
           }
         }
 
-        System.out.println(query + "\t" + "no relevant judgement found");
-        return "Recoprocal: no relevant judgement found\n";
+        return "\tRecoprocal: no relevant judgement found\n";
       }
-      return "Recoprocal \n";
+      return "\tRecoprocal: should not get to this point\n";
     }
 
 
@@ -419,11 +416,11 @@
         for (int i = 0; i < scoredDocuments.size(); i++) {
           docids.add(scoredDocuments.get(i).getDocid());
         }
-        String m0res = "";
-        String m1res = "";
-        String m2res = "";
-        String m3res = "";
-        String m4res = "";
+        String m0res = evaluateQueryMetric0(query, docids, gradeJudgments);
+        String m1res = evaluateQueryMetric1(query, docids, gradeJudgments);
+        String m2res = evaluateQueryMetric2(query, docids, gradeJudgments);
+        String m3res = evaluateQueryMetric3(query, docids, gradeJudgments);
+        String m4res = evaluateQueryMetric4(query, docids, gradeJudgments);
         String m5res = evaluateQueryMetric5(query, docids, gradeJudgments);
         String m6res = evaluateQueryMetric6(query, docids, judgments);
         String evalStr = m0res + m1res + m2res + m3res + m4res + m5res + m6res;

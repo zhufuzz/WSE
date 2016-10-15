@@ -28,14 +28,13 @@ public class RankerPhrase extends Ranker {
       all.add(scoreDocument(query, i));
     }
     Collections.sort(all, Collections.reverseOrder());
-    
-    // generate csv file for all document records
-    TsvGen.generate(all, "hw1.1-phrase");
 
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
+    // generate csv file for all document records
+    TsvGen.generate(all, "hw1.1-phrase");
     return results;
   }
 

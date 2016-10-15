@@ -30,12 +30,12 @@ public class RankerNumviews extends Ranker {
     Collections.sort(all, Collections.reverseOrder());
     
     // generate csv file for all document records
-    TsvGen.generate(all, "hw1.1-numviews");
 
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
+    TsvGen.generate(results, "hw1.1-numviews");
     return results;
   }
 

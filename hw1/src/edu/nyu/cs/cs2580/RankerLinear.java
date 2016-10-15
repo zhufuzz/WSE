@@ -55,12 +55,13 @@ public class RankerLinear extends Ranker {
     }
     Collections.sort(all, Collections.reverseOrder());
 
-    TsvGen.generate(all, "hw1.1-linear");
 
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
+    TsvGen.generate(results, "hw1.1-linear");
+
     return results;
   }
 
