@@ -162,8 +162,6 @@ class Evaluator {
           Map<String, DocumentRelevances> judgments){
 
     String outputResult = "";
-    for(int i = 0; i < docids.size(); i++)
-      outputResult += query + "\t" + docids.get(i) + "\n";
     outputResult += evaluateQueryMetric0(query, docids, judgments) + "\t"
             + evaluateQueryMetric1(query, docids, judgments) + "\t"
             + evaluateQueryMetric2(query, docids, judgments) + "\t"
@@ -310,15 +308,17 @@ class Evaluator {
     int slot = 0;
     for (int i = 0; i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        recall += 1.0;
-        recallPoint = recall / relevanceCount;
-        precision = recall / (i + 1);
-        if (recallPoint >= (slot + 1) * 0.1) {
-          // this belongs to next slots
-          slot += 1;
-        }
-        if (precision > maxPrecisionAtRecallPoints[slot]) {
-          maxPrecisionAtRecallPoints[slot] = precision;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          recall += 1.0;
+          recallPoint = recall / relevanceCount;
+          precision = recall / (i + 1);
+          if (recallPoint >= (slot + 1) * 0.1) {
+            // this belongs to next slots
+            slot += 1;
+          }
+          if (precision > maxPrecisionAtRecallPoints[slot]) {
+            maxPrecisionAtRecallPoints[slot] = precision;
+          }
         }
       }
       if (slot == 10) {
