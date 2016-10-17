@@ -111,6 +111,7 @@ class QueryHandler implements HttpHandler {
       response.append(doc.asTextResult());
     }
     response.append(response.length() > 0 ? "\n" : "No result returned!");
+    System.out.println(response.toString());
   }
 
   public void handle(HttpExchange exchange) throws IOException {

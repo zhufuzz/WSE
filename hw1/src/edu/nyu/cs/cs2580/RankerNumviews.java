@@ -35,7 +35,7 @@ public class RankerNumviews extends Ranker {
     for (int i = 0; i < all.size() && i < numResults; ++i) {
       results.add(all.get(i));
     }
-    TsvGen.generate(results, "hw1.1-numviews");
+    TsvGen.generate(all, "hw1.1-numviews");
     return results;
   }
 
