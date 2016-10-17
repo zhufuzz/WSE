@@ -31,7 +31,8 @@ public class RankerCosine extends Ranker {
         for (int i = 0; i < all.size() && i < numResults; ++i) {
             results.add(all.get(i));
         }
-        TsvGen.generate(all,"hw1.1-vsm");
+
+        TsvGen.generate(all, "hw1.1-vsm");
         //        Evaluator evaluator = new Evaluator();
         //        evaluator.evalRanker(query._query, results, "data/labels.tsv", "cosine");
         return results;

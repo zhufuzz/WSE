@@ -196,7 +196,7 @@ class Evaluator {
   public static String evaluateQueryMetric0(
           String query, List<Integer> docids,
           Map<String, DocumentRelevances> judgments) {
-    String result = query;
+    String result = "";
     Integer[] recalls = {1, 5, 10};
     for (int numToJudge : recalls) {
       result += "\tPrecision@" + numToJudge + ": " + evaluateQueryPrecision(query, docids, judgments, numToJudge);
@@ -215,7 +215,9 @@ class Evaluator {
     double hitCount = 0.0;
     for (int i = 0; i < numToJudge && i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        hitCount += 1;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          hitCount += 1;
+        }
       }
     }
     return hitCount / numToJudge;
@@ -245,12 +247,18 @@ class Evaluator {
     double hitCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        relevanceCount += 1;
-        if (i < numToJudge) {
-          hitCount += 1;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          relevanceCount += 1;
+          if (i < numToJudge) {
+            hitCount += 1;
+          }
         }
       }
     }
+
+    if (relevanceCount == 0)
+      return 0;
+
     return hitCount / relevanceCount;
   }
 
@@ -275,7 +283,10 @@ class Evaluator {
     recall = evaluateQueryRecall(query, docids, judgments, numToJudge);
     precision = evaluateQueryPrecision(query, docids, judgments, numToJudge);
 
-    return 2 * recall * precision / (recall + precision);
+    if (recall == 0 || precision == 0)
+      return 0;
+    else
+      return 2 * recall * precision / (recall + precision);
   }
 
 
@@ -287,7 +298,9 @@ class Evaluator {
     double relevanceCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        relevanceCount += 1.0;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          relevanceCount += 1.0;
+        }
       }
     }
 
@@ -299,15 +312,17 @@ class Evaluator {
     int slot = 0;
     for (int i = 0; i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        recall += 1.0;
-        recallPoint = recall / relevanceCount;
-        precision = recall / (i + 1);
-        if (recallPoint >= (slot + 1) * 0.1) {
-          // this belongs to next slots
-          slot += 1;
-        }
-        if (precision > maxPrecisionAtRecallPoints[slot]) {
-          maxPrecisionAtRecallPoints[slot] = precision;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          recall += 1.0;
+          recallPoint = recall / relevanceCount;
+          precision = recall / (i + 1);
+          if (recallPoint >= (slot + 1) * 0.1) {
+            // this belongs to next slots
+            slot += 1;
+          }
+          if (precision > maxPrecisionAtRecallPoints[slot]) {
+            maxPrecisionAtRecallPoints[slot] = precision;
+          }
         }
       }
       if (slot == 10) {
@@ -332,11 +347,6 @@ class Evaluator {
     return outputResult;
   }
 
-
-
-
-
-
   // average precision
   public static String evaluateQueryMetric4(
           String query, List<Integer> docids,
@@ -355,7 +365,14 @@ class Evaluator {
         hitCount++;
       }
     }
-    String res = "\tAveragePrecision: "+ Double.toString(sumPrecision / hitCount);
+
+    double result;
+    if (hitCount == 0)
+      result = 0;
+    else
+      result = sumPrecision / hitCount;
+
+    String res = "\tAveragePrecision: "+ Double.toString(result);
     return res;
   }
 
@@ -389,7 +406,7 @@ class Evaluator {
     double ndcg5 = NDCG(p5);
     double ndcg10 = NDCG(p10);
 
-    String res = query + "\tNDCG@1: " + ndcg1 + "\tNDCG@5: " + ndcg5 + "\tNDCG@10: " + ndcg10;
+    String res = "\tNDCG@1: " + ndcg1 + "\tNDCG@5: " + ndcg5 + "\tNDCG@10: " + ndcg10;
     return res;
   }
 
@@ -403,7 +420,9 @@ class Evaluator {
   }
 
   //  Metric6: Reciprocal rank
-  public static String evaluateQueryMetric6(String query, List<Integer> docids, Map<String, DocumentRelevances> judgments) {
+  public static String evaluateQueryMetric6(
+      String query, List<Integer> docids, 
+      Map<String, DocumentRelevances> judgments) {
     DocumentRelevances relevances = judgments.get(query);
     if (relevances != null) {
       //      because docids are sorted based on relavence
@@ -433,7 +452,9 @@ class Evaluator {
 
 
   //  run all evaluation metrices on a list of ScoredDocument returned by a particular ranker
-  public static void evalRanker(String query, Vector<ScoredDocument> scoredDocuments, String judgementFilePath, String ranker) {
+  public static void evalRanker(
+      String query, Vector<ScoredDocument> scoredDocuments, 
+      String judgementFilePath, String ranker) {
     try {
       Map<String, DocumentRelevances> judgments = new HashMap<String, DocumentRelevances>();
       Map<String, DocumentRelevances> gradeJudgments = new HashMap<String, DocumentRelevances>();
@@ -453,8 +474,7 @@ class Evaluator {
       String m6res = evaluateQueryMetric6(query, docids, judgments);
 
       // output string is query + tab + metric0 results + ... + metric6 results
-      String evalStr = query + "\t" + m0res + "\t" + m1res + "\t" +
-              m2res + "\t" + m3res + "\t" + m4res + "\t" + m5res + "\t" + m6res;
+      String evalStr = query + m0res + m1res + m2res + m3res + m4res + m5res + m6res;
 
       switch (ranker) {
         case "cosine":

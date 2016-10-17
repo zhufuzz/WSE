@@ -2,7 +2,6 @@ package edu.nyu.cs.cs2580;
 
 import java.util.Vector;
 
-
 /**
  * The full representation of the Document, which depends on the
  * {@link IndexerFullScan}. In addition to the basic information inside
@@ -49,7 +48,4 @@ public class DocumentFull extends Document {
   public Vector<String> getConvertedBodyTokens() {
     return _indexer.getTermVector(_bodyTokens);
   }
-
-
-
 }

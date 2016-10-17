@@ -35,9 +35,13 @@ public class TsvGen {
     }
 
     private static void checkFile(String fileName) throws IOException{
-        File pathfile = new File ("./results");
-        if(!pathfile.exists()) pathfile.mkdir();
-        File tsvFile = new File ("./results/"+fileName+".tsv");
-        if(!tsvFile.exists()) tsvFile.createNewFile();
+
+        File pathfile = new File("./results");
+        if(!pathfile.exists())
+            pathfile.mkdir();
+
+        File tsvFile = new File("./results/" + fileName + ".tsv");
+        if(!tsvFile.exists())
+            tsvFile.createNewFile();
     }
 }

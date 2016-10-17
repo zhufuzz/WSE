@@ -1,4 +1,12 @@
+to compile:
+    javac src/edu/nyu/cs/cs2580/*.java
+
+In order to run the search engine, you need to index the corpus first, and then start the server:
+    java -cp src edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
+
 To generate all files for required, run the following command after compile:
-java -cp src -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=runall --options=conf/engine.conf
+    java -cp src -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=runall --options=conf/engine.conf
 
 search results are appended to the existing files
+
+for RankerCosine tf is calculated by fik/sum(fij) (page 241 in the textbook) instead of log(fik)+1 (page 242 in the book)
