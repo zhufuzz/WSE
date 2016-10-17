@@ -162,6 +162,8 @@ class Evaluator {
           Map<String, DocumentRelevances> judgments){
 
     String outputResult = "";
+    for(int i = 0; i < docids.size(); i++)
+      outputResult += query + "\t" + docids.get(i) + "\n";
     outputResult += evaluateQueryMetric0(query, docids, judgments) + "\t"
             + evaluateQueryMetric1(query, docids, judgments) + "\t"
             + evaluateQueryMetric2(query, docids, judgments) + "\t"
@@ -215,7 +217,9 @@ class Evaluator {
     double hitCount = 0.0;
     for (int i = 0; i < numToJudge && i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        hitCount += 1;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          hitCount += 1;
+        }
       }
     }
     return hitCount / numToJudge;
@@ -245,9 +249,11 @@ class Evaluator {
     double hitCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        relevanceCount += 1;
-        if (i < numToJudge) {
-          hitCount += 1;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          relevanceCount += 1;
+          if (i < numToJudge) {
+            hitCount += 1;
+          }
         }
       }
     }
@@ -275,7 +281,10 @@ class Evaluator {
     recall = evaluateQueryRecall(query, docids, judgments, numToJudge);
     precision = evaluateQueryPrecision(query, docids, judgments, numToJudge);
 
-    return 2 * recall * precision / (recall + precision);
+    if (recall == 0 || precision == 0)
+      return 0;
+    else
+      return 2 * recall * precision / (recall + precision);
   }
 
 
@@ -287,7 +296,9 @@ class Evaluator {
     double relevanceCount = 0.0;
     for (int i = 0; i < docids.size(); i++) {
       if (relevances.hasRelevanceForDoc(docids.get(i))) {
-        relevanceCount += 1.0;
+        if (relevances.getRelevanceForDoc(docids.get(i)) > 0) {
+          relevanceCount += 1.0;
+        }
       }
     }
 
@@ -331,11 +342,6 @@ class Evaluator {
     }
     return outputResult;
   }
-
-
-
-
-
 
   // average precision
   public static String evaluateQueryMetric4(

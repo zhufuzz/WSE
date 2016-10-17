@@ -48,3 +48,53 @@ web search	632	web page	0.0014074630687380865
 web search	547	spider trap	0.0012755102040816326
 web search	624	web cache	0.001202398290367301
 web search	631	web mining	0.0011677124796342971
+bing	52	bing	0.036114160263446764
+bing	344	live search	0.036114160263446764
+bing	354	msn search	0.036114160263446764
+bing	98	comparison of web search engines	0.014519056261343012
+bing	277	info.com	0.009433962264150943
+bing	381	msnbot	0.007575757575757576
+bing	343	list of search engines	0.005972130059721301
+bing	656	yebol	0.004316546762589928
+bing	245	goby inc.	0.0038910505836575876
+bing	637	web search engine	0.0037753657385559227
+data mining	164	database system	0.00865332612222823
+data mining	150	data management	0.0072392927759339035
+data mining	561	structured data analysis (statistics)	0.006997354306119793
+data mining	147	data extraction	0.006130854966493001
+data mining	139	data pre-processing	0.005406574394463668
+data mining	151	data mart	0.005029928072028571
+data mining	422	operational data store	0.004618719954755396
+data mining	161	data warehouse	0.00453122373862318
+data mining	160	data visualization	0.004387924816128494
+data mining	138	data mining extensions	0.004335382478958154
+google	249	google drive	0.054821928771508606
+google	247	google	0.04300540674911441
+google	250	google search	0.040412259289395173
+google	420	open drive	0.037037037037037035
+google	248	google bombing	0.03148148148148148
+google	98	comparison of web search engines	0.019963702359346643
+google	326	keyword (internet search)	0.01819620253164557
+google	519	search engine optimization	0.01819620253164557
+google	619	volunia	0.01707317073170732
+google	433	pagerank	0.01625659050966608
+salsa	433	pagerank	1.4645577035735208E-4
+salsa	0	1890 us census	0.0
+salsa	1	a9.com	0.0
+salsa	2	acm computing classification system	0.0
+salsa	3	advise	0.0
+salsa	4	aol	0.0
+salsa	5	aol search	0.0
+salsa	6	academic press	0.0
+salsa	7	academic journal	0.0
+salsa	8	accuracy and precision	0.0
+web search	623	web archiving	0.0023413111342351716
+web search	649	world wide web wanderer	0.0023305588585017835
+web search	630	web indexing	0.002230477001631748
+web search	415	online search	0.001874027848053822
+web search	10	adversarial information retrieval	0.0015240465690916141
+web search	639	webserver	0.0014621554528253971
+web search	632	web page	0.0014074630687380865
+web search	547	spider trap	0.0012755102040816326
+web search	624	web cache	0.001202398290367301
+web search	631	web mining	0.0011677124796342971
