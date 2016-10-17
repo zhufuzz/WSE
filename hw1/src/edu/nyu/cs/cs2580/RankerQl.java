@@ -41,20 +41,24 @@ public class RankerQl extends Ranker {
 
   protected ScoredDocument scoreDocument(Query query, int did){
     Document doc = _indexer.getDoc(did);
-    double docNum = _indexer._numDocs;
     Vector<String> docTokens = ((DocumentFull) doc).getConvertedBodyTokens();
     Vector<String> queryTokens = query._tokens;
     boolean init = true;
     double score = 0.0;
+
     for(String queryToken: queryTokens){
       double fqi = Collections.frequency(docTokens,queryToken);
       double pi = fqi/docTokens.size();
+      double cqi = _indexer.corpusTermFrequency(queryToken);
+      double C = _indexer.totalTermFrequency();
+      double lambda = 0.5;
+      double total = (1-lambda)*pi+lambda*(cqi/C);
       if(init){
-        score = pi;
+        score = total;
         init = false;
       }
       else
-        score *= score;
+        score *= total;
     }
     return new ScoredDocument(query._query, doc, score);
   }
