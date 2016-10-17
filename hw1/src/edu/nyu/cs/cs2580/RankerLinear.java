@@ -21,6 +21,10 @@ public class RankerLinear extends Ranker {
   private RankerQl rankerQl;
   private RankerPhrase rankerPhrase;
   private RankerNumviews rankerNumviews;
+  private List<Double> cosineScores = new ArrayList<Double>();
+  private List<Double> qlScores = new ArrayList<Double>();
+  private List<Double> phraseScores = new ArrayList<Double>();
+  private List<Double> numviewsScores = new ArrayList<Double>();
   /*
   private HashMap<Document, Double> documentScoreHashMap = new HashMap<Document, Double>();
   */
@@ -50,6 +54,11 @@ public class RankerLinear extends Ranker {
         ", numviews=" + Float.toString(_betaNumviews));
     Vector<ScoredDocument> all = new Vector<ScoredDocument>();
     // @CS2580: fill in your code here.
+    getAllScores(query);
+    normalization(cosineScores);
+    normalization(qlScores);
+    normalization(phraseScores);
+    normalization(numviewsScores);
     for (int i = 0; i < _indexer.numDocs(); ++i) {
       all.add(scoreDocument(query, i));
     }
@@ -65,12 +74,38 @@ public class RankerLinear extends Ranker {
     return results;
   }
 
+  private void getAllScores(Query query) {
+    for (int i = 0; i < _indexer.numDocs(); ++i) {
+      cosineScores.add(rankerCosine.scoreDocument(query, i).getScore());
+      qlScores.add(rankerQl.scoreDocument(query, i).getScore());
+      phraseScores.add(rankerPhrase.scoreDocument(query, i).getScore());
+      numviewsScores.add(rankerNumviews.scoreDocument(query, i).getScore());
+    }
+  }
+
+  private void normalization(List<Double> l) {
+    double maxVal = l.get(0);
+    double minVal = l.get(0);
+    for (double d : l) {
+      if (d > maxVal) {
+        maxVal = d;
+      }
+      if (d < minVal) {
+        minVal = d;
+      }
+    }
+    for (int i = 0; i < l.size(); i++) {
+      double val = (l.get(i) - minVal)/(maxVal - minVal);
+      l.set(i, val);
+    }
+  }
+
   private ScoredDocument scoreDocument(Query query, int did) {
     Document doc = _indexer.getDoc(did);
-    double score = rankerCosine.scoreDocument(query, did).getScore() * _betaCosine
-        + rankerQl.scoreDocument(query, did).getScore() * _betaQl
-        + rankerPhrase.scoreDocument(query, did).getScore() * _betaPhrase
-        + rankerNumviews.scoreDocument(query, did).getScore() * _betaNumviews;
+    double score = cosineScores.get(did) * _betaCosine
+        + qlScores.get(did) * _betaQl
+        + phraseScores.get(did) * _betaPhrase
+        + numviewsScores.get(did) * _betaNumviews;
     return new ScoredDocument(query._query, doc, score);
   }
 }
